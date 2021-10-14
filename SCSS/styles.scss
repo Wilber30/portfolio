@@ -1,5 +1,14 @@
 
+// Utilities imports
+@import 'utilities/variables',
+        'utilities/media',
+        'utilities/mixins';
+
+//Base
+@import 'basics/base';
+
+// Module imports
+@import 'modules/navigation';
 
 // Section imports
-  
 @import 'sections/banner';
