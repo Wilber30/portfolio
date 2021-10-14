@@ -1,0 +1,28 @@
+// Navigation
+
+.navigation {
+  position: fixed;
+  height: 100%;
+  width: 160px;
+  border-right: 2px solid blue;
+}
+
+.sidenav {
+  list-style: none;
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link_item {
+  display: block;
+  margin: 10px 0px 10px 0px;
+  text-decoration: none;
+}
+
+.social_media {
+  list-style: none;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
