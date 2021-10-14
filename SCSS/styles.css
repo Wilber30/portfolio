@@ -3,6 +3,18 @@
   height: 100%;
   width: 160px;
   border-right: 2px solid blue;
+  z-index: 100;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.initials {
+  width: 180%;
+  border-bottom: 2px solid blue;
 }
 
 .sidenav {
@@ -23,6 +35,10 @@
   padding: 0px 10px 0px 10px;
   display: flex;
   justify-content: space-evenly;
+}
+
+.gimmick {
+  z-index: 1;
 }
 
 .cat {

@@ -1,3 +1,7 @@
+.gimmick {
+  z-index: 1;
+}
+
 .cat {
   color: orange;
 }

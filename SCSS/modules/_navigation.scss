@@ -5,6 +5,18 @@
   height: 100%;
   width: 160px;
   border-right: 2px solid blue;
+  z-index: 100;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.initials {
+  width: 180%;
+  border-bottom: 2px solid blue;
 }
 
 .sidenav {
