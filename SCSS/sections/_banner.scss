@@ -1,6 +1,5 @@
 // Banner section
 
-
 .full-page {
   height: 100vh;
   width: 100%;
@@ -13,25 +12,16 @@
   display: flex;
   flex-grow: 1;
   background-size: cover;
-  background-image: url(/Images/websiteplanet-dummy-1800X1400.jpeg);
-}
-.gimmick {
-  z-index: 1;
+  background-image: url(/Images/abstract-placeholder.jpeg);
 }
 
 .cat {
   color: orange;
 }
 
-.type-container {
-  position: absolute;
-  right: 30%;
-  bottom: 40%;
-}
-
 .typewriter {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .typewriter h1 {
@@ -43,8 +33,6 @@
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
   color: white;
 }
-
-
 
 /* The typing effect */
 @keyframes typing {

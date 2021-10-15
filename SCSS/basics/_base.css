@@ -3,8 +3,15 @@ a {
 }
 
 .container {
+  margin: auto;
+}
+
+main {
   margin-left: 160px;
-  margin-right: auto;
+}
+
+body {
+  font-family: Ubuntu;
 }
 
 /*# sourceMappingURL=_base.css.map */
