@@ -25,7 +25,7 @@
 }
 
 .typewriter h1 {
-  width: 40%;
+  width: 50;
   overflow: hidden;
   border-right: 0.15em solid orange;
   white-space: nowrap;
@@ -37,11 +37,49 @@
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 40% }
+  to { width: 50% }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
+}
+
+// Text fade in //
+
+.fade-in { 
+  display: flex;
+  justify-content: center;
+  animation: fadeIn linear 7s;
+   -webkit-animation: fadeIn linear 7s;
+   -moz-animation: fadeIn linear 7s;
+   -o-animation: fadeIn linear 7s;
+   -ms-animation: fadeIn linear 7s;
+   color: white;
+}
+
+@keyframes fadeIn {
+ 0% {opacity:0;}
+ 100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+ 0% {opacity:0;}
+ 100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+ 0% {opacity:0;}
+ 100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
