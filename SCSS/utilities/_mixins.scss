@@ -1,0 +1,9 @@
+@import '../utilities/variables';
+
+@mixin themes-hover($map) {
+  @each $name, $color in $map{
+    &-#{$name} {
+       background-color: $color;
+    }
+  }
+}

@@ -1,9 +1,14 @@
+a {
+  color: black;
+}
+
 .navigation {
   position: fixed;
   height: 100%;
   width: 160px;
-  border-right: 2px solid blue;
+  border-right: 2px solid #3CAFB7;
   z-index: 100;
+  background-color: white;
 }
 
 .image-wrapper {
@@ -14,13 +19,15 @@
 
 .initials {
   width: 180%;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #3CAFB7;
 }
 
 .sidenav {
   list-style: none;
-  padding-left: 20px;
+  margin-top: 60px;
+  padding: 0px 20px 0px 20px;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -29,12 +36,38 @@
   margin: 10px 0px 10px 0px;
   text-decoration: none;
 }
+.link_item:hover {
+  border-bottom: 2px solid #3CAFB7;
+}
 
 .social_media {
   list-style: none;
+  margin-top: 30px;
   padding: 0px 10px 0px 10px;
   display: flex;
   justify-content: space-evenly;
+}
+
+.media:hover .fab {
+  color: white;
+  background-color: orange;
+  padding: 6px 6px 6px 6px;
+  border-radius: 45%;
+}
+
+.full-page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 700px;
+}
+
+.banner {
+  display: flex;
+  flex-grow: 1;
+  background-size: cover;
+  background-image: url(/Images/websiteplanet-dummy-1800X1400.jpeg);
 }
 
 .gimmick {

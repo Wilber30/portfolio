@@ -2,9 +2,6 @@
 // Maps
 // *****************
 
-
-
-
 // Sass map media queries variables
 $breakpoints: (
     "phablet":      576px,
@@ -13,3 +10,9 @@ $breakpoints: (
     "desktop-wide": 1200px,
     "beyond-wide":  1400px
 );
+
+$themes-hover: (
+    'link': #67809f,
+    'insta': #4183d7,
+    'twit': #2ecc71,
+    'face': #926fb1,);
