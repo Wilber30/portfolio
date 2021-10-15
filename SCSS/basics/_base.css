@@ -2,4 +2,9 @@ a {
   color: black;
 }
 
+.container {
+  margin-left: 160px;
+  margin-right: auto;
+}
+
 /*# sourceMappingURL=_base.css.map */

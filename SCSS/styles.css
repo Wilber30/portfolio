@@ -1,7 +1,18 @@
-a {
-  color: black;
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
 }
-
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
 .navigation {
   position: fixed;
   height: 100%;
@@ -76,6 +87,46 @@ a {
 
 .cat {
   color: orange;
+}
+
+.type-container {
+  position: absolute;
+  right: 30%;
+  bottom: 40%;
+}
+
+.typewriter {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.typewriter h1 {
+  width: 40%;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  color: white;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 40%;
+  }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
