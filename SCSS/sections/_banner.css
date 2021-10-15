@@ -58,6 +58,7 @@
   -moz-animation: fadeIn linear 7s;
   -o-animation: fadeIn linear 7s;
   -ms-animation: fadeIn linear 7s;
+  font-size: 24px;
   color: white;
 }
 
