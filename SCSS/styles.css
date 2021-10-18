@@ -24,6 +24,10 @@ a {
   color: black;
 }
 
+.inner {
+  margin: 50px 0px 50px 0px;
+}
+
 .container {
   margin: auto;
 }
@@ -237,12 +241,16 @@ body {
   }
 }
 .scroll-down {
-  right: 40%;
-  bottom: 0;
   position: absolute;
-  display: flex;
+  bottom: 0;
+  left: 53%;
+  position: absolute;
   text-align: center;
-  color: white;
+}
+
+#scroll {
+  text-decoration: none;
+  color: white !important;
 }
 
 @media (min-width: 768px) {
@@ -260,20 +268,33 @@ body {
     width: 1170px;
   }
 }
+.port {
+  display: flex;
+  justify-content: center;
+  font-family: "Pacifico";
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1);
+}
+
 .card_wrapper {
   margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
 }
 
-.card {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+#card {
+  text-align: center;
 }
 
 .project {
   width: 210px;
+  height: 120px;
+}
+.project:hover {
+  opacity: 0.5;
+}
+
+.project_link {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

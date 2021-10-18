@@ -13,20 +13,33 @@
     width: 1170px;
   }
 }
+.port {
+  display: flex;
+  justify-content: center;
+  font-family: "Pacifico";
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1);
+}
+
 .card_wrapper {
   margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
 }
 
-.card {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+#card {
+  text-align: center;
 }
 
 .project {
   width: 210px;
+  height: 120px;
+}
+.project:hover {
+  opacity: 0.5;
+}
+
+.project_link {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=_projects.css.map */

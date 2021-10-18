@@ -119,12 +119,16 @@
   }
 }
 .scroll-down {
-  right: 40%;
-  bottom: 0;
   position: absolute;
-  display: flex;
+  bottom: 0;
+  left: 53%;
+  position: absolute;
   text-align: center;
-  color: white;
+}
+
+#scroll {
+  text-decoration: none;
+  color: white !important;
 }
 
 /*# sourceMappingURL=_banner.css.map */
