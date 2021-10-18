@@ -1,7 +1,9 @@
 // Navigation
 
 @import '../utilities/variables',
-        '../utilities/mixins';
+        '../utilities/mixins',
+        '../utilities/media';
+ 
 
 .navigation {
   position: fixed;

@@ -36,6 +36,21 @@ body {
   font-family: Ubuntu;
 }
 
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
 .navigation {
   position: fixed;
   height: 100%;
@@ -101,6 +116,21 @@ body {
   transition-timing-function: ease-in;
 }
 
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
 .full-page {
   height: 100vh;
   width: 100%;
@@ -207,10 +237,43 @@ body {
   }
 }
 .scroll-down {
+  right: 40%;
+  bottom: 0;
+  position: absolute;
   display: flex;
-  justify-content: center;
   text-align: center;
   color: white;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.card_wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.project {
+  width: 210px;
 }
 
 /*# sourceMappingURL=styles.css.map */

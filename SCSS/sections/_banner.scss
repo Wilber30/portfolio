@@ -1,4 +1,7 @@
 // Banner section
+@import '../utilities/variables',
+        '../utilities/mixins',
+        '../utilities/media';
 
 .full-page {
   height: 100vh;
@@ -88,9 +91,9 @@
 
 .scroll-down {
   right: 40%;
-    bottom: 0;
-    position: absolute;
-    display: flex;
-    text-align: center;
-    color: white;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  color: white;
 }
