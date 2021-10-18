@@ -206,5 +206,11 @@ body {
     opacity: 1;
   }
 }
+.scroll-down {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -103,5 +103,13 @@
     opacity: 1;
   }
 }
+.scroll-down {
+  right: 40%;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  color: white;
+}
 
 /*# sourceMappingURL=_banner.css.map */
