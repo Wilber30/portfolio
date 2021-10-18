@@ -1,0 +1,59 @@
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.contact_wrapper {
+  display: flex;
+}
+
+.form {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+
+input, textarea {
+  margin-top: 15px;
+  font-family: Ubuntu !important;
+  background-color: #DCDCDC;
+  border: 1px solid #DCDCDC;
+  border-radius: 3px;
+}
+input:active, textarea:active {
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+  box-shadow: 0 0 5px #51cbee !important;
+}
+
+.user {
+  display: flex;
+  flex: 1;
+}
+
+.details {
+  width: 50%;
+}
+
+.email {
+  margin-left: 10px;
+}
+
+.name {
+  margin-right: 10px;
+}
+
+.input {
+  width: 100%;
+}
+
+/*# sourceMappingURL=_contact.css.map */
