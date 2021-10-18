@@ -51,6 +51,7 @@ body {
 
 .initials {
   font-family: Pacifico;
+  text-shadow: -1px -1px 0 #A0A0A0, 1px -1px 0 #A0A0A0, -1px 1px 0 #A0A0A0, 1px 1px 0 #A0A0A0;
 }
 
 .sidenav {
@@ -69,7 +70,7 @@ body {
   text-decoration: none;
 }
 .link_item:hover {
-  transition-duration: 0.3s;
+  transition-duration: 0.08s;
   transition-timing-function: extend ease-in;
   border-bottom: 2px solid #3CAFB7;
 }
@@ -127,6 +128,7 @@ body {
   letter-spacing: 0.15em;
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
   color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 /* The typing effect */

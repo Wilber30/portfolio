@@ -18,6 +18,7 @@
 
 .initials {
   font-family: Pacifico;
+  text-shadow: -1px -1px 0 #A0A0A0, 1px -1px 0 #A0A0A0, -1px 1px 0 #A0A0A0, 1px 1px 0 #A0A0A0;
 }
 
 .sidenav {
@@ -36,7 +37,7 @@
   text-decoration: none;
 }
 .link_item:hover {
-  transition-duration: 0.3s;
+  transition-duration: 0.08s;
   transition-timing-function: extend ease-in;
   border-bottom: 2px solid #3CAFB7;
 }
