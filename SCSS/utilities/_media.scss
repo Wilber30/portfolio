@@ -1,18 +1,44 @@
 // Conatiner width
+
+
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 680px;
+    margin: auto;
   }
 }
 
-@media (min-width: 992px) {
+
+@media (min-width: 992px) and (max-width: 1259px) {
+ .container {
+   width: 840px;
+   margin: auto;
+ }
+}
+
+@media (min-width: 1260px) {
   .container {
-    width: 970px;
+    width: 1000px;
+    margin: auto;
   }
 }
 
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
+// Contact layout
+
+@media (min-width: 1261px) {
+  .info {
+    display: block !important;
   }
-} 
+}
+
+@media (max-width: 1260px) {
+  .info, .contact_header, .email_header, .email_address, .contact_detail {
+    margin: 5px 0px 5px 0px;
+  }
+}
+
+@media (max-width: 1260px) {
+  input {
+    height: 30px;
+  }
+}

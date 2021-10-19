@@ -118,6 +118,10 @@
     opacity: 1;
   }
 }
+.me {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000 !important;
+}
+
 .scroll-down {
   position: absolute;
   bottom: 15%;
@@ -129,6 +133,7 @@
 #scroll {
   text-decoration: none !important;
   color: white !important;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 /*# sourceMappingURL=_banner.css.map */
