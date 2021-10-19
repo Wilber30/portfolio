@@ -329,9 +329,10 @@ input, textarea {
   border: 1px solid #DCDCDC;
   border-radius: 3px;
 }
-input:active, textarea:active {
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
-  box-shadow: 0 0 5px #51cbee !important;
+input:focus, textarea:focus {
+  outline: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  box-shadow: 0 0 5px #51cbee;
 }
 
 .user {
