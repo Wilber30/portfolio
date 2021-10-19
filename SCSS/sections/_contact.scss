@@ -17,9 +17,13 @@
   justify-content: center;
 }
 
+// .contact_text {
+//   display: flex;
+//   flex-wrap: wrap;
+//   color: white;
+// }
+
 .contact_text {
-  display: flex;
-  flex-wrap: wrap;
   color: white;
 }
 
@@ -28,8 +32,14 @@
   line-height: 1.4rem;
 }
 
+.info_reduced {
+  display: none;
+  line-height: 1.4rem;
+}
+
 .email_address {
   width: 100%;
+  white-space: nowrap;
 }
 
 .form {
@@ -76,7 +86,7 @@ input {
   height: 30px;
 }
 
-.sub_btn {
+#sub_btn {
   margin-top: 15px;
   padding: 0px 10px 0px 10px;
   border: 1px solid $grey-border;

@@ -6,31 +6,41 @@
     margin: auto;
   }
 }
-@media (min-width: 1260px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 780px;
+    margin: auto;
+  }
+}
+@media (min-width: 1200px) {
   .container {
     width: 1000px;
     margin: auto;
   }
 }
-@media (min-width: 992px) and (max-width: 1259px) {
-  .container {
-    width: 840px;
-    margin: auto;
+@media (min-width: 992px) {
+  .navigation {
+    display: block;
   }
 }
-@media (min-width: 1261px) {
-  .info {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .info_reduced {
     display: block !important;
   }
 }
-@media (max-width: 1260px) {
-  .info, .contact_header, .email_header, .email_address, .contact_detail {
-    margin: 5px 0px 5px 0px;
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contact_wrapper {
+    gap: 10px;
   }
 }
-@media (max-width: 1260px) {
+@media (max-width: 1199px) {
   input {
     height: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .info {
+    display: block !important;
   }
 }
 html body {
@@ -65,34 +75,45 @@ body {
     margin: auto;
   }
 }
-@media (min-width: 1260px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 780px;
+    margin: auto;
+  }
+}
+@media (min-width: 1200px) {
   .container {
     width: 1000px;
     margin: auto;
   }
 }
-@media (min-width: 992px) and (max-width: 1259px) {
-  .container {
-    width: 840px;
-    margin: auto;
+@media (min-width: 992px) {
+  .navigation {
+    display: block;
   }
 }
-@media (min-width: 1261px) {
-  .info {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .info_reduced {
     display: block !important;
   }
 }
-@media (max-width: 1260px) {
-  .info, .contact_header, .email_header, .email_address, .contact_detail {
-    margin: 5px 0px 5px 0px;
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contact_wrapper {
+    gap: 10px;
   }
 }
-@media (max-width: 1260px) {
+@media (max-width: 1199px) {
   input {
     height: 30px;
   }
 }
+@media (min-width: 1200px) {
+  .info {
+    display: block !important;
+  }
+}
 .navigation {
+  display: none;
   position: fixed;
   height: 100%;
   width: 160px;
@@ -170,31 +191,41 @@ body {
     margin: auto;
   }
 }
-@media (min-width: 1260px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 780px;
+    margin: auto;
+  }
+}
+@media (min-width: 1200px) {
   .container {
     width: 1000px;
     margin: auto;
   }
 }
-@media (min-width: 992px) and (max-width: 1259px) {
-  .container {
-    width: 840px;
-    margin: auto;
+@media (min-width: 992px) {
+  .navigation {
+    display: block;
   }
 }
-@media (min-width: 1261px) {
-  .info {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .info_reduced {
     display: block !important;
   }
 }
-@media (max-width: 1260px) {
-  .info, .contact_header, .email_header, .email_address, .contact_detail {
-    margin: 5px 0px 5px 0px;
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contact_wrapper {
+    gap: 10px;
   }
 }
-@media (max-width: 1260px) {
+@media (max-width: 1199px) {
   input {
     height: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .info {
+    display: block !important;
   }
 }
 footer {
@@ -222,31 +253,41 @@ footer {
     margin: auto;
   }
 }
-@media (min-width: 1260px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 780px;
+    margin: auto;
+  }
+}
+@media (min-width: 1200px) {
   .container {
     width: 1000px;
     margin: auto;
   }
 }
-@media (min-width: 992px) and (max-width: 1259px) {
-  .container {
-    width: 840px;
-    margin: auto;
+@media (min-width: 992px) {
+  .navigation {
+    display: block;
   }
 }
-@media (min-width: 1261px) {
-  .info {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .info_reduced {
     display: block !important;
   }
 }
-@media (max-width: 1260px) {
-  .info, .contact_header, .email_header, .email_address, .contact_detail {
-    margin: 5px 0px 5px 0px;
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contact_wrapper {
+    gap: 10px;
   }
 }
-@media (max-width: 1260px) {
+@media (max-width: 1199px) {
   input {
     height: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .info {
+    display: block !important;
   }
 }
 .full-page {
@@ -378,31 +419,41 @@ footer {
     margin: auto;
   }
 }
-@media (min-width: 1260px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 780px;
+    margin: auto;
+  }
+}
+@media (min-width: 1200px) {
   .container {
     width: 1000px;
     margin: auto;
   }
 }
-@media (min-width: 992px) and (max-width: 1259px) {
-  .container {
-    width: 840px;
-    margin: auto;
+@media (min-width: 992px) {
+  .navigation {
+    display: block;
   }
 }
-@media (min-width: 1261px) {
-  .info {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .info_reduced {
     display: block !important;
   }
 }
-@media (max-width: 1260px) {
-  .info, .contact_header, .email_header, .email_address, .contact_detail {
-    margin: 5px 0px 5px 0px;
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contact_wrapper {
+    gap: 10px;
   }
 }
-@media (max-width: 1260px) {
+@media (max-width: 1199px) {
   input {
     height: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .info {
+    display: block !important;
   }
 }
 #port {
@@ -446,31 +497,41 @@ footer {
     margin: auto;
   }
 }
-@media (min-width: 1260px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 780px;
+    margin: auto;
+  }
+}
+@media (min-width: 1200px) {
   .container {
     width: 1000px;
     margin: auto;
   }
 }
-@media (min-width: 992px) and (max-width: 1259px) {
-  .container {
-    width: 840px;
-    margin: auto;
+@media (min-width: 992px) {
+  .navigation {
+    display: block;
   }
 }
-@media (min-width: 1261px) {
-  .info {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .info_reduced {
     display: block !important;
   }
 }
-@media (max-width: 1260px) {
-  .info, .contact_header, .email_header, .email_address, .contact_detail {
-    margin: 5px 0px 5px 0px;
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contact_wrapper {
+    gap: 10px;
   }
 }
-@media (max-width: 1260px) {
+@media (max-width: 1199px) {
   input {
     height: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .info {
+    display: block !important;
   }
 }
 .contact_section {
@@ -488,8 +549,6 @@ footer {
 }
 
 .contact_text {
-  display: flex;
-  flex-wrap: wrap;
   color: white;
 }
 
@@ -498,8 +557,14 @@ footer {
   line-height: 1.4rem;
 }
 
+.info_reduced {
+  display: none;
+  line-height: 1.4rem;
+}
+
 .email_address {
   width: 100%;
+  white-space: nowrap;
 }
 
 .form {
@@ -546,7 +611,7 @@ input {
   height: 30px;
 }
 
-.sub_btn {
+#sub_btn {
   margin-top: 15px;
   padding: 0px 10px 0px 10px;
   border: 1px solid #c3c3c3;
@@ -554,7 +619,7 @@ input {
   font-family: Ubuntu;
   background-color: #DCDCDC;
 }
-.sub_btn:hover {
+#sub_btn:hover {
   border: 2px solid orange;
   background-color: #c3c3c3;
 }

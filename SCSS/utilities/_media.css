@@ -4,31 +4,41 @@
     margin: auto;
   }
 }
-@media (min-width: 992px) and (max-width: 1259px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .container {
-    width: 840px;
+    width: 780px;
     margin: auto;
   }
 }
-@media (min-width: 1260px) {
+@media (min-width: 1200px) {
   .container {
     width: 1000px;
     margin: auto;
   }
 }
-@media (min-width: 1261px) {
-  .info {
+@media (min-width: 992px) {
+  .navigation {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .info_reduced {
     display: block !important;
   }
 }
-@media (max-width: 1260px) {
-  .info, .contact_header, .email_header, .email_address, .contact_detail {
-    margin: 5px 0px 5px 0px;
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contact_wrapper {
+    gap: 10px;
   }
 }
-@media (max-width: 1260px) {
+@media (max-width: 1199px) {
   input {
     height: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .info {
+    display: block !important;
   }
 }
 

@@ -4,31 +4,36 @@
     margin: auto;
   }
 }
-@media (min-width: 1260px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 820px;
+    margin: auto;
+  }
+}
+@media (min-width: 1200px) {
   .container {
     width: 1000px;
     margin: auto;
   }
 }
-@media (min-width: 992px) and (max-width: 1259px) {
-  .container {
-    width: 840px;
-    margin: auto;
-  }
-}
-@media (min-width: 1261px) {
-  .info {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .info_reduced {
     display: block !important;
   }
 }
-@media (max-width: 1260px) {
-  .info, .contact_header, .email_header, .email_address, .contact_detail {
-    margin: 5px 0px 5px 0px;
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contact_wrapper {
+    gap: 10px;
   }
 }
-@media (max-width: 1260px) {
+@media (max-width: 1199px) {
   input {
     height: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .info {
+    display: block !important;
   }
 }
 .contact_section {
@@ -46,8 +51,6 @@
 }
 
 .contact_text {
-  display: flex;
-  flex-wrap: wrap;
   color: white;
 }
 
@@ -56,8 +59,14 @@
   line-height: 1.4rem;
 }
 
+.info_reduced {
+  display: none;
+  line-height: 1.4rem;
+}
+
 .email_address {
   width: 100%;
+  white-space: nowrap;
 }
 
 .form {
@@ -104,7 +113,7 @@ input {
   height: 30px;
 }
 
-.sub_btn {
+#sub_btn {
   margin-top: 15px;
   padding: 0px 10px 0px 10px;
   border: 1px solid #c3c3c3;
@@ -112,7 +121,7 @@ input {
   font-family: Ubuntu;
   background-color: #DCDCDC;
 }
-.sub_btn:hover {
+#sub_btn:hover {
   border: 2px solid orange;
   background-color: #c3c3c3;
 }
