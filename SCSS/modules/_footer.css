@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+footer {
+  background-color: #333645;
+  margin-left: 160px;
+}
+
+#up {
+  text-align: center;
+  text-decoration: none;
+  color: white !important;
+}
+
+.up {
+  margin: 0px;
+}
+
+.fa-chevron-up {
+  width: 100%;
+}
+
+/*# sourceMappingURL=_footer.css.map */

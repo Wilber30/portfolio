@@ -13,8 +13,26 @@
     width: 1170px;
   }
 }
+.contact_section {
+  background-color: #a9a9a9;
+}
+
 .contact_wrapper {
   display: flex;
+}
+
+.contact_text {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.info {
+  line-height: 1.4rem;
+}
+
+.email_address {
+  width: 100%;
 }
 
 .form {
@@ -55,6 +73,19 @@ input:focus, textarea:focus {
 
 .input {
   width: 100%;
+}
+
+.sub_btn {
+  margin-top: 15px;
+  padding: 0px 10px 0px 10px;
+  border: 1px solid #c3c3c3;
+  border-radius: 3px;
+  font-family: Ubuntu;
+  background-color: #DCDCDC;
+}
+.sub_btn:hover {
+  border: 2px solid orange;
+  background-color: #c3c3c3;
 }
 
 /*# sourceMappingURL=_contact.css.map */

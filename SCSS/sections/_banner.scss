@@ -11,7 +11,7 @@
   min-height: 700px;
 }
 
-.banner {
+#banner {
   display: flex;
   flex-grow: 1;
   background-size: cover;
@@ -91,13 +91,13 @@
 
 .scroll-down {
   position: absolute;
-  bottom: 0;
+  bottom: 15%;
   left: 53%;
   position: absolute;
   text-align: center;
 }
 
 #scroll {
-  text-decoration: none;
+  text-decoration: none !important;
   color: white !important;
 }

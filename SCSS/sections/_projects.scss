@@ -4,7 +4,7 @@
         '../utilities/mixins',
         '../utilities/media';
 
-.port {
+#port {
   display: flex;
   justify-content: center;
   font-family: 'Pacifico';
@@ -41,4 +41,10 @@
 
 .project_link {
   text-decoration: none;
+}
+
+.blank_space {
+  height: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 35px rgb(0 0 0 / 10%);
 }

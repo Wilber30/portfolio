@@ -1,0 +1,23 @@
+// Utilities imports
+@import '../utilities/variables',
+        '../utilities/mixins',
+        '../utilities/media';
+
+footer {
+  background-color: #333645;
+  margin-left: 160px;
+}
+
+#up {
+  text-align: center;
+  text-decoration: none;
+  color: white !important;
+}
+
+ .up {
+   margin: 0px;
+ }
+ 
+.fa-chevron-up {
+  width: 100%;
+}
