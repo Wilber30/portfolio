@@ -1,12 +1,12 @@
 @media (min-width: 768px) {
   .container {
-    width: 680px;
+    width: 760px;
     margin: auto;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .container {
-    width: 820px;
+    width: 780px;
     margin: auto;
   }
 }
@@ -16,12 +16,22 @@
     margin: auto;
   }
 }
+@media (max-width: 991px) {
+  main {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 992px) {
+  .navigation {
+    display: block;
+  }
+}
 @media (min-width: 992px) and (max-width: 1199px) {
   .info_reduced {
     display: block !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .contact_wrapper {
     gap: 10px;
   }
