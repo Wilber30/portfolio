@@ -15,27 +15,25 @@
 .contact_wrapper {
   display: flex;
   justify-content: center;
+  gap: 20px;
 }
 
-// .contact_text {
-//   display: flex;
-//   flex-wrap: wrap;
-//   color: white;
-// }
+.sm_contact_text {
+  display: none;
+}
 
 .contact_text {
   color: white;
 }
 
 .info {
-  display: none;
   line-height: 1.4rem;
 }
 
-.info_reduced {
-  display: none;
-  line-height: 1.4rem;
-}
+// .info_reduced {
+//   display: none;
+//   line-height: 1.4rem;
+// }
 
 .email_address {
   width: 100%;
@@ -84,6 +82,10 @@ input, textarea {
 
 input {
   height: 30px;
+}
+
+textarea {
+  width: 100%;
 }
 
 #sub_btn {

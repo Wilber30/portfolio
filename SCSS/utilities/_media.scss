@@ -1,4 +1,12 @@
 // Container width
+@media (min-width: 576px) {
+  .container {
+    width: 560px;
+    margin: auto;
+  }
+}
+
+
 @media (min-width: 768px) {
   .container {
     width: 760px;
@@ -37,29 +45,20 @@
 
 // Contact layout
 
-@media (min-width: 768px) and (max-width: 1199px) {
-  .contact_wrapper {
-    gap: 10px;
+@media (max-width: 991px){
+  .contact_text {
+    display: none;
   }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  .info_reduced {
+  .sm_contact_text {
     display: block !important;
   }
 }
 
-@media (max-width: 1199px) {
-  input {
-    height: 30px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .info {
-    display: block !important;
-  }
-}
+// @media (max-width: 1199px) {
+//   input {
+//     height: 30px;
+//   }
+// }
 
 //Footer responsive
 @media (max-width: 991px) {
