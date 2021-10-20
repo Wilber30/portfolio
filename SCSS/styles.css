@@ -30,6 +30,11 @@
   }
 }
 @media (min-width: 992px) {
+  .top_navigation {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
   .navigation {
     display: block;
   }
@@ -101,6 +106,71 @@ body {
 @media (max-width: 991px) {
   main {
     margin-left: 0px;
+  }
+}
+@media (min-width: 992px) {
+  .top_navigation {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .navigation {
+    display: block;
+  }
+}
+@media (max-width: 991px) {
+  .contact_text {
+    display: none;
+  }
+
+  .sm_contact_text {
+    display: block !important;
+  }
+}
+@media (max-width: 991px) {
+  footer {
+    margin-left: 0px;
+  }
+}
+.top_navigation {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  background: white;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 560px;
+    margin: auto;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 760px;
+    margin: auto;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 780px;
+    margin: auto;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+    margin: auto;
+  }
+}
+@media (max-width: 991px) {
+  main {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 992px) {
+  .top_navigation {
+    display: none;
   }
 }
 @media (min-width: 992px) {
@@ -225,6 +295,11 @@ body {
   }
 }
 @media (min-width: 992px) {
+  .top_navigation {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
   .navigation {
     display: block;
   }
@@ -289,6 +364,11 @@ footer {
 @media (max-width: 991px) {
   main {
     margin-left: 0px;
+  }
+}
+@media (min-width: 992px) {
+  .top_navigation {
+    display: none;
   }
 }
 @media (min-width: 992px) {
@@ -417,6 +497,7 @@ footer {
 }
 .me {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000 !important;
+  text-align: center;
 }
 
 .scroll-down {
@@ -460,6 +541,11 @@ footer {
 @media (max-width: 991px) {
   main {
     margin-left: 0px;
+  }
+}
+@media (min-width: 992px) {
+  .top_navigation {
+    display: none;
   }
 }
 @media (min-width: 992px) {
@@ -543,6 +629,11 @@ footer {
 @media (max-width: 991px) {
   main {
     margin-left: 0px;
+  }
+}
+@media (min-width: 992px) {
+  .top_navigation {
+    display: none;
   }
 }
 @media (min-width: 992px) {

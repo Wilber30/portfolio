@@ -28,6 +28,11 @@
   }
 }
 @media (min-width: 992px) {
+  .top_navigation {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
   .navigation {
     display: block;
   }
@@ -45,6 +50,12 @@
   footer {
     margin-left: 0px;
   }
+}
+.top_navigation {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  background: white;
 }
 
 /*# sourceMappingURL=_top-navigation.css.map */

@@ -2,3 +2,10 @@
 @import '../utilities/variables',
         '../utilities/mixins',
         '../utilities/media';
+
+.top_navigation {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  background: white;
+}
