@@ -37,6 +37,11 @@
     display: block;
   }
 }
+@media (min-width: 992px) {
+  .scroll-down {
+    right: 39%;
+  }
+}
 @media (max-width: 991px) {
   .contact_text {
     display: none;
@@ -163,14 +168,13 @@
 
 .scroll-down {
   position: absolute;
-  bottom: 15%;
-  left: 53%;
-  position: absolute;
+  bottom: 5%;
+  right: 45%;
   text-align: center;
 }
 
 #scroll {
-  text-decoration: none !important;
+  font-size: 18px;
   color: white !important;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }

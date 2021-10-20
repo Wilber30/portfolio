@@ -91,19 +91,18 @@
 
 .me {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000 !important;
-  text-align: center; 
+  text-align: center;
 }
 
 .scroll-down {
   position: absolute;
-  bottom: 15%;
-  left: 53%;
-  position: absolute;
+  bottom: 5%;
+  right: 45%;
   text-align: center;
 }
 
 #scroll {
-  text-decoration: none !important;
+  font-size: 18px;
   color: white !important;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }

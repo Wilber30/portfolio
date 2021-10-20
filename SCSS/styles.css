@@ -39,6 +39,11 @@
     display: block;
   }
 }
+@media (min-width: 992px) {
+  .scroll-down {
+    right: 39%;
+  }
+}
 @media (max-width: 991px) {
   .contact_text {
     display: none;
@@ -61,6 +66,7 @@ html body {
 
 a {
   color: black;
+  text-decoration: none;
 }
 
 .inner {
@@ -118,6 +124,11 @@ body {
     display: block;
   }
 }
+@media (min-width: 992px) {
+  .scroll-down {
+    right: 39%;
+  }
+}
 @media (max-width: 991px) {
   .contact_text {
     display: none;
@@ -137,6 +148,50 @@ body {
   z-index: 100;
   width: 100%;
   background: white;
+}
+
+.top_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger {
+  width: 65px;
+  height: 56px;
+  border-radius: 45%;
+  text-align: center;
+  background-color: #6082B6;
+  color: white;
+}
+
+.fa-bars {
+  font-size: 30px;
+  margin-top: 12px;
+}
+
+.burger_menu {
+  margin-top: 2px;
+  font-size: 12px;
+}
+
+.top_icons {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 5px 70px 5px 70px;
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  background-color: #DCDCDC;
+}
+
+.william {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  font-family: Pacifico;
 }
 
 @media (min-width: 576px) {
@@ -176,6 +231,11 @@ body {
 @media (min-width: 992px) {
   .navigation {
     display: block;
+  }
+}
+@media (min-width: 992px) {
+  .scroll-down {
+    right: 39%;
   }
 }
 @media (max-width: 991px) {
@@ -304,6 +364,11 @@ body {
     display: block;
   }
 }
+@media (min-width: 992px) {
+  .scroll-down {
+    right: 39%;
+  }
+}
 @media (max-width: 991px) {
   .contact_text {
     display: none;
@@ -374,6 +439,11 @@ footer {
 @media (min-width: 992px) {
   .navigation {
     display: block;
+  }
+}
+@media (min-width: 992px) {
+  .scroll-down {
+    right: 39%;
   }
 }
 @media (max-width: 991px) {
@@ -502,14 +572,13 @@ footer {
 
 .scroll-down {
   position: absolute;
-  bottom: 15%;
-  left: 53%;
-  position: absolute;
+  bottom: 5%;
+  right: 45%;
   text-align: center;
 }
 
 #scroll {
-  text-decoration: none !important;
+  font-size: 18px;
   color: white !important;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -551,6 +620,11 @@ footer {
 @media (min-width: 992px) {
   .navigation {
     display: block;
+  }
+}
+@media (min-width: 992px) {
+  .scroll-down {
+    right: 39%;
   }
 }
 @media (max-width: 991px) {
@@ -639,6 +713,11 @@ footer {
 @media (min-width: 992px) {
   .navigation {
     display: block;
+  }
+}
+@media (min-width: 992px) {
+  .scroll-down {
+    right: 39%;
   }
 }
 @media (max-width: 991px) {

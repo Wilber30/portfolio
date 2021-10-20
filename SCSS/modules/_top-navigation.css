@@ -58,4 +58,48 @@
   background: white;
 }
 
+.top_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger {
+  width: 65px;
+  height: 56px;
+  border-radius: 45%;
+  text-align: center;
+  background-color: #6082B6;
+  color: white;
+}
+
+.fa-bars {
+  font-size: 30px;
+  margin-top: 12px;
+}
+
+.burger_menu {
+  margin-top: 2px;
+  font-size: 12px;
+}
+
+.top_icons {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 5px 70px 5px 70px;
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  background-color: #DCDCDC;
+}
+
+.william {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  font-family: Pacifico;
+}
+
 /*# sourceMappingURL=_top-navigation.css.map */

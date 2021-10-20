@@ -37,6 +37,11 @@
     display: block;
   }
 }
+@media (min-width: 992px) {
+  .scroll-down {
+    right: 39%;
+  }
+}
 @media (max-width: 991px) {
   .contact_text {
     display: none;

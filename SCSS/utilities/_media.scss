@@ -6,7 +6,6 @@
   }
 }
 
-
 @media (min-width: 768px) {
   .container {
     width: 760px;
@@ -43,16 +42,18 @@
   }
 }
 
-// @media (max-width: 991px) {
-//   main {
-//     margin-top: 160px;
-//   }
-// }
 
 // Navigation
 @media (min-width: 992px){
 .navigation  {
     display: block;
+  }
+}
+
+//Banner
+@media (min-width: 992px) {
+.scroll-down {
+  right: 39%;
   }
 }
 
