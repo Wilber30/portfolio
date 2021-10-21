@@ -2,3 +2,7 @@
 @import '../utilities/variables',
         '../utilities/mixins',
         '../utilities/media';
+
+  .profile_image {
+    display: flex;
+  }

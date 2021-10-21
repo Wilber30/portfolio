@@ -63,5 +63,8 @@
     margin-left: 0px;
   }
 }
+.profile_image {
+  display: flex;
+}
 
 /*# sourceMappingURL=_about-me.css.map */

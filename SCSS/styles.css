@@ -992,6 +992,10 @@ textarea {
     margin-left: 0px;
   }
 }
+.profile_image {
+  display: flex;
+}
+
 @media (min-width: 576px) {
   .container {
     width: 560px;
