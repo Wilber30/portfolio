@@ -23,13 +23,18 @@
 }
 
 a .initials {
-  color: lightgrey !important;
-}
-
-.initials {
   font-family: Pacifico;
   text-shadow: -1px -1px 0 #A0A0A0, 1px -1px 0 #A0A0A0, -1px 1px 0 #A0A0A0, 1px 1px 0 #A0A0A0;
+  color: lightgrey !important;
+  &:hover {
+    text-shadow: -1px -1px 0 orange, 1px -1px 0 orange, -1px 1px 0 orange, 1px 1px 0 orange;
+  }
 }
+
+// .initials {
+//   font-family: Pacifico;
+//   text-shadow: -1px -1px 0 #A0A0A0, 1px -1px 0 #A0A0A0, -1px 1px 0 #A0A0A0, 1px 1px 0 #A0A0A0;
+// }
 
 .sidenav {
   list-style: none;

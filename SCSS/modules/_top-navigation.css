@@ -76,6 +76,16 @@
   align-items: center;
 }
 
+a .sm-in {
+  font-family: Pacifico;
+  letter-spacing: 3px;
+  text-shadow: -1px -1px 0 #A0A0A0, 1px -1px 0 #A0A0A0, -1px 1px 0 #A0A0A0, 1px 1px 0 #A0A0A0;
+  color: #696969 !important;
+}
+a .sm-in:hover {
+  text-shadow: -1px -1px 0 orange, 1px -1px 0 orange, -1px 1px 0 orange, 1px 1px 0 orange;
+}
+
 .hamburger {
   width: 65px;
   height: 56px;
