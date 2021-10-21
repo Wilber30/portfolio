@@ -37,6 +37,18 @@
     display: block;
   }
 }
+@media (min-width: 992px) {
+  .scroll-down {
+    right: 39%;
+  }
+}
+@media (max-width: 768px) {
+  .card_wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
 @media (max-width: 991px) {
   .contact_text {
     display: none;
@@ -67,7 +79,10 @@
   border-bottom: 2px solid #3CAFB7;
   letter-spacing: 8px;
   font-size: xx-large;
-  color: #3CAFB7;
+}
+
+a .initials {
+  color: lightgrey !important;
 }
 
 .initials {

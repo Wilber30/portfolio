@@ -1,6 +1,6 @@
 
 // Utilities imports
-@import 'utilities/variables', 
+@import 'utilities/variables',
         'utilities/mixins',
         'utilities/media';
 //Fonts
@@ -9,7 +9,7 @@
 
 //Base 'basics/base';
 @import 'basics/base';
-
+          
 // Module imports
 @import 'modules/top-navigation',
         'modules/navigation',
@@ -19,3 +19,6 @@
 @import 'sections/banner',
         'sections/projects',
         'sections/contact';
+
+// Pages imports
+@import 'pages/coding-examples';

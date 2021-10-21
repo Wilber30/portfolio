@@ -1,0 +1,28 @@
+// Utilities imports
+@import '../utilities/variables',
+        '../utilities/mixins',
+        '../utilities/media';
+
+
+.page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    background-image: url(/Images/abstract-placeholder.jpeg);
+}
+
+.heading_wrapper {
+  padding: 5px 10px;
+  border: 2px solid #C0C0C0;
+  border-radius: 10%;
+  background-color: white;
+}
+
+.soon {
+  font-family: Pacifico;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: lightblue;
+  text-shadow: -1px -1px 0 #A0A0A0, 1px -1px 0 #A0A0A0, -1px 1px 0 #A0A0A0, 1px 1px 0 #A0A0A0;
+}
