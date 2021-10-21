@@ -37,6 +37,18 @@
     display: block;
   }
 }
+@media (min-width: 992px) {
+  .scroll-down {
+    right: 39%;
+  }
+}
+@media (max-width: 768px) {
+  .card_wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
 @media (max-width: 991px) {
   .contact_text {
     display: none;
@@ -72,6 +84,26 @@
   background-color: #6082B6;
   color: white;
 }
+.hamburger:hover {
+  color: orange;
+  transition-duration: 0.1s;
+  transition-timing-function: extend ease-in;
+}
+
+.hamburger::after {
+  content: "";
+  display: block;
+  height: 300px;
+}
+.hamburger::after:hover + .drop_menu {
+  display: block;
+}
+
+.top_wrapper .hamburger:hover + .drop_menu {
+  display: block !important;
+  transition-duration: 0.08s;
+  transition-timing-function: extend ease-in;
+}
 
 .fa-bars {
   font-size: 30px;
@@ -100,6 +132,24 @@
   top: 0%;
   left: 5%;
   font-family: Pacifico;
+}
+
+.drop_menu {
+  display: none;
+}
+
+.drop_down {
+  margin: 0px;
+  padding: 0px 10px 0px 10px;
+  border-radius: 3px;
+  line-height: 35px;
+  position: absolute;
+  right: 3%;
+  top: 101%;
+  text-align: center;
+  z-index: 300;
+  list-style: none;
+  background-color: white;
 }
 
 /*# sourceMappingURL=_top-navigation.css.map */

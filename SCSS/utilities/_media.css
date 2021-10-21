@@ -42,6 +42,13 @@
     right: 39%;
   }
 }
+@media (max-width: 768px) {
+  .card_wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
 @media (max-width: 991px) {
   .contact_text {
     display: none;
