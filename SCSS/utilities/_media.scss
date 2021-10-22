@@ -111,6 +111,11 @@
   }
 }
 
+@media (min-width:768px) {
+  .profile_image {
+    display: block;
+  }
+}
 
 // @media (min-width: 1060px){
 // .about_wrapper {

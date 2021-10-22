@@ -30,6 +30,10 @@
   background-color: lightgrey;
 }
 
+.about_heading {
+margin: 15px 0px 5px 15px;
+}
+
 .text {
   padding: 10px;
   border: 2px solid #C0C0C0;
@@ -38,11 +42,15 @@
   background-color: white;
 }
 
-.biography {
+.biograph {
   line-height: 1.8rem;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .profile_image {
-  height: 100%;
+  display: none;
+  margin-left: 20px;
   border: 2px solid #C0C0C0;
+
 }

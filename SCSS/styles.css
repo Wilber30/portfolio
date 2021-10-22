@@ -82,6 +82,11 @@
     margin: auto;
   }
 }
+@media (min-width: 768px) {
+  .profile_image {
+    display: block;
+  }
+}
 html body {
   margin: 0;
   margin-right: 0;
@@ -189,6 +194,11 @@ body {
   .vessel {
     width: 900px;
     margin: auto;
+  }
+}
+@media (min-width: 768px) {
+  .profile_image {
+    display: block;
   }
 }
 .top_navigation {
@@ -372,6 +382,11 @@ a .sm-in:hover {
     margin: auto;
   }
 }
+@media (min-width: 768px) {
+  .profile_image {
+    display: block;
+  }
+}
 .navigation {
   display: none;
   position: fixed;
@@ -530,6 +545,11 @@ a .initials:hover {
     margin: auto;
   }
 }
+@media (min-width: 768px) {
+  .profile_image {
+    display: block;
+  }
+}
 footer {
   background-color: #333645;
   margin-left: 160px;
@@ -629,6 +649,11 @@ footer {
   .vessel {
     width: 900px;
     margin: auto;
+  }
+}
+@media (min-width: 768px) {
+  .profile_image {
+    display: block;
   }
 }
 .full-page {
@@ -836,6 +861,11 @@ footer {
     margin: auto;
   }
 }
+@media (min-width: 768px) {
+  .profile_image {
+    display: block;
+  }
+}
 #port {
   display: flex;
   justify-content: center;
@@ -951,6 +981,11 @@ footer {
   .vessel {
     width: 900px;
     margin: auto;
+  }
+}
+@media (min-width: 768px) {
+  .profile_image {
+    display: block;
   }
 }
 .contact_section {
@@ -1128,6 +1163,11 @@ textarea {
     margin: auto;
   }
 }
+@media (min-width: 768px) {
+  .profile_image {
+    display: block;
+  }
+}
 .page {
   display: flex;
   height: 100vh;
@@ -1154,6 +1194,10 @@ textarea {
   background-color: lightgrey;
 }
 
+.about_heading {
+  margin: 15px 0px 5px 15px;
+}
+
 .text {
   padding: 10px;
   border: 2px solid #C0C0C0;
@@ -1162,12 +1206,15 @@ textarea {
   background-color: white;
 }
 
-.biography {
+.biograph {
   line-height: 1.8rem;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .profile_image {
-  height: 100%;
+  display: none;
+  margin-left: 20px;
   border: 2px solid #C0C0C0;
 }
 
@@ -1251,6 +1298,11 @@ textarea {
   .vessel {
     width: 900px;
     margin: auto;
+  }
+}
+@media (min-width: 768px) {
+  .profile_image {
+    display: block;
   }
 }
 .page-content {

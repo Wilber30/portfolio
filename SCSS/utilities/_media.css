@@ -80,5 +80,10 @@
     margin: auto;
   }
 }
+@media (min-width: 768px) {
+  .profile_image {
+    display: block;
+  }
+}
 
 /*# sourceMappingURL=_media.css.map */
