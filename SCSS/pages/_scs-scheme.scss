@@ -2,3 +2,32 @@
 @import '../utilities/variables',
         '../utilities/mixins',
         '../utilities/media';
+
+.overlay {
+  position: absolute;
+  display: flex;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+ background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.02);
+}
+
+.scheme_wrapper {
+  display: flex;
+}
+
+.introduction {
+  padding: 20px;
+  line-height: 1.6;
+  border: 3px solid darkgray;
+  font-size: 20px;
+  background-color: white;
+}
+
+.scheme_heading {
+  text-align: center;
+}

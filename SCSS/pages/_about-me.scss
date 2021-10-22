@@ -4,6 +4,7 @@
         '../utilities/media';
 
 .page {
+  position: relative;
   display: flex;
   height: 100vh;
   min-height: 700px;

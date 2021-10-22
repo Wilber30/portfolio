@@ -80,7 +80,13 @@
     margin: auto;
   }
 }
+@media (min-width: 768px) {
+  .profile_image {
+    display: block;
+  }
+}
 .page {
+  position: relative;
   display: flex;
   height: 100vh;
   min-height: 700px;
