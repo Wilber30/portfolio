@@ -215,6 +215,7 @@ body {
 }
 
 a .sm-in {
+  margin-left: 10px;
   font-family: Pacifico;
   letter-spacing: 3px;
   text-shadow: -1px -1px 0 #A0A0A0, 1px -1px 0 #A0A0A0, -1px 1px 0 #A0A0A0, 1px 1px 0 #A0A0A0;
@@ -222,45 +223,6 @@ a .sm-in {
 }
 a .sm-in:hover {
   text-shadow: -1px -1px 0 orange, 1px -1px 0 orange, -1px 1px 0 orange, 1px 1px 0 orange;
-}
-
-.hamburger {
-  width: 65px;
-  height: 56px;
-  border-radius: 45%;
-  text-align: center;
-  background-color: #6082B6;
-  color: white;
-}
-.hamburger:hover {
-  color: orange;
-  transition-duration: 0.1s;
-  transition-timing-function: extend ease-in;
-}
-
-.hamburger::after {
-  content: "";
-  display: block;
-  height: 300px;
-}
-.hamburger::after:hover + .drop_menu {
-  display: block;
-}
-
-.top_wrapper .hamburger:hover + .drop_menu {
-  display: block !important;
-  transition-duration: 0.08s;
-  transition-timing-function: extend ease-in;
-}
-
-.fa-bars {
-  font-size: 30px;
-  margin-top: 12px;
-}
-
-.burger_menu {
-  margin-top: 2px;
-  font-size: 12px;
 }
 
 .top_icons {
@@ -289,6 +251,7 @@ a .sm-in:hover {
 .drop_down {
   margin: 0px;
   padding: 0px 10px 0px 10px;
+  border: 2px solid #C0C0C0;
   border-radius: 3px;
   line-height: 35px;
   position: absolute;
@@ -298,6 +261,54 @@ a .sm-in:hover {
   z-index: 300;
   list-style: none;
   background-color: white;
+}
+
+.drop_item {
+  font-size: 18px;
+}
+.drop_item:hover {
+  background-color: orange;
+  transition-duration: 0.2s;
+  transition-timing-function: extend ease-in;
+}
+
+.hamburger {
+  width: 65px;
+  height: 56px;
+  margin-right: 10px;
+  border-radius: 45%;
+  text-align: center;
+  background-color: #6082B6;
+  color: white;
+}
+.hamburger:hover::after {
+  content: "";
+  display: block;
+  height: 50px;
+}
+
+.hamburger:hover {
+  color: orange;
+  transition-duration: 0.1s;
+  transition-timing-function: extend ease-in;
+}
+
+.top_wrapper .hamburger:hover + .drop_menu {
+  display: block !important;
+}
+
+.drop_menu:hover {
+  display: block !important;
+}
+
+.fa-bars {
+  font-size: 30px;
+  margin-top: 12px;
+}
+
+.burger_menu {
+  margin-top: 2px;
+  font-size: 12px;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
