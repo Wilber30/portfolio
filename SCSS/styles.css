@@ -569,6 +569,16 @@ footer {
   width: 100%;
 }
 
+.message {
+  color: white;
+  text-align: center;
+}
+
+.fa-smile {
+  font-size: 18px;
+  color: orange;
+}
+
 @media (min-width: 576px) and (max-width: 767px) {
   .container, .vessel {
     width: 560px;
