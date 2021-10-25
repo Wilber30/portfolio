@@ -92,6 +92,12 @@
     display: block;
   }
 }
+@media (min-width: 992px) and (max-width: 1099px) {
+  .alignment {
+    width: 870px;
+    margin: auto;
+  }
+}
 html body {
   margin: 0;
   margin-right: 0;
@@ -209,6 +215,12 @@ body {
 @media (min-width: 768px) {
   .profile_image {
     display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1099px) {
+  .alignment {
+    width: 870px;
+    margin: auto;
   }
 }
 .top_navigation {
@@ -413,6 +425,12 @@ a .sm-in:hover {
     display: block;
   }
 }
+@media (min-width: 992px) and (max-width: 1099px) {
+  .alignment {
+    width: 870px;
+    margin: auto;
+  }
+}
 .navigation {
   display: none;
   position: fixed;
@@ -581,6 +599,12 @@ a .initials:hover {
     display: block;
   }
 }
+@media (min-width: 992px) and (max-width: 1099px) {
+  .alignment {
+    width: 870px;
+    margin: auto;
+  }
+}
 footer {
   background-color: #333645;
   margin-left: 160px;
@@ -700,6 +724,12 @@ footer {
 @media (min-width: 768px) {
   .profile_image {
     display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1099px) {
+  .alignment {
+    width: 870px;
+    margin: auto;
   }
 }
 .full-page {
@@ -931,6 +961,12 @@ footer {
     display: block;
   }
 }
+@media (min-width: 992px) and (max-width: 1099px) {
+  .alignment {
+    width: 870px;
+    margin: auto;
+  }
+}
 #port {
   display: flex;
   justify-content: center;
@@ -1056,6 +1092,12 @@ footer {
 @media (min-width: 768px) {
   .profile_image {
     display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1099px) {
+  .alignment {
+    width: 870px;
+    margin: auto;
   }
 }
 .contact_section {
@@ -1243,6 +1285,12 @@ textarea {
     display: block;
   }
 }
+@media (min-width: 992px) and (max-width: 1099px) {
+  .alignment {
+    width: 870px;
+    margin: auto;
+  }
+}
 .page {
   position: relative;
   display: flex;
@@ -1386,6 +1434,12 @@ textarea {
     display: block;
   }
 }
+@media (min-width: 992px) and (max-width: 1099px) {
+  .alignment {
+    width: 870px;
+    margin: auto;
+  }
+}
 .page-content {
   display: flex;
   justify-content: center;
@@ -1501,6 +1555,16 @@ textarea {
     display: block;
   }
 }
+@media (min-width: 992px) and (max-width: 1099px) {
+  .alignment {
+    width: 870px;
+    margin: auto;
+  }
+}
+.page {
+  padding: 20px 0px 20px 0px;
+}
+
 .overlay {
   position: absolute;
   display: flex;
@@ -1514,7 +1578,7 @@ textarea {
   background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.02);
 }
 
-.scheme_wrapper {
+.first_wrapper {
   display: flex;
   justify-content: center;
 }
@@ -1528,7 +1592,9 @@ textarea {
   background-color: white;
   opacity: 90%;
   width: 90%;
-  margin-bottom: 50px;
+  margin: 0px 0px 50px 0px;
+  line-height: 1.8rem;
+  font-size: 18px;
 }
 
 .scheme_heading {
@@ -1551,6 +1617,13 @@ textarea {
   opacity: 90%;
   width: 40%;
   padding: 20px;
+  line-height: 1.8rem;
+  font-size: 18px;
+}
+
+.space {
+  content: "";
+  display: block;
 }
 
 .netmatters {
@@ -1564,7 +1637,8 @@ textarea {
   width: 40%;
   padding: 20px;
   list-style: none;
-  font-size: 18px;
+  line-height: 1.6rem;
+  font-size: 16px;
 }
 
 .net_heading {

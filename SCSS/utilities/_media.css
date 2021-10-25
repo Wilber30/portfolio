@@ -90,5 +90,11 @@
     display: block;
   }
 }
+@media (min-width: 992px) and (max-width: 1099px) {
+  .alignment {
+    width: 870px;
+    margin: auto;
+  }
+}
 
 /*# sourceMappingURL=_media.css.map */

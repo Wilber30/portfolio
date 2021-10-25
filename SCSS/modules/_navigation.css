@@ -17,7 +17,7 @@
   }
 }
 @media (min-width: 1200px) {
-  .container {
+  .container, .alignment {
     width: 1000px;
     margin: auto;
   }
@@ -74,7 +74,7 @@
   }
 }
 @media (min-width: 992px) and (max-width: 1099px) {
-  .vessel {
+  .vessel, .alignment {
     width: 830px;
     margin: auto;
   }
@@ -88,6 +88,12 @@
 @media (min-width: 768px) {
   .profile_image {
     display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1099px) {
+  .alignment {
+    width: 870px;
+    margin: auto;
   }
 }
 .navigation {

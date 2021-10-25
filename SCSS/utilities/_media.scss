@@ -123,8 +123,23 @@
   }
 }
 
-// @media (min-width: 1060px){
-// .about_wrapper {
-//     width: 90%
+// scs-scheme
+@media (min-width:992px) and (max-width: 1099px) {
+  .alignment {
+  width: 870px;
+  margin: auto;
+  }
+}
+
+// @media (max-width: 991px) {
+//   .introduction {
+//   padding: 10px !important;
+//   margin-bottom: 20px !important;
+//   }
+// }
+// @media (max-width: 991px) {
+//   .second_wrapper {
+//   margin-bottom: 20px !important;
+//   gap: 20px !important;
 //   }
 // }
