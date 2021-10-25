@@ -1453,14 +1453,15 @@ textarea {
   border: 2px solid #C0C0C0;
   border-radius: 10%;
   background-color: white;
+  opacity: 85%;
 }
 
 .soon {
   font-family: Pacifico;
   font-size: 40px;
   letter-spacing: 2px;
-  color: lightblue;
-  text-shadow: -1px -1px 0 #A0A0A0, 1px -1px 0 #A0A0A0, -1px 1px 0 #A0A0A0, 1px 1px 0 #A0A0A0;
+  color: black;
+  text-shadow: 2px 2px 0 lightgrey, 2px 2px 0 lightgrey, 2px 2px 0 lightgrey, 2px 2px 0 lightgrey;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
