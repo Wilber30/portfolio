@@ -1,9 +1,19 @@
 @import '../utilities/variables';
 
-@mixin themes-hover($map) {
-  @each $name, $color in $map{
-    &-#{$name} {
-       background-color: $color;
-    }
-  }
+// @mixin themes-hover($map) {
+//   @each $name, $color in $map{
+//     &-#{$name} {
+//        background-color: $color;
+//     }
+//   }
+// }
+
+@mixin text-box {
+  border-radius: 10px;
+  padding: 20px;
+  line-height: 1.6;
+  border: 3px solid darkgray;
+  font-size: 20px;
+  background-color: white;
+  opacity: 90%;
 }

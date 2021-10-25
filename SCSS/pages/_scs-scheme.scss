@@ -6,28 +6,57 @@
 .overlay {
   position: absolute;
   display: flex;
- justify-content: center;
- align-content: center;
- align-items: center;
- left: 0;
- right: 0;
- top: 0;
- bottom: 0;
- background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.02);
-}
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.02);
+  }
 
 .scheme_wrapper {
   display: flex;
+  justify-content: center;
 }
 
 .introduction {
-  padding: 20px;
-  line-height: 1.6;
-  border: 3px solid darkgray;
-  font-size: 20px;
-  background-color: white;
+  @include text-box;
+  width: 90%;
+  margin-bottom: 50px;
 }
 
 .scheme_heading {
   text-align: center;
+}
+
+.second_wrapper {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.treehouse {
+  @include text-box;
+  width: 40%;
+  padding: 20px;
+}
+
+.netmatters {
+  @include text-box;
+  width: 40%;
+  padding: 20px;
+  list-style: none;
+  font-size: 18px;
+}
+
+.net_heading {
+  padding-left: 0px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.net_item {
+  padding: 5px;
 }

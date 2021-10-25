@@ -21,7 +21,7 @@
 }
 
 @media (min-width: 1200px) {
-  .container {
+  .container, .alignment {
     width: 1000px;
     margin: auto;
   }
@@ -57,7 +57,7 @@
 }
 
 //Banner
-@media (min-width: 992px) {
+@media (max-width: 992px) {
 .scroll-down {
   right: 39%;
   }
@@ -97,8 +97,14 @@
   }
 }
 
+@media (min-width: 1085px) {
+  .about_wrapper {
+    width: 80%;
+  }
+}
+
 @media (min-width:992px) and (max-width: 1099px) {
-  .vessel {
+  .vessel, .alignment {
   width: 830px;
   margin: auto;
   }

@@ -17,7 +17,7 @@
   }
 }
 @media (min-width: 1200px) {
-  .container {
+  .container, .alignment {
     width: 1000px;
     margin: auto;
   }
@@ -37,7 +37,7 @@
     display: block;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .scroll-down {
     right: 39%;
   }
@@ -68,8 +68,13 @@
     margin: 0px;
   }
 }
+@media (min-width: 1085px) {
+  .about_wrapper {
+    width: 80%;
+  }
+}
 @media (min-width: 992px) and (max-width: 1099px) {
-  .vessel {
+  .vessel, .alignment {
     width: 830px;
     margin: auto;
   }
@@ -100,18 +105,65 @@
 
 .scheme_wrapper {
   display: flex;
+  justify-content: center;
 }
 
 .introduction {
+  border-radius: 10px;
   padding: 20px;
   line-height: 1.6;
   border: 3px solid darkgray;
   font-size: 20px;
   background-color: white;
+  opacity: 90%;
+  width: 90%;
+  margin-bottom: 50px;
 }
 
 .scheme_heading {
   text-align: center;
+}
+
+.second_wrapper {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.treehouse {
+  border-radius: 10px;
+  padding: 20px;
+  line-height: 1.6;
+  border: 3px solid darkgray;
+  font-size: 20px;
+  background-color: white;
+  opacity: 90%;
+  width: 40%;
+  padding: 20px;
+}
+
+.netmatters {
+  border-radius: 10px;
+  padding: 20px;
+  line-height: 1.6;
+  border: 3px solid darkgray;
+  font-size: 20px;
+  background-color: white;
+  opacity: 90%;
+  width: 40%;
+  padding: 20px;
+  list-style: none;
+  font-size: 18px;
+}
+
+.net_heading {
+  padding-left: 0px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.net_item {
+  padding: 5px;
 }
 
 /*# sourceMappingURL=_scs-scheme.css.map */
