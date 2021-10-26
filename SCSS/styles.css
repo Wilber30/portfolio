@@ -1564,6 +1564,7 @@ textarea {
 }
 .page {
   padding: 20px 0px 20px 0px;
+  min-height: 1200px;
 }
 
 .overlay {
@@ -1589,7 +1590,7 @@ textarea {
   padding: 20px;
   line-height: 1.6;
   border: 3px solid darkgray;
-  font-size: 20px;
+  font-size: 14px;
   background-color: white;
   opacity: 90%;
   width: 90%;
@@ -1604,6 +1605,7 @@ textarea {
 
 .second_wrapper {
   display: flex;
+  margin-bottom: 50px;
   gap: 50px;
   justify-content: center;
 }
@@ -1613,7 +1615,7 @@ textarea {
   padding: 20px;
   line-height: 1.6;
   border: 3px solid darkgray;
-  font-size: 20px;
+  font-size: 14px;
   background-color: white;
   opacity: 90%;
   width: 40%;
@@ -1632,7 +1634,7 @@ textarea {
   padding: 20px;
   line-height: 1.6;
   border: 3px solid darkgray;
-  font-size: 20px;
+  font-size: 14px;
   background-color: white;
   opacity: 90%;
   width: 40%;
