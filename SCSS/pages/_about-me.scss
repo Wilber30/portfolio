@@ -39,10 +39,11 @@ margin: 15px 0px 5px 15px;
   padding: 10px;
   display: flex;
   flex-direction: column;
-  // background-color: floralwhite;
 }
 
 .biograph {
+  display: flex;
+  gap: 10px;
   line-height: 1.8rem;
   margin-left: 10px;
   margin-right: 10px;
