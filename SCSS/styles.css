@@ -1637,6 +1637,7 @@ textarea {
 .space {
   content: "";
   display: block;
+  margin: 10px;
 }
 
 .netmatters {

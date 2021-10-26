@@ -169,6 +169,7 @@
 .space {
   content: "";
   display: block;
+  margin: 10px;
 }
 
 .netmatters {
@@ -190,6 +191,7 @@
   padding-left: 0px;
   font-size: 1.5em;
   font-weight: bold;
+  list-style: none;
 }
 
 .net_item {
