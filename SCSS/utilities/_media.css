@@ -96,5 +96,10 @@
     margin: auto;
   }
 }
+@media (min-width: 992px) {
+  .page {
+    min-height: 850px !important;
+  }
+}
 
 /*# sourceMappingURL=_media.css.map */

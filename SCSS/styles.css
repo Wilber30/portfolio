@@ -98,6 +98,11 @@
     margin: auto;
   }
 }
+@media (min-width: 992px) {
+  .page {
+    min-height: 850px !important;
+  }
+}
 html body {
   margin: 0;
   margin-right: 0;
@@ -221,6 +226,11 @@ body {
   .alignment {
     width: 870px;
     margin: auto;
+  }
+}
+@media (min-width: 992px) {
+  .page {
+    min-height: 850px !important;
   }
 }
 .top_navigation {
@@ -431,6 +441,11 @@ a .sm-in:hover {
     margin: auto;
   }
 }
+@media (min-width: 992px) {
+  .page {
+    min-height: 850px !important;
+  }
+}
 .navigation {
   display: none;
   position: fixed;
@@ -605,6 +620,11 @@ a .initials:hover {
     margin: auto;
   }
 }
+@media (min-width: 992px) {
+  .page {
+    min-height: 850px !important;
+  }
+}
 footer {
   background-color: #333645;
   margin-left: 160px;
@@ -730,6 +750,11 @@ footer {
   .alignment {
     width: 870px;
     margin: auto;
+  }
+}
+@media (min-width: 992px) {
+  .page {
+    min-height: 850px !important;
   }
 }
 .full-page {
@@ -967,6 +992,11 @@ footer {
     margin: auto;
   }
 }
+@media (min-width: 992px) {
+  .page {
+    min-height: 850px !important;
+  }
+}
 #port {
   display: flex;
   justify-content: center;
@@ -1098,6 +1128,11 @@ footer {
   .alignment {
     width: 870px;
     margin: auto;
+  }
+}
+@media (min-width: 992px) {
+  .page {
+    min-height: 850px !important;
   }
 }
 .contact_section {
@@ -1291,6 +1326,11 @@ textarea {
     margin: auto;
   }
 }
+@media (min-width: 992px) {
+  .page {
+    min-height: 850px !important;
+  }
+}
 .content {
   position: relative;
   display: flex;
@@ -1442,6 +1482,11 @@ textarea {
     margin: auto;
   }
 }
+@media (min-width: 992px) {
+  .page {
+    min-height: 850px !important;
+  }
+}
 .page-content {
   display: flex;
   justify-content: center;
@@ -1564,6 +1609,11 @@ textarea {
     margin: auto;
   }
 }
+@media (min-width: 992px) {
+  .page {
+    min-height: 850px !important;
+  }
+}
 .page {
   padding: 20px 0px 20px 0px;
   min-height: 1200px;
@@ -1603,7 +1653,7 @@ textarea {
   font-size: 14px;
   background-color: white;
   opacity: 90%;
-  width: 90%;
+  width: 85%;
   margin: 0px 0px 50px 0px;
   line-height: 1.8rem;
   font-size: 18px;
@@ -1615,7 +1665,7 @@ textarea {
 
 .second_wrapper {
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   gap: 50px;
   justify-content: center;
 }
@@ -1648,15 +1698,20 @@ textarea {
   font-size: 14px;
   background-color: white;
   opacity: 90%;
-  width: 40%;
+  width: 35%;
   padding: 20px;
   list-style: none;
   line-height: 1.6rem;
   font-size: 16px;
 }
 
-.net_heading {
+.net_list {
   padding-left: 0px;
+  list-style: none;
+}
+
+.net_heading {
+  padding: 10px 0px 10px 0px;
   font-size: 1.5em;
   font-weight: bold;
 }
