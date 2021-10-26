@@ -17,7 +17,7 @@
   }
 }
 @media (min-width: 1200px) {
-  .container {
+  .container, .alignment {
     width: 1000px;
     margin: auto;
   }
@@ -74,7 +74,7 @@
   }
 }
 @media (min-width: 992px) and (max-width: 1099px) {
-  .vessel {
+  .vessel, .alignment {
     width: 830px;
     margin: auto;
   }
@@ -90,7 +90,13 @@
     display: block;
   }
 }
-.page {
+@media (min-width: 992px) and (max-width: 1099px) {
+  .alignment {
+    width: 870px;
+    margin: auto;
+  }
+}
+.content {
   position: relative;
   display: flex;
   height: 100vh;
