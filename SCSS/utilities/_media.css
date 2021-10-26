@@ -39,7 +39,17 @@
 }
 @media (max-width: 992px) {
   .scroll-down {
-    right: 39%;
+    right: 43%;
+  }
+}
+@media (max-width: 992px) {
+  .banner_heading {
+    font-size: 35px;
+  }
+}
+@media (max-width: 992px) {
+  #scroll {
+    font-size: 30px;
   }
 }
 @media (max-width: 768px) {
