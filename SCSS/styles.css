@@ -103,9 +103,6 @@
   }
 }
 html body {
-  height: 100%;
-  overflow: hidden;
-  width: 100%;
   padding: 0px;
   margin: 0;
   margin-right: 0;
@@ -1618,6 +1615,20 @@ textarea {
 }
 .page {
   min-height: 900px;
+  position: relative;
+}
+
+.layer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.02);
 }
 
 .first_wrapper {

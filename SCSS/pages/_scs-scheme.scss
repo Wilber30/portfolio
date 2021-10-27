@@ -8,7 +8,7 @@
   // height: 100vh;
 
 
-  // position: relative;
+  position: relative;
   // display: flex;
 
   // justify-content: center;
@@ -17,18 +17,18 @@
   // background-image: url(/Images/abstract-placeholder.jpeg);
 }
 
-// .overlay {
-//   position: absolute;
-//   display: flex;
-//   justify-content: center;
-//   align-content: center;
-//   align-items: center;
-//   left: 0;
-//   right: 0;
-//   top: 0;
-//   bottom: 0;
-//   background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.02);
-//   }
+.layer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.02);
+  }
 
 .first_wrapper {
   margin: 0px 10px 0px 10px;
