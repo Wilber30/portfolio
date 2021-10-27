@@ -4,29 +4,29 @@
         '../utilities/media';
 
 .page {
-  padding: 20px 0px 20px 0px;
+  // padding: 20px 0px 20px 0px;
   min-height: 800px;
-  position: relative;
-  display: flex;
+  // position: relative;
+  // display: flex;
   height: 100vh;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  background-image: url(/Images/abstract-placeholder.jpeg);
+  // justify-content: center;
+  // align-items: center;
+  // background-size: cover;
+  // background-image: url(/Images/abstract-placeholder.jpeg);
 }
 
-.overlay {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.02);
-  }
+// .overlay {
+//   position: absolute;
+//   display: flex;
+//   justify-content: center;
+//   align-content: center;
+//   align-items: center;
+//   left: 0;
+//   right: 0;
+//   top: 0;
+//   bottom: 0;
+//   background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.02);
+//   }
 
 .first_wrapper {
   display: flex;
@@ -34,30 +34,30 @@
 }
 
 .introduction {
-  @include text-box;
-  width: 85%;
-  margin: 0px 0px 50px 0px;
-  line-height: 1.8rem;
-  font-size: 18px;
+  // @include text-box;
+  // width: 85%;
+  // margin: 0px 0px 50px 0px;
+  // line-height: 1.8rem;
+  // font-size: 18px;
 }
 
 .scheme_heading {
   text-align: center;
 }
 
-.second_wrapper {
-  display: flex;
-  margin-bottom: 30px;
-  gap: 50px;
-  justify-content: center;
-}
+// .second_wrapper {
+//   display: flex;
+//   margin-bottom: 30px;
+//   gap: 50px;
+//   justify-content: center;
+// }
 
 .treehouse {
-  @include text-box;
-  width: 40%;
-  padding: 20px;
-  line-height: 1.8rem;
-  font-size: 18px;
+  // @include text-box;
+  // width: 40%;
+  // padding: 20px;
+  // line-height: 1.8rem;
+  // font-size: 18px;
 }
 
 .space {
@@ -67,12 +67,12 @@
 }
 
 .netmatters {
-  @include text-box;
-  width: 35%;
-  padding: 20px;
-  list-style: none;
-  line-height: 1.6rem;
-  font-size: 16px;
+  // @include text-box;
+  // width: 35%;
+  // padding: 20px;
+  // list-style: none;
+  // line-height: 1.6rem;
+  // font-size: 16px;
 }
 
 .net_list {

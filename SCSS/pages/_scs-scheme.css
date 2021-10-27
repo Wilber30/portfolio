@@ -1,17 +1,17 @@
 @media (min-width: 576px) and (max-width: 767px) {
-  .container, .vessel {
+  .container, .vessel, .alignment {
     width: 560px;
     margin: auto;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .container, .vessel {
+  .container, .vessel, .alignment {
     width: 760px;
     margin: auto;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .container {
+  .container, .alignment {
     width: 780px;
     margin: auto;
   }
@@ -79,7 +79,7 @@
   }
 }
 @media (min-width: 992px) and (max-width: 1099px) {
-  .vessel, .alignment {
+  .vessel {
     width: 830px;
     margin: auto;
   }
@@ -96,28 +96,8 @@
   }
 }
 .page {
-  padding: 20px 0px 20px 0px;
   min-height: 800px;
-  position: relative;
-  display: flex;
   height: 100vh;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  background-image: url(/Images/abstract-placeholder.jpeg);
-}
-
-.overlay {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.02);
 }
 
 .first_wrapper {
@@ -125,64 +105,14 @@
   justify-content: center;
 }
 
-.introduction {
-  border-radius: 10px;
-  padding: 20px;
-  line-height: 1.6;
-  border: 3px solid darkgray;
-  font-size: 14px;
-  background-color: white;
-  opacity: 90%;
-  width: 85%;
-  margin: 0px 0px 50px 0px;
-  line-height: 1.8rem;
-  font-size: 18px;
-}
-
 .scheme_heading {
   text-align: center;
-}
-
-.second_wrapper {
-  display: flex;
-  margin-bottom: 30px;
-  gap: 50px;
-  justify-content: center;
-}
-
-.treehouse {
-  border-radius: 10px;
-  padding: 20px;
-  line-height: 1.6;
-  border: 3px solid darkgray;
-  font-size: 14px;
-  background-color: white;
-  opacity: 90%;
-  width: 40%;
-  padding: 20px;
-  line-height: 1.8rem;
-  font-size: 18px;
 }
 
 .space {
   content: "";
   display: block;
   margin: 10px;
-}
-
-.netmatters {
-  border-radius: 10px;
-  padding: 20px;
-  line-height: 1.6;
-  border: 3px solid darkgray;
-  font-size: 14px;
-  background-color: white;
-  opacity: 90%;
-  width: 35%;
-  padding: 20px;
-  list-style: none;
-  line-height: 1.6rem;
-  font-size: 16px;
 }
 
 .net_list {
