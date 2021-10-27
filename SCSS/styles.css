@@ -97,7 +97,16 @@
     display: block;
   }
 }
+@media (max-width: 767px) {
+  .page {
+    min-height: 1100px !important;
+  }
+}
 html body {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  padding: 0px;
   margin: 0;
   margin-right: 0;
   border: 0px;
@@ -219,6 +228,11 @@ body {
 @media (min-width: 768px) {
   .profile_image {
     display: block;
+  }
+}
+@media (max-width: 767px) {
+  .page {
+    min-height: 1100px !important;
   }
 }
 .top_navigation {
@@ -431,6 +445,11 @@ a .sm-in:hover {
     display: block;
   }
 }
+@media (max-width: 767px) {
+  .page {
+    min-height: 1100px !important;
+  }
+}
 .navigation {
   display: none;
   position: fixed;
@@ -610,6 +629,11 @@ a .initials:hover {
     display: block;
   }
 }
+@media (max-width: 767px) {
+  .page {
+    min-height: 1100px !important;
+  }
+}
 footer {
   background-color: #333645;
   margin-left: 160px;
@@ -734,6 +758,11 @@ footer {
 @media (min-width: 768px) {
   .profile_image {
     display: block;
+  }
+}
+@media (max-width: 767px) {
+  .page {
+    min-height: 1100px !important;
   }
 }
 .full-page {
@@ -969,6 +998,11 @@ footer {
     display: block;
   }
 }
+@media (max-width: 767px) {
+  .page {
+    min-height: 1100px !important;
+  }
+}
 #port {
   display: flex;
   justify-content: center;
@@ -1099,6 +1133,11 @@ footer {
 @media (min-width: 768px) {
   .profile_image {
     display: block;
+  }
+}
+@media (max-width: 767px) {
+  .page {
+    min-height: 1100px !important;
   }
 }
 .contact_section {
@@ -1291,6 +1330,11 @@ textarea {
     display: block;
   }
 }
+@media (max-width: 767px) {
+  .page {
+    min-height: 1100px !important;
+  }
+}
 .content {
   position: relative;
   display: flex;
@@ -1441,6 +1485,11 @@ textarea {
     display: block;
   }
 }
+@media (max-width: 767px) {
+  .page {
+    min-height: 1100px !important;
+  }
+}
 .page-content {
   display: flex;
   justify-content: center;
@@ -1562,24 +1611,50 @@ textarea {
     display: block;
   }
 }
+@media (max-width: 767px) {
+  .page {
+    min-height: 1100px !important;
+  }
+}
 .page {
-  min-height: 800px;
-  height: 100vh;
+  min-height: 900px;
 }
 
 .first_wrapper {
+  margin: 0px 10px 0px 10px;
   display: flex;
-  justify-content: center;
+  line-height: 1.8rem;
+  font-size: 18px;
+  text-align: center;
+}
+
+.second_wrapper {
+  line-height: 1.6rem;
 }
 
 .scheme_heading {
   text-align: center;
+  line-height: 1.2em;
+}
+
+.intro_text {
+  padding: 0px 10px 0px 10px;
+}
+
+.treehouse {
+  padding: 0px 10px 0px 10px;
+  line-height: 1.6em;
 }
 
 .space {
   content: "";
   display: block;
   margin: 10px;
+}
+
+.netmatters {
+  padding: 0px 10px 0px 10px;
+  font-size: 16px;
 }
 
 .net_list {

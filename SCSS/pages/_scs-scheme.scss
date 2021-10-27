@@ -4,11 +4,13 @@
         '../utilities/media';
 
 .page {
-  // padding: 20px 0px 20px 0px;
-  min-height: 800px;
+  min-height: 900px;
+  // height: 100vh;
+
+
   // position: relative;
   // display: flex;
-  height: 100vh;
+
   // justify-content: center;
   // align-items: center;
   // background-size: cover;
@@ -29,8 +31,15 @@
 //   }
 
 .first_wrapper {
+  margin: 0px 10px 0px 10px;
   display: flex;
-  justify-content: center;
+  line-height: 1.8rem;
+  font-size: 18px;
+  text-align: center;
+}
+
+.second_wrapper {
+  line-height: 1.6rem;
 }
 
 .introduction {
@@ -43,6 +52,11 @@
 
 .scheme_heading {
   text-align: center;
+  line-height: 1.2em;
+}
+
+.intro_text {
+  padding: 0px 10px 0px 10px;
 }
 
 // .second_wrapper {
@@ -53,6 +67,8 @@
 // }
 
 .treehouse {
+  padding: 0px 10px 0px 10px;
+  line-height: 1.6em;
   // @include text-box;
   // width: 40%;
   // padding: 20px;
@@ -67,12 +83,13 @@
 }
 
 .netmatters {
+  padding: 0px 10px 0px 10px;
   // @include text-box;
   // width: 35%;
   // padding: 20px;
   // list-style: none;
   // line-height: 1.6rem;
-  // font-size: 16px;
+  font-size: 16px;
 }
 
 .net_list {

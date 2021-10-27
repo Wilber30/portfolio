@@ -95,24 +95,50 @@
     display: block;
   }
 }
+@media (max-width: 767px) {
+  .page {
+    min-height: 1100px !important;
+  }
+}
 .page {
-  min-height: 800px;
-  height: 100vh;
+  min-height: 900px;
 }
 
 .first_wrapper {
+  margin: 0px 10px 0px 10px;
   display: flex;
-  justify-content: center;
+  line-height: 1.8rem;
+  font-size: 18px;
+  text-align: center;
+}
+
+.second_wrapper {
+  line-height: 1.6rem;
 }
 
 .scheme_heading {
   text-align: center;
+  line-height: 1.2em;
+}
+
+.intro_text {
+  padding: 0px 10px 0px 10px;
+}
+
+.treehouse {
+  padding: 0px 10px 0px 10px;
+  line-height: 1.6em;
 }
 
 .space {
   content: "";
   display: block;
   margin: 10px;
+}
+
+.netmatters {
+  padding: 0px 10px 0px 10px;
+  font-size: 16px;
 }
 
 .net_list {

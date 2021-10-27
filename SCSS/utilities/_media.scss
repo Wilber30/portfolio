@@ -150,6 +150,7 @@
 }
 
 // scs-scheme
+
 // @media (min-width:992px) and (max-width: 1099px) {
 //   .alignment {
 //   width: 870px;
@@ -157,8 +158,8 @@
 //   }
 // }
 //
-// @media (min-width:992px) {
-//   .page {
-//     min-height: 850px !important;
-//   }
-// }
+@media (max-width:767px) {
+  .page {
+    min-height: 1100px !important;
+  }
+}
