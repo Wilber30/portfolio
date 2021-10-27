@@ -9,8 +9,10 @@
   position: absolute;
   z-index: 100;
   width: 100%;
+  top: 0;
   background: white;
 }
+
 
 .top_wrapper {
   display: flex;
@@ -37,16 +39,21 @@ a .sm-in {
   padding: 5px 70px 5px 70px;
   list-style: none;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   gap: 20px;
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
 }
 
 .william {
-  position: absolute;
-  top: 0%;
-  left: 5%;
+  // position: absolute;
+  // top: 5.5%;
+  // left: 5%;
+  padding: 4px;
   font-family: Pacifico;
+}
+
+.media-insta {
+  margin-right: 15px;
 }
 
 

@@ -62,17 +62,26 @@
   }
 }
 
-@media (max-width: 992px) {
-.banner_heading {
-  font-size: 35px;
-  }
-}
 
-@media  (max-width: 992px) {
-  #scroll {
-    font-size: 30px;
-  }
-}
+// The below resizes the banner text //
+
+// @media only screen and (max-width: 992px) {
+// .typewriter h1 {
+//   font-size: 35px;
+//   }
+// .me {
+//   font-size: 30px;
+//   }
+// #scroll {
+//   font-size: 22px;
+//   }
+// }
+
+// @media  (max-width: 992px) {
+//   #scroll {
+//     font-size: 30px;
+//   }
+// }
 
 // Projects
 @media (max-width: 768px) {
@@ -101,6 +110,12 @@
 }
 
 // about  me
+
+@media (max-width: 991px) {
+  .content, .page {
+    margin-top: 140px;
+  }
+}
 
 @media (min-width:768px) and (max-width: 991px) {
   .about_wrapper {
@@ -135,15 +150,15 @@
 }
 
 // scs-scheme
-@media (min-width:992px) and (max-width: 1099px) {
-  .alignment {
-  width: 870px;
-  margin: auto;
-  }
-}
-
-@media (min-width:992px) {
-  .page {
-    min-height: 850px !important;
-  }
-}
+// @media (min-width:992px) and (max-width: 1099px) {
+//   .alignment {
+//   width: 870px;
+//   margin: auto;
+//   }
+// }
+//
+// @media (min-width:992px) {
+//   .page {
+//     min-height: 850px !important;
+//   }
+// }

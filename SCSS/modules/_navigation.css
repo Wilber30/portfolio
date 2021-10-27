@@ -39,7 +39,7 @@
 }
 @media (max-width: 992px) {
   .scroll-down {
-    right: 39%;
+    right: 43%;
   }
 }
 @media (max-width: 768px) {
@@ -94,6 +94,11 @@
   .alignment {
     width: 870px;
     margin: auto;
+  }
+}
+@media (min-width: 992px) {
+  .page {
+    min-height: 850px !important;
   }
 }
 .navigation {
@@ -156,13 +161,19 @@ a .initials:hover {
   font-size: 18px;
 }
 
-.media:hover .fab {
-  color: white;
+.media {
+  padding: 10px 10px 10px 10px;
+}
+
+.media:hover {
   background-color: orange;
-  padding: 4px 4px 4px 4px;
   border-radius: 45%;
   transition-duration: 0.2s;
   transition-timing-function: ease-in;
+  cursor: pointer;
+}
+.media:hover.fab {
+  color: white;
 }
 
 .sears {

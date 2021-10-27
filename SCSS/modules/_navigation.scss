@@ -31,11 +31,6 @@ a .initials {
   }
 }
 
-// .initials {
-//   font-family: Pacifico;
-//   text-shadow: -1px -1px 0 #A0A0A0, 1px -1px 0 #A0A0A0, -1px 1px 0 #A0A0A0, 1px 1px 0 #A0A0A0;
-// }
-
 .sidenav {
   list-style: none;
   margin-top: 60px;
@@ -69,14 +64,21 @@ a .initials {
   font-size: 18px;
 }
 
-.media:hover .fab {
-  color: white;
+.media {
+  padding: 10px 10px 10px 10px;
+}
+
+.media:hover {
   background-color: orange;
-  padding: 4px 4px 4px 4px;
   border-radius: 45%;
   transition-duration: 0.20s;
   transition-timing-function: ease-in;
+  cursor: pointer;
+  &.fab {
+    color: white;
+  }
 }
+
 
 .sears {
   position: absolute;
