@@ -1614,8 +1614,9 @@ textarea {
   }
 }
 .page {
-  min-height: 900px;
+  min-height: 950px;
   position: relative;
+  background-image: url(/Images/abstract-placeholder.jpeg);
 }
 
 .layer {
@@ -1631,6 +1632,14 @@ textarea {
   background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.02);
 }
 
+.all_text {
+  border-radius: 10px;
+  padding: 6px;
+  border: 3px solid darkgray;
+  background-color: white;
+  opacity: 90%;
+}
+
 .first_wrapper {
   margin: 0px 10px 0px 10px;
   display: flex;
@@ -1641,6 +1650,10 @@ textarea {
 
 .second_wrapper {
   line-height: 1.6rem;
+}
+
+.treehouse_logo {
+  width: 10%;
 }
 
 .scheme_heading {
