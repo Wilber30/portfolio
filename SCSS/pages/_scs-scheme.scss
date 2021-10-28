@@ -28,9 +28,10 @@
   }
 
   .all_text {
-    border-radius: 10px;
+    margin: 0px 10px 0px 10px;
     padding: 6px;
     border: 3px solid darkgray;
+    border-radius: 10px;
     background-color: white;
     opacity: 90%;
   }
@@ -76,6 +77,7 @@
 // }
 
 .treehouse {
+  margin: 0px 20px 0px 20px;
   padding: 0px 10px 0px 10px;
   line-height: 1.6em;
   // @include text-box;
@@ -91,7 +93,14 @@
   margin: 10px;
 }
 
+.profile_link:hover {
+  transition-duration: 0.08s;
+  transition-timing-function: extend ease-in;
+  border-bottom: 2px solid #3CAFB7;
+}
+
 .netmatters {
+  margin-left: 20px;
   padding: 0px 10px 0px 10px;
   // @include text-box;
   // width: 35%;
@@ -103,13 +112,14 @@
 
 .net_list {
   padding-left: 0px;
-  list-style: none;
+  list-style-type: square;
 }
 
 .net_heading {
   padding: 10px 0px 10px 0px;
   font-size: 1.5em;
   font-weight: bold;
+  list-style: none;
 }
 
 .net_item {
