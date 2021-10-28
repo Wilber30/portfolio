@@ -42,6 +42,12 @@
   }
 }
 
+// top_navigation social_media padding
+@media (max-width: 991px) {
+  .media {
+  padding: 0px;
+  }
+}
 // top_navigation visibility
 @media (min-width: 992px){
 .top_navigation  {

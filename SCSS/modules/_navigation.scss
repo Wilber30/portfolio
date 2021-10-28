@@ -55,30 +55,29 @@ a .initials {
 
 .social_media {
   list-style: none;
-  margin-top: 30px;
+  margin-top: 5px;
   padding: 0px 10px 0px 10px;
   display: flex;
   justify-content: space-evenly;
 }
 
-.fab {
-  font-size: 18px;
-}
-
 .media {
-  padding: 10px 10px 10px 10px;
+  padding: 0px 10px 0px 10px;
   margin: 0;
 }
 
-.media:hover {
+.fab {
+  padding: 10px 10px 10px 10px;
+  font-size: 18px;
+}
+
+.fab:hover {
   background-color: orange;
+  color: white;
   border-radius: 45%;
   transition-duration: 0.20s;
   transition-timing-function: ease-in;
   cursor: pointer;
-  &.fab {
-    color: white;
-  }
 }
 
 .sears {
