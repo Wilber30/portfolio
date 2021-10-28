@@ -1189,7 +1189,7 @@ textarea {
 #sub_btn {
   margin-top: 15px;
   padding: 10px 20px 10px 20px;
-  border: 1px solid #c3c3c3;
+  border: 2px solid #c3c3c3;
   border-radius: 3px;
   font-family: Ubuntu;
   background-color: #DCDCDC;
@@ -1197,6 +1197,8 @@ textarea {
 #sub_btn:hover {
   border: 2px solid orange;
   background-color: #c3c3c3;
+  border: -2px;
+  cursor: pointer;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {

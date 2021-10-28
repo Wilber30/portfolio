@@ -86,12 +86,14 @@ textarea {
 #sub_btn {
   margin-top: 15px;
   padding: 10px 20px 10px 20px;
-  border: 1px solid $grey-border;
+  border: 2px solid $grey-border;
   border-radius: 3px;
   font-family: Ubuntu;
   background-color: #DCDCDC;
   &:hover {
     border: 2px solid orange;
     background-color: $grey-border;
+    border: -2px;
+    cursor: pointer;
   }
 }
