@@ -49,6 +49,7 @@ a .initials {
     transition-duration: 0.08s;
     transition-timing-function: extend ease-in;
     border-bottom: 2px solid #3CAFB7;
+    margin-bottom: 8px;
   }
 }
 
@@ -66,7 +67,7 @@ a .initials {
 
 .media {
   padding: 10px 10px 10px 10px;
-  margin: 0; 
+  margin: 0;
 }
 
 .media:hover {
@@ -79,7 +80,6 @@ a .initials {
     color: white;
   }
 }
-
 
 .sears {
   position: absolute;
