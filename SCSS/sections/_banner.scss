@@ -109,10 +109,15 @@
   text-align: center;
 }
 
-.scroll-down {
+.scroll_align {
   position: absolute;
-  bottom: 5%;
-  right: 43%;
+  bottom: 0;
+}
+
+.scroll-down {
+  // position: absolute;
+  // bottom: 5%;
+  // right: 43%;
   text-align: center;
 }
 

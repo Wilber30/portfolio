@@ -1,23 +1,23 @@
 @media (min-width: 576px) and (max-width: 767px) {
-  .container, .vessel, .alignment {
+  .container, .vessel, .alignment, .scroll_align {
     width: 560px;
     margin: auto;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .container, .vessel, .alignment {
+  .container, .vessel, .alignment, .scroll_align {
     width: 760px;
     margin: auto;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .container, .alignment {
+  .container, .alignment, .scroll_align {
     width: 780px;
     margin: auto;
   }
 }
 @media (min-width: 1200px) {
-  .container, .alignment {
+  .container, .alignment, .scroll_align {
     width: 1000px;
     margin: auto;
   }
