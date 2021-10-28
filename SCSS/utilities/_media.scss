@@ -1,4 +1,5 @@
 // Container width
+
 @media (min-width: 576px) and (max-width: 767px) {
   .container, .vessel, .alignment, .scroll_align {
     width: 560px;
@@ -34,14 +35,14 @@
   }
 }
 
-// top_navigation
+// about  me and SCS scheme margin-top
+@media (max-width: 991px) {
+  .content, .page {
+    margin-top: 140px;
+  }
+}
 
-// @media (max-width: 576px){
-// .top_wrapper {
-//   justify-content: space-around;
-//   }
-// }
-
+// top_navigation visibility
 @media (min-width: 992px){
 .top_navigation  {
     display: none;
@@ -55,12 +56,6 @@
   }
 }
 
-//Banner
-@media (max-width: 992px) {
-.scroll-down {
-  right: 43%;
-  }
-}
 
 
 // The below resizes the banner text //
@@ -83,7 +78,7 @@
 //   }
 // }
 
-// Projects
+// Projects card layout
 @media (max-width: 768px) {
 .card_wrapper {
   justify-content: center;
@@ -92,7 +87,6 @@
   }
 }
 // Contact layout
-
 @media (max-width: 991px){
   .contact_text {
     display: none;
@@ -109,13 +103,7 @@
   }
 }
 
-// about  me
-
-@media (max-width: 991px) {
-  .content, .page {
-    margin-top: 140px;
-  }
-}
+// about me
 
 @media (min-width:768px) and (max-width: 991px) {
   .about_wrapper {
@@ -151,13 +139,6 @@
 
 // scs-scheme
 
-// @media (min-width:992px) and (max-width: 1099px) {
-//   .alignment {
-//   width: 870px;
-//   margin: auto;
-//   }
-// }
-//
 @media (max-width:767px) {
   .page {
     min-height: 1100px !important;
