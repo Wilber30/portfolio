@@ -1622,9 +1622,9 @@ textarea {
   }
 }
 .page {
+  position: relative;
   min-height: 950px;
   height: 100vh;
-  position: relative;
   background-image: url(/Images/abstract-placeholder.jpeg);
 }
 
