@@ -509,6 +509,7 @@ a .initials:hover {
 
 .media {
   padding: 10px 10px 10px 10px;
+  margin: 0;
 }
 
 .media:hover {
@@ -1615,6 +1616,7 @@ textarea {
 }
 .page {
   min-height: 950px;
+  height: 100vh;
   position: relative;
   background-image: url(/Images/abstract-placeholder.jpeg);
 }
