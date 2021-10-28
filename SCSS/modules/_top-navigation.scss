@@ -45,9 +45,6 @@ a .sm-in {
 }
 
 .william {
-  // position: absolute;
-  // top: 5.5%;
-  // left: 5%;
   padding: 4px;
   font-family: Pacifico;
 }
@@ -55,7 +52,6 @@ a .sm-in {
 .media-insta {
   margin-right: 15px;
 }
-
 
 // Sub menu on hover
 
@@ -107,7 +103,6 @@ a .sm-in {
   transition-duration: 0.1s;
   transition-timing-function: extend ease-in;
 }
-
 
 .top_wrapper .hamburger:hover + .drop_menu {
     display: block !important;
