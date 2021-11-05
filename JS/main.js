@@ -1,6 +1,6 @@
 var app = document.getElementById('app');
 
 var typewriter = new Typewriter(app, {
-    strings: ['William', 'Sears'],
+    strings: ['My Name is William Sears'],
     autoStart: true
 });
