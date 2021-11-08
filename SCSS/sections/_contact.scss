@@ -59,15 +59,15 @@ input, textarea {
   flex: 1;
 }
 
-.details {
+#name, #email {
     width: 50%;
 }
 
-.email {
+#email {
   margin-left: 10px;
 }
 
-.name {
+#name {
   margin-right: 10px;
 }
 

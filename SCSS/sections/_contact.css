@@ -28,13 +28,13 @@
   }
 }
 @media (max-width: 991px) {
-  .content, .page {
-    margin-top: 140px;
+  .media {
+    padding: 0px;
   }
 }
 @media (min-width: 992px) {
-  .top_navigation {
-    display: none;
+  #top_navigation, #close, #reveal {
+    display: none !important;
   }
 }
 @media (min-width: 992px) {
@@ -61,11 +61,6 @@
 @media (max-width: 991px) {
   footer {
     margin-left: 0px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .about_wrapper {
-    margin: 0px;
   }
 }
 @media (min-width: 1085px) {
@@ -151,15 +146,15 @@ input:focus, textarea:focus {
   flex: 1;
 }
 
-.details {
+#name, #email {
   width: 50%;
 }
 
-.email {
+#email {
   margin-left: 10px;
 }
 
-.name {
+#name {
   margin-right: 10px;
 }
 

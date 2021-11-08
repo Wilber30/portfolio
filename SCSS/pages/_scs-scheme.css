@@ -28,18 +28,13 @@
   }
 }
 @media (max-width: 991px) {
-  .content, .page {
-    margin-top: 140px;
-  }
-}
-@media (max-width: 991px) {
   .media {
     padding: 0px;
   }
 }
 @media (min-width: 992px) {
-  .top_navigation {
-    display: none;
+  #top_navigation, #close, #reveal {
+    display: none !important;
   }
 }
 @media (min-width: 992px) {
@@ -66,11 +61,6 @@
 @media (max-width: 991px) {
   footer {
     margin-left: 0px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .about_wrapper {
-    margin: 0px;
   }
 }
 @media (min-width: 1085px) {
@@ -100,7 +90,7 @@
     min-height: 1100px !important;
   }
 }
-.page {
+#page {
   position: relative;
   min-height: 950px;
   height: 100vh;

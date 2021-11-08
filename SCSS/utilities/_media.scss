@@ -38,7 +38,7 @@
 // about  me and SCS scheme margin-top
 @media (max-width: 991px) {
   .content, .page {
-    margin-top: 140px;
+    // margin-top: 140px;
   }
 }
 
@@ -88,11 +88,11 @@
 }
 
 // about me
-@media (min-width:768px) and (max-width: 991px) {
-  .about_wrapper {
-    margin: 0px;
-  }
-}
+// @media (min-width:768px) and (max-width: 991px) {
+//   .about_wrapper {
+//     margin: 0px;
+//   }
+// }
 
 @media (min-width: 1085px) {
   .about_wrapper {

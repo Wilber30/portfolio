@@ -30,11 +30,6 @@
   }
 }
 @media (max-width: 991px) {
-  .content, .page {
-    margin-top: 140px;
-  }
-}
-@media (max-width: 991px) {
   .media {
     padding: 0px;
   }
@@ -68,11 +63,6 @@
 @media (max-width: 991px) {
   footer {
     margin-left: 0px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .about_wrapper {
-    margin: 0px;
   }
 }
 @media (min-width: 1085px) {
@@ -160,11 +150,6 @@ body {
   }
 }
 @media (max-width: 991px) {
-  .content, .page {
-    margin-top: 140px;
-  }
-}
-@media (max-width: 991px) {
   .media {
     padding: 0px;
   }
@@ -198,11 +183,6 @@ body {
 @media (max-width: 991px) {
   footer {
     margin-left: 0px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .about_wrapper {
-    margin: 0px;
   }
 }
 @media (min-width: 1085px) {
@@ -397,11 +377,6 @@ a .sm-in:hover {
   }
 }
 @media (max-width: 991px) {
-  .content, .page {
-    margin-top: 140px;
-  }
-}
-@media (max-width: 991px) {
   .media {
     padding: 0px;
   }
@@ -435,11 +410,6 @@ a .sm-in:hover {
 @media (max-width: 991px) {
   footer {
     margin-left: 0px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .about_wrapper {
-    margin: 0px;
   }
 }
 @media (min-width: 1085px) {
@@ -582,11 +552,6 @@ a .initials:hover {
   }
 }
 @media (max-width: 991px) {
-  .content, .page {
-    margin-top: 140px;
-  }
-}
-@media (max-width: 991px) {
   .media {
     padding: 0px;
   }
@@ -620,11 +585,6 @@ a .initials:hover {
 @media (max-width: 991px) {
   footer {
     margin-left: 0px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .about_wrapper {
-    margin: 0px;
   }
 }
 @media (min-width: 1085px) {
@@ -713,11 +673,6 @@ footer {
   }
 }
 @media (max-width: 991px) {
-  .content, .page {
-    margin-top: 140px;
-  }
-}
-@media (max-width: 991px) {
   .media {
     padding: 0px;
   }
@@ -751,11 +706,6 @@ footer {
 @media (max-width: 991px) {
   footer {
     margin-left: 0px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .about_wrapper {
-    margin: 0px;
   }
 }
 @media (min-width: 1085px) {
@@ -935,11 +885,6 @@ footer {
   }
 }
 @media (max-width: 991px) {
-  .content, .page {
-    margin-top: 140px;
-  }
-}
-@media (max-width: 991px) {
   .media {
     padding: 0px;
   }
@@ -973,11 +918,6 @@ footer {
 @media (max-width: 991px) {
   footer {
     margin-left: 0px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .about_wrapper {
-    margin: 0px;
   }
 }
 @media (min-width: 1085px) {
@@ -1072,11 +1012,6 @@ footer {
   }
 }
 @media (max-width: 991px) {
-  .content, .page {
-    margin-top: 140px;
-  }
-}
-@media (max-width: 991px) {
   .media {
     padding: 0px;
   }
@@ -1110,11 +1045,6 @@ footer {
 @media (max-width: 991px) {
   footer {
     margin-left: 0px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .about_wrapper {
-    margin: 0px;
   }
 }
 @media (min-width: 1085px) {
@@ -1200,15 +1130,15 @@ input:focus, textarea:focus {
   flex: 1;
 }
 
-.details {
+#name, #email {
   width: 50%;
 }
 
-.email {
+#email {
   margin-left: 10px;
 }
 
-.name {
+#name {
   margin-right: 10px;
 }
 
@@ -1269,11 +1199,6 @@ textarea {
   }
 }
 @media (max-width: 991px) {
-  .content, .page {
-    margin-top: 140px;
-  }
-}
-@media (max-width: 991px) {
   .media {
     padding: 0px;
   }
@@ -1307,11 +1232,6 @@ textarea {
 @media (max-width: 991px) {
   footer {
     margin-left: 0px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .about_wrapper {
-    margin: 0px;
   }
 }
 @media (min-width: 1085px) {
@@ -1359,7 +1279,7 @@ textarea {
 }
 
 .about_wrapper {
-  margin: 0px 20px 0px 20px;
+  margin: 50px 20px 0px 20px;
   padding: 20px;
   border: 2px solid #C0C0C0;
   border-radius: 10px;
@@ -1424,11 +1344,6 @@ textarea {
   }
 }
 @media (max-width: 991px) {
-  .content, .page {
-    margin-top: 140px;
-  }
-}
-@media (max-width: 991px) {
   .media {
     padding: 0px;
   }
@@ -1462,11 +1377,6 @@ textarea {
 @media (max-width: 991px) {
   footer {
     margin-left: 0px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .about_wrapper {
-    margin: 0px;
   }
 }
 @media (min-width: 1085px) {
@@ -1553,11 +1463,6 @@ textarea {
   }
 }
 @media (max-width: 991px) {
-  .content, .page {
-    margin-top: 140px;
-  }
-}
-@media (max-width: 991px) {
   .media {
     padding: 0px;
   }
@@ -1593,11 +1498,6 @@ textarea {
     margin-left: 0px;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  .about_wrapper {
-    margin: 0px;
-  }
-}
 @media (min-width: 1085px) {
   .about_wrapper {
     width: 80%;
@@ -1625,7 +1525,7 @@ textarea {
     min-height: 1100px !important;
   }
 }
-.page {
+#page {
   position: relative;
   min-height: 950px;
   height: 100vh;

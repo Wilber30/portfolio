@@ -61,7 +61,8 @@
 
     </div>
 
-  </div>
+  </div> <!-- top_navigation end -->
+
     <div id="close"><i class="fas fa-arrow-circle-up"></i></div>
     <div id="reveal"><i class="fas fa-arrow-circle-down"></i></div>
 
@@ -186,16 +187,18 @@
               <p class="contact_detail"><small>You can also contact me via the above email address.</small></p>
             </div>
 
-            <div class="form">
+            <div id="error"></div>
+
+            <form action="/" method="get" id="form">
               <div class="user">
-                <input class="details name" type="text" name="name" placeholder="Name:">
-                <input class="details email" type="email" name="email" placeholder="Email:">
+                <input id="name" type="text" name="name" placeholder="Name:">
+                <input id="email" type="email" name="email" placeholder="Email:">
               </div>
               <input class="input" type="email" name="email" placeholder="Cc:">
               <input class="input" type="text" name="subject" placeholder="Subject">
               <textarea name="message" rows="8" cols="80" placeholder="Message:"></textarea>
-              <button id="sub_btn" type="button" name="Submit">Submit</button>
-            </div>
+              <button id="sub_btn" type="submit" name="Submit">Submit</button>
+            </form>
 
           </div> <!-- contact_wrapper end -->
 
