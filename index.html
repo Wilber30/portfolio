@@ -187,16 +187,17 @@
               <p class="contact_detail"><small>You can also contact me via the above email address.</small></p>
             </div>
 
-            <div id="error"></div>
+
 
             <form action="/" method="get" id="form">
+              <div id="error"></div>
               <div class="user">
                 <input id="name" type="text" name="name" placeholder="Name:">
-                <input id="email" type="email" name="email" placeholder="Email:">
+                <input id="email" name="email" placeholder="Email:">
               </div>
-              <input class="input" type="email" name="email" placeholder="Cc:">
-              <input class="input" type="text" name="subject" placeholder="Subject">
-              <textarea name="message" rows="8" cols="80" placeholder="Message:"></textarea>
+              <input id="cc" class="input" name="email" placeholder="Cc: (optional)">
+              <input id="subject" class="input" type="text" name="subject" placeholder="Subject (optional)">
+              <textarea id="text_input" name="message" rows="8" cols="80" placeholder="Message:"></textarea>
               <button id="sub_btn" type="submit" name="Submit">Submit</button>
             </form>
 

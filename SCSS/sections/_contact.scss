@@ -83,6 +83,12 @@ textarea {
   width: 100%;
 }
 
+#error {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
 #sub_btn {
   margin-top: 15px;
   padding: 10px 20px 10px 20px;
