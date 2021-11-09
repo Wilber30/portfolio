@@ -1,33 +1,42 @@
-
 // Top navigation reveal and hide
-let nav = document.getElementById("top_navigation");
-let btn = document.getElementById("reveal");
-let close = document.getElementById("close");
+const nav = document.getElementById("top_navigation");
+const btn = document.getElementById("reveal");
+const close = document.getElementById("close");
+const cross = document.getElementById("cross")
+
 
 btn.addEventListener('click', () => {
-    nav.style.display = 'block';
-    close.style.display = 'block';
-    document.getElementById('page').style.marginTop = "140px";
-  })
+  nav.style.display = 'block';
+  close.style.display = 'block';
+  // document.getElementById('page').style.marginTop = "140px";
+})
 
 close.addEventListener('click', () => {
-    nav.style.display = 'none';
-    close.style.display = 'none';
-    document.getElementById('page').style.marginTop = "0px";
-  })
+  nav.style.display = 'none';
+  close.style.display = 'none';
+  // document.getElementById('page').style.marginTop = "0px";
+})
+
+cross.addEventListener('click', () => {
+  nav.style.display = 'none';
+  close.style.display = 'none';
+  // document.getElementById('page').style.marginTop = "0px";
+})
 
 // Typewriter jQuery
 
-  var app = document.getElementById('app');
+var app = document.getElementById('app');
 
-  var typewriter = new Typewriter(app, {loop: false,});
+var typewriter = new Typewriter(app, {
+  loop: false,
+});
 
-  typewriter.typeString('My Name is William Sears').start();
+typewriter.typeString('My Name is William Sears').start();
 
 // Email Validation
 const form = document.getElementById("form");
 const name = document.getElementById("name");
-const email =document.getElementById("email");
+const email = document.getElementById("email");
 const cc = document.getElementById("cc");
 const subject = document.getElementById("subject");
 const textInput = document.getElementById("text_input");
@@ -38,28 +47,24 @@ form.addEventListener('submit', (e) => {
   let messages = []
 
   // If users have not entered a value for name.
-  if (name.value === '' || name.value == null){
+  if (name.value === '' || name.value == null) {
     messages.push('Name is required')
   }
 
   // If user has entered email/ else if, then compares value to regex format
-  if (email.value === '' || email.value == null){
-      messages.push('Please enter an email address')
-  }
-  else if(!isEmail(email.value)) {
+  if (email.value === '' || email.value == null) {
+    messages.push('Please enter an email address')
+  } else if (!isEmail(email.value)) {
     messages.push('Invalid email address')
   }
 
   // If user has entered empty cc, then that's fine/ else if, compares to regex format
-  if (cc.value === '' || cc.value == null){
-  }
-
-  else if (!isEmail(cc.value)) {
+  if (cc.value === '' || cc.value == null) {} else if (!isEmail(cc.value)) {
     messages.push('Invalid cc email address')
   }
 
   // If user has not filled in the textarea
-  if (textInput.value === '' || textInput == null){
+  if (textInput.value === '' || textInput == null) {
     messages.push('Please fill in the text field')
   }
 

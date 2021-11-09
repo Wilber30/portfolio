@@ -224,10 +224,11 @@ body {
 }
 #top_navigation {
   display: none;
-  position: absolute;
+  position: sticky;
   z-index: 400;
   width: 100%;
   top: 0;
+  border-bottom: 2px solid darkgrey;
   background: white;
 }
 
@@ -334,6 +335,19 @@ a .sm-in:hover {
 .burger_menu {
   margin-top: 2px;
   font-size: 12px;
+}
+
+#cross {
+  position: absolute;
+  left: 3%;
+  top: 8%;
+  font-size: 20px;
+}
+#cross:hover {
+  color: orange;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-timing-function: extend ease-in;
 }
 
 #reveal {
