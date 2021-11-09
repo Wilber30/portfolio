@@ -70,7 +70,7 @@ form.addEventListener('submit', (e) => {
   }
 })
 
-// Function compares variable to regex value
+// Function tests variable against regex format
 function isEmail(i) {
   return /^([a-z\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/.test(i);
 }

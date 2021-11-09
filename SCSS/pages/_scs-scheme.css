@@ -86,8 +86,13 @@
   }
 }
 @media (max-width: 767px) {
-  .page {
-    min-height: 1100px !important;
+  #page {
+    min-height: 1250px !important;
+  }
+}
+@media (min-width: 992px) {
+  #page {
+    margin-top: 0px !important;
   }
 }
 #page {
@@ -111,7 +116,7 @@
 }
 
 .all_text {
-  margin: 0px 10px 0px 10px;
+  margin: 50px 10px 0px 10px;
   padding: 6px;
   border: 3px solid darkgray;
   border-radius: 10px;
@@ -136,6 +141,7 @@
 }
 
 .scheme_heading {
+  margin-top: 0px;
   text-align: center;
   line-height: 1.2em;
 }

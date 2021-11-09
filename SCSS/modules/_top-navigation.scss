@@ -131,6 +131,12 @@ a .sm-in {
   color: lightgrey;
   font-size: 38px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  &:hover {
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: extend ease-in;
+    color: orange;
+  }
 }
 
 #close {
@@ -142,4 +148,10 @@ a .sm-in {
   color: lightgrey;
   font-size: 38px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  &:hover {
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: extend ease-in;
+    color: orange;
+  }
 }

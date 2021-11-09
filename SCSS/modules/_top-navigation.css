@@ -28,11 +28,6 @@
   }
 }
 @media (max-width: 991px) {
-  .content, .page {
-    margin-top: 140px;
-  }
-}
-@media (max-width: 991px) {
   .media {
     padding: 0px;
   }
@@ -68,11 +63,6 @@
     margin-left: 0px;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  .about_wrapper {
-    margin: 0px;
-  }
-}
 @media (min-width: 1085px) {
   .about_wrapper {
     width: 80%;
@@ -96,8 +86,13 @@
   }
 }
 @media (max-width: 767px) {
-  .page {
-    min-height: 1100px !important;
+  #page {
+    min-height: 1220px !important;
+  }
+}
+@media (min-width: 992px) {
+  #page {
+    margin-top: 0px !important;
   }
 }
 #top_navigation {
@@ -223,6 +218,12 @@ a .sm-in:hover {
   font-size: 38px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+#reveal:hover {
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-timing-function: extend ease-in;
+  color: orange;
+}
 
 #close {
   z-index: 300;
@@ -233,6 +234,12 @@ a .sm-in:hover {
   color: lightgrey;
   font-size: 38px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#close:hover {
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-timing-function: extend ease-in;
+  color: orange;
 }
 
 /*# sourceMappingURL=_top-navigation.css.map */
