@@ -2,25 +2,40 @@
 const nav = document.getElementById("top_navigation");
 const btn = document.getElementById("reveal");
 const close = document.getElementById("close");
-const cross = document.getElementById("cross")
+const cross = document.getElementById("cross");
+const page = document.getElementById("content");
+const banner = document.getElementById("full-page");
+
 
 
 btn.addEventListener('click', () => {
   nav.style.display = 'block';
   close.style.display = 'block';
-  // document.getElementById('page').style.marginTop = "140px";
+  banner.style.marginTop = "-148px";
 })
 
 close.addEventListener('click', () => {
   nav.style.display = 'none';
   close.style.display = 'none';
-  // document.getElementById('page').style.marginTop = "0px";
+  banner.style.marginTop = "0px";
 })
 
 cross.addEventListener('click', () => {
   nav.style.display = 'none';
   close.style.display = 'none';
-  // document.getElementById('page').style.marginTop = "0px";
+  banner.style.marginTop = "0px";
+})
+
+btn.addEventListener('click', () => {
+  page.style.marginTop = "-148px";
+})
+
+close.addEventListener('click', () => {
+  page.style.marginTop = "0px";
+})
+
+cross.addEventListener('click', () => {
+  page.style.marginTop = "0px";
 })
 
 // Typewriter jQuery

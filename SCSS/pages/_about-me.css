@@ -86,11 +86,16 @@
   }
 }
 @media (max-width: 767px) {
-  .page {
-    min-height: 1100px !important;
+  #page {
+    min-height: 1220px !important;
   }
 }
-.content {
+@media (min-width: 992px) {
+  #page {
+    margin-top: 0px !important;
+  }
+}
+#content {
   position: relative;
   display: flex;
   height: 100vh;

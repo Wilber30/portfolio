@@ -93,7 +93,7 @@
   }
 }
 @media (min-width: 992px) {
-  #page {
+  #page, #full-page, #content {
     margin-top: 0px !important;
   }
 }
@@ -218,7 +218,7 @@ body {
   }
 }
 @media (min-width: 992px) {
-  #page {
+  #page, #full-page, #content {
     margin-top: 0px !important;
   }
 }
@@ -476,7 +476,7 @@ a .sm-in:hover {
   }
 }
 @media (min-width: 992px) {
-  #page {
+  #page, #full-page, #content {
     margin-top: 0px !important;
   }
 }
@@ -656,7 +656,7 @@ a .initials:hover {
   }
 }
 @media (min-width: 992px) {
-  #page {
+  #page, #full-page, #content {
     margin-top: 0px !important;
   }
 }
@@ -782,11 +782,11 @@ footer {
   }
 }
 @media (min-width: 992px) {
-  #page {
+  #page, #full-page, #content {
     margin-top: 0px !important;
   }
 }
-.full-page {
+#full-page {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -999,7 +999,7 @@ footer {
   }
 }
 @media (min-width: 992px) {
-  #page {
+  #page, #full-page, #content {
     margin-top: 0px !important;
   }
 }
@@ -1131,7 +1131,7 @@ footer {
   }
 }
 @media (min-width: 992px) {
-  #page {
+  #page, #full-page, #content {
     margin-top: 0px !important;
   }
 }
@@ -1329,11 +1329,11 @@ textarea {
   }
 }
 @media (min-width: 992px) {
-  #page {
+  #page, #full-page, #content {
     margin-top: 0px !important;
   }
 }
-.content {
+#content {
   position: relative;
   display: flex;
   height: 100vh;
@@ -1479,19 +1479,10 @@ textarea {
   }
 }
 @media (min-width: 992px) {
-  #page {
+  #page, #full-page, #content {
     margin-top: 0px !important;
   }
 }
-.page-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-size: cover;
-  background-image: url(/Images/abstract-placeholder.jpeg);
-}
-
 .heading_wrapper {
   display: flex;
   justify-content: center;
@@ -1603,7 +1594,7 @@ textarea {
   }
 }
 @media (min-width: 992px) {
-  #page {
+  #page, #full-page, #content {
     margin-top: 0px !important;
   }
 }
