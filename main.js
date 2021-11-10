@@ -1,4 +1,4 @@
-// Top navigation reveal and hide
+// Top navigation show and hide
 const nav = document.getElementById("top_navigation");
 const btn = document.getElementById("reveal");
 const close = document.getElementById("close");
@@ -6,8 +6,7 @@ const cross = document.getElementById("cross");
 const page = document.getElementById("content");
 const banner = document.getElementById("full-page");
 
-
-
+// On click this changes the top nav's display value
 btn.addEventListener('click', () => {
   nav.style.display = 'block';
   close.style.display = 'block';
@@ -26,6 +25,7 @@ cross.addEventListener('click', () => {
   banner.style.marginTop = "0px";
 })
 
+// On click adjusts margin-top to accomodate top nav
 btn.addEventListener('click', () => {
   page.style.marginTop = "-148px";
 })
@@ -71,11 +71,6 @@ form.addEventListener('submit', (e) => {
     messages.push('Please enter an email address')
   } else if (!isEmail(email.value)) {
     messages.push('Invalid email address')
-  }
-
-  // If user has entered empty cc, then that's fine/ else if, compares to regex format
-  if (cc.value === '' || cc.value == null) {} else if (!isEmail(cc.value)) {
-    messages.push('Invalid cc email address')
   }
 
   // If user has not filled in the textarea

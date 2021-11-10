@@ -228,7 +228,7 @@ body {
   z-index: 400;
   width: 100%;
   top: 0;
-  border-bottom: 2px solid darkgrey;
+  border-bottom: 1px solid lightgrey;
   background: white;
 }
 
@@ -293,9 +293,9 @@ a .sm-in:hover {
   font-size: 18px;
 }
 .drop_item:hover {
-  background-color: orange;
   transition-duration: 0.2s;
   transition-timing-function: extend ease-in;
+  background-color: orange;
 }
 
 .hamburger {
@@ -344,10 +344,10 @@ a .sm-in:hover {
   font-size: 20px;
 }
 #cross:hover {
-  color: orange;
-  cursor: pointer;
   transition-duration: 0.2s;
   transition-timing-function: extend ease-in;
+  color: orange;
+  cursor: pointer;
 }
 
 #reveal {
@@ -360,9 +360,9 @@ a .sm-in:hover {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 #reveal:hover {
-  cursor: pointer;
   transition-duration: 0.2s;
   transition-timing-function: extend ease-in;
+  cursor: pointer;
   color: orange;
 }
 
@@ -377,9 +377,9 @@ a .sm-in:hover {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 #close:hover {
-  cursor: pointer;
   transition-duration: 0.2s;
   transition-timing-function: extend ease-in;
+  cursor: pointer;
   color: orange;
 }
 
@@ -837,11 +837,11 @@ footer {
 .fade-in {
   display: flex;
   justify-content: center;
-  animation: fadeIn linear 7s;
-  -webkit-animation: fadeIn linear 7s;
-  -moz-animation: fadeIn linear 7s;
-  -o-animation: fadeIn linear 7s;
-  -ms-animation: fadeIn linear 7s;
+  animation: fadeIn linear 8s;
+  -webkit-animation: fadeIn linear 8s;
+  -moz-animation: fadeIn linear 8s;
+  -o-animation: fadeIn linear 8s;
+  -ms-animation: fadeIn linear 8s;
   font-size: 24px;
   color: white;
 }
@@ -1644,7 +1644,7 @@ textarea {
 }
 
 .scheme_heading {
-  margin-top: 0px;
+  margin-top: 10px;
   text-align: center;
   line-height: 1.2em;
 }

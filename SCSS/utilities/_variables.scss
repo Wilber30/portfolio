@@ -10,3 +10,6 @@ $themes-hover: (
 
 // Border colour
 $grey-border: darken(#DCDCDC, 10%);
+
+// Text shadow
+$shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;

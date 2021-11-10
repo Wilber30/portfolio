@@ -9,3 +9,8 @@
   background-color: white;
   opacity: 90%;
 }
+
+@mixin icon-hover {
+  transition-duration: 0.2s;
+  transition-timing-function: extend ease-in;
+}

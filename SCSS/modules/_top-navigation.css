@@ -91,7 +91,7 @@
   }
 }
 @media (min-width: 992px) {
-  #page {
+  #page, #full-page, #content {
     margin-top: 0px !important;
   }
 }
@@ -101,7 +101,7 @@
   z-index: 400;
   width: 100%;
   top: 0;
-  border-bottom: 2px solid darkgrey;
+  border-bottom: 1px solid lightgrey;
   background: white;
 }
 
@@ -166,9 +166,9 @@ a .sm-in:hover {
   font-size: 18px;
 }
 .drop_item:hover {
-  background-color: orange;
   transition-duration: 0.2s;
   transition-timing-function: extend ease-in;
+  background-color: orange;
 }
 
 .hamburger {
@@ -217,10 +217,10 @@ a .sm-in:hover {
   font-size: 20px;
 }
 #cross:hover {
-  color: orange;
-  cursor: pointer;
   transition-duration: 0.2s;
   transition-timing-function: extend ease-in;
+  color: orange;
+  cursor: pointer;
 }
 
 #reveal {
@@ -233,9 +233,9 @@ a .sm-in:hover {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 #reveal:hover {
-  cursor: pointer;
   transition-duration: 0.2s;
   transition-timing-function: extend ease-in;
+  cursor: pointer;
   color: orange;
 }
 
@@ -250,9 +250,9 @@ a .sm-in:hover {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 #close:hover {
-  cursor: pointer;
   transition-duration: 0.2s;
   transition-timing-function: extend ease-in;
+  cursor: pointer;
   color: orange;
 }
 

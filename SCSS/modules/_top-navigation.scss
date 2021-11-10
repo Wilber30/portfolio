@@ -11,10 +11,9 @@
   z-index: 400;
   width: 100%;
   top: 0;
-  border-bottom: 2px solid darkgrey;
+  border-bottom: 1px solid lightgrey;
   background: white;
 }
-
 
 .top_wrapper {
   display: flex;
@@ -56,7 +55,6 @@ a .sm-in {
 }
 
 // Sub menu on hover
-
 .drop_menu {
   display: none;
 }
@@ -79,9 +77,8 @@ a .sm-in {
 .drop_item {
   font-size: 18px;
 &:hover {
+  @include icon-hover;
   background-color: orange;
-  transition-duration: 0.2s;
-  transition-timing-function: extend ease-in;
   }
 }
 
@@ -130,10 +127,9 @@ a .sm-in {
   top: 8%;
   font-size: 20px;
   &:hover {
+    @include icon-hover;
     color: orange;
     cursor: pointer;
-    transition-duration: 0.2s;
-    transition-timing-function: extend ease-in;
   }
 }
 
@@ -144,11 +140,10 @@ a .sm-in {
   left: 50%;
   color: lightgrey;
   font-size: 38px;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: $shadow;
   &:hover {
+    @include icon-hover;
     cursor: pointer;
-    transition-duration: 0.2s;
-    transition-timing-function: extend ease-in;
     color: orange;
   }
 }
@@ -161,11 +156,10 @@ a .sm-in {
   left: 50%;
   color: lightgrey;
   font-size: 38px;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: $shadow;
   &:hover {
+    @include icon-hover;
     cursor: pointer;
-    transition-duration: 0.2s;
-    transition-timing-function: extend ease-in;
     color: orange;
   }
 }

@@ -51,7 +51,7 @@
 .typewriter h1 {
   letter-spacing: 0.15em;
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: $shadow;
 }
 
 // Text fade in //
@@ -59,11 +59,11 @@
 .fade-in {
   display: flex;
   justify-content: center;
-  animation: fadeIn linear 7s;
-   -webkit-animation: fadeIn linear 7s;
-   -moz-animation: fadeIn linear 7s;
-   -o-animation: fadeIn linear 7s;
-   -ms-animation: fadeIn linear 7s;
+  animation: fadeIn linear 8s;
+   -webkit-animation: fadeIn linear 8s;
+   -moz-animation: fadeIn linear 8s;
+   -o-animation: fadeIn linear 8s;
+   -ms-animation: fadeIn linear 8s;
    font-size: 24px;
    color: white;
 }
@@ -94,7 +94,7 @@
 }
 
 .me {
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000 !important;
+  text-shadow: $shadow !important;
   text-align: center;
 }
 
@@ -110,5 +110,5 @@
 #scroll {
   font-size: 18px;
   color: white !important;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: $shadow;
 }
