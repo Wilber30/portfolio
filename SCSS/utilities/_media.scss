@@ -35,13 +35,6 @@
   }
 }
 
-// about  me and SCS scheme margin-top
-@media (max-width: 991px) {
-  .content, .page {
-    // margin-top: 140px;
-  }
-}
-
 // top_navigation social_media padding
 @media (max-width: 991px) {
   .media {
@@ -87,13 +80,6 @@
   }
 }
 
-// about me
-// @media (min-width:768px) and (max-width: 991px) {
-//   .about_wrapper {
-//     margin: 0px;
-//   }
-// }
-
 @media (min-width: 1085px) {
   .about_wrapper {
     width: 80%;
@@ -127,6 +113,7 @@
   }
 }
 
+// Adjusts margin-top as top nav disappears
 @media (min-width:992px) {
   #page, #full-page, #content {
     margin-top: 0px !important;
