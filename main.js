@@ -37,8 +37,8 @@ typewriter.typeString('My Name is William Sears').start();
 const form = document.getElementById("form");
 const name = document.getElementById("name");
 const email = document.getElementById("email");
-const cc = document.getElementById("cc");
-const subject = document.getElementById("subject");
+const cc = document.getElementById("cc").required = false;
+const subject = document.getElementById("subject").required = false;
 const textInput = document.getElementById("text_input");
 const error = document.getElementById("error");
 
