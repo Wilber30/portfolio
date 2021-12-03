@@ -54,6 +54,27 @@
     display: block;
   }
 }
+@media (max-width: 576px) {
+  .scroll_align {
+    margin: auto;
+    width: 350px;
+  }
+}
+@media (max-width: 576px) {
+  #app {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 576px) {
+  .me {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  #close {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -73,7 +94,7 @@
 @media (max-width: 576px) {
   #email,
 #name {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
     margin-right: 0;
   }
@@ -82,7 +103,7 @@
   #cc,
 #subject,
 #text_input {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
   }
 

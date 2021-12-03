@@ -56,6 +56,27 @@
     display: block;
   }
 }
+@media (max-width: 576px) {
+  .scroll_align {
+    margin: auto;
+    width: 350px;
+  }
+}
+@media (max-width: 576px) {
+  #app {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 576px) {
+  .me {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  #close {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -75,7 +96,7 @@
 @media (max-width: 576px) {
   #email,
 #name {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
     margin-right: 0;
   }
@@ -84,7 +105,7 @@
   #cc,
 #subject,
 #text_input {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
   }
 
@@ -223,6 +244,27 @@ body {
     display: block;
   }
 }
+@media (max-width: 576px) {
+  .scroll_align {
+    margin: auto;
+    width: 350px;
+  }
+}
+@media (max-width: 576px) {
+  #app {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 576px) {
+  .me {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  #close {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -242,7 +284,7 @@ body {
 @media (max-width: 576px) {
   #email,
 #name {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
     margin-right: 0;
   }
@@ -251,7 +293,7 @@ body {
   #cc,
 #subject,
 #text_input {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
   }
 
@@ -523,6 +565,27 @@ a .sm-in:hover {
     display: block;
   }
 }
+@media (max-width: 576px) {
+  .scroll_align {
+    margin: auto;
+    width: 350px;
+  }
+}
+@media (max-width: 576px) {
+  #app {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 576px) {
+  .me {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  #close {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -542,7 +605,7 @@ a .sm-in:hover {
 @media (max-width: 576px) {
   #email,
 #name {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
     margin-right: 0;
   }
@@ -551,7 +614,7 @@ a .sm-in:hover {
   #cc,
 #subject,
 #text_input {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
   }
 
@@ -745,6 +808,27 @@ a .initials:hover {
     display: block;
   }
 }
+@media (max-width: 576px) {
+  .scroll_align {
+    margin: auto;
+    width: 350px;
+  }
+}
+@media (max-width: 576px) {
+  #app {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 576px) {
+  .me {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  #close {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -764,7 +848,7 @@ a .initials:hover {
 @media (max-width: 576px) {
   #email,
 #name {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
     margin-right: 0;
   }
@@ -773,7 +857,7 @@ a .initials:hover {
   #cc,
 #subject,
 #text_input {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
   }
 
@@ -913,6 +997,27 @@ footer {
     display: block;
   }
 }
+@media (max-width: 576px) {
+  .scroll_align {
+    margin: auto;
+    width: 350px;
+  }
+}
+@media (max-width: 576px) {
+  #app {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 576px) {
+  .me {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  #close {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -932,7 +1037,7 @@ footer {
 @media (max-width: 576px) {
   #email,
 #name {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
     margin-right: 0;
   }
@@ -941,7 +1046,7 @@ footer {
   #cc,
 #subject,
 #text_input {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
   }
 
@@ -1172,6 +1277,27 @@ footer {
     display: block;
   }
 }
+@media (max-width: 576px) {
+  .scroll_align {
+    margin: auto;
+    width: 350px;
+  }
+}
+@media (max-width: 576px) {
+  #app {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 576px) {
+  .me {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  #close {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -1191,7 +1317,7 @@ footer {
 @media (max-width: 576px) {
   #email,
 #name {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
     margin-right: 0;
   }
@@ -1200,7 +1326,7 @@ footer {
   #cc,
 #subject,
 #text_input {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
   }
 
@@ -1346,6 +1472,27 @@ footer {
     display: block;
   }
 }
+@media (max-width: 576px) {
+  .scroll_align {
+    margin: auto;
+    width: 350px;
+  }
+}
+@media (max-width: 576px) {
+  #app {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 576px) {
+  .me {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  #close {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -1365,7 +1512,7 @@ footer {
 @media (max-width: 576px) {
   #email,
 #name {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
     margin-right: 0;
   }
@@ -1374,7 +1521,7 @@ footer {
   #cc,
 #subject,
 #text_input {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
   }
 
@@ -1587,6 +1734,27 @@ textarea {
     display: block;
   }
 }
+@media (max-width: 576px) {
+  .scroll_align {
+    margin: auto;
+    width: 350px;
+  }
+}
+@media (max-width: 576px) {
+  #app {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 576px) {
+  .me {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  #close {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -1606,7 +1774,7 @@ textarea {
 @media (max-width: 576px) {
   #email,
 #name {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
     margin-right: 0;
   }
@@ -1615,7 +1783,7 @@ textarea {
   #cc,
 #subject,
 #text_input {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
   }
 
@@ -1779,6 +1947,27 @@ textarea {
     display: block;
   }
 }
+@media (max-width: 576px) {
+  .scroll_align {
+    margin: auto;
+    width: 350px;
+  }
+}
+@media (max-width: 576px) {
+  #app {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 576px) {
+  .me {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  #close {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -1798,7 +1987,7 @@ textarea {
 @media (max-width: 576px) {
   #email,
 #name {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
     margin-right: 0;
   }
@@ -1807,7 +1996,7 @@ textarea {
   #cc,
 #subject,
 #text_input {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
   }
 
@@ -1936,6 +2125,27 @@ textarea {
     display: block;
   }
 }
+@media (max-width: 576px) {
+  .scroll_align {
+    margin: auto;
+    width: 350px;
+  }
+}
+@media (max-width: 576px) {
+  #app {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 576px) {
+  .me {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  #close {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -1955,7 +2165,7 @@ textarea {
 @media (max-width: 576px) {
   #email,
 #name {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
     margin-right: 0;
   }
@@ -1964,7 +2174,7 @@ textarea {
   #cc,
 #subject,
 #text_input {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
   }
 
