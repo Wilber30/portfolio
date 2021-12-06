@@ -16,6 +16,7 @@ const bioParagraph = document.getElementById("biograph");
 // On click this changes the top nav's display value
 btn.addEventListener('click', () => {
   nav.style.display = 'block';
+  nav.style.transition = "all .8s ease-in-out"; 
   btn.style.display = 'none';
   close.style.display = 'block';
   banner.style.marginTop = "-148px";
@@ -47,7 +48,6 @@ btn.addEventListener('click', () => {
   aboutWrapper.style.marginTop = "-20px";
   bioParagraph.style.lineHeight = "1.4rem";
   page.style.marginTop = "0px";
-  close.style.marginTop = "50px";
   }
 })
 

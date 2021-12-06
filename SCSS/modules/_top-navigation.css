@@ -9,7 +9,8 @@
 .container,
 .type-container,
 .align_scroll,
-.vessel {
+.vessel,
+#arrow_alignment {
     width: 560px;
     margin: auto;
   }
@@ -19,7 +20,8 @@
 .container,
 .type-container,
 .align_scroll,
-.vessel {
+.vessel,
+#arrow_alignment {
     width: 760px;
     margin: auto;
   }
@@ -28,7 +30,8 @@
   .alignment,
 .container,
 .type-container,
-.align_scroll {
+.align_scroll,
+#arrow_alignment {
     width: 780px;
     margin: auto;
   }
@@ -36,7 +39,9 @@
 @media (min-width: 1200px) {
   .alignment,
 .container,
-.scroll_align {
+.align_scroll,
+.type-container,
+#arrow_alignment {
     width: 1000px;
     margin: auto;
   }
@@ -84,21 +89,6 @@
     margin-top: 20px;
   }
 }
-@media (max-width: 576px) {
-  #form {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .user {
-    justify-content: center;
-  }
-
-  .blank_space {
-    margin-bottom: 0px;
-  }
-}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -128,6 +118,26 @@
 
   .user {
     flex-wrap: wrap;
+  }
+
+  .sm_contact_text {
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  #form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .user {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .blank_space {
+    margin-bottom: 0px;
   }
 
   .sm_contact_text {
