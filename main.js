@@ -6,6 +6,12 @@ const cross = document.getElementById("cross");
 const page = document.getElementById("content");
 const banner = document.getElementById("full-page");
 
+//media query and IDs affected
+const mediaQuery = window.matchMedia('(min-width: 576px)');
+const aboutWrapper = document.getElementById("about_wrapper");
+const bioParagraph = document.getElementById("biograph");
+
+
 // On click this changes the top nav's display value
 btn.addEventListener('click', () => {
   nav.style.display = 'block';
@@ -28,6 +34,14 @@ cross.addEventListener('click', () => {
 // On click adjusts margin-top to accomodate top nav
 btn.addEventListener('click', () => {
   page.style.marginTop = "-148px";
+
+  // Corrects layout issues for mobile devices when slide-out appears
+  if (window.matchMedia("(max-width: 576px)").matches) {
+  aboutWrapper.style.marginTop = "-20px";
+  bioParagraph.style.lineHeight = "1.4rem";
+  page.style.marginTop = "0px";
+  close.style.marginTop = "50px";
+  }
 })
 
 close.addEventListener('click', () => {

@@ -1,45 +1,78 @@
 @media (min-width: 576px) and (max-width: 767px) {
-  .container, .vessel, .alignment, .scroll_align {
+  .alignment,
+.container,
+.scroll_align,
+.vessel {
     width: 560px;
     margin: auto;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .container, .vessel, .alignment, .scroll_align {
+  .alignment,
+.container,
+.scroll_align,
+.vessel {
     width: 760px;
     margin: auto;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .container, .alignment, .scroll_align {
+  .alignment,
+.container,
+.scroll_align {
     width: 780px;
     margin: auto;
   }
 }
 @media (min-width: 1200px) {
-  .container, .alignment, .scroll_align {
+  .alignment,
+.container,
+.scroll_align {
     width: 1000px;
     margin: auto;
   }
 }
 @media (max-width: 991px) {
   main {
-    margin-left: 0px;
+    margin-left: 0;
   }
 }
 @media (max-width: 991px) {
   .media {
-    padding: 0px;
+    padding: 0;
   }
 }
 @media (min-width: 992px) {
-  #top_navigation, #close, #reveal {
+  #close,
+#reveal,
+#top_navigation {
     display: none !important;
   }
 }
 @media (min-width: 992px) {
   .navigation {
     display: block;
+  }
+}
+@media (max-width: 576px) {
+  .scroll_align {
+    margin: auto;
+    width: 350px;
+  }
+}
+@media (max-width: 576px) {
+  #app {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 576px) {
+  .me {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  #close {
+    margin-top: 20px;
   }
 }
 @media (max-width: 768px) {
@@ -58,9 +91,37 @@
     display: block !important;
   }
 }
+@media (max-width: 576px) {
+  #email,
+#name {
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 0;
+  }
+}
+@media (max-width: 576px) {
+  #cc,
+#subject,
+#text_input {
+    width: 300px;
+    margin-left: 20px;
+  }
+
+  .user {
+    flex-wrap: wrap;
+  }
+
+  #sub_btn {
+    margin-left: 20px;
+  }
+
+  .sm_contact_text {
+    text-align: center;
+  }
+}
 @media (max-width: 991px) {
   footer {
-    margin-left: 0px;
+    margin-left: 0;
   }
 }
 @media (min-width: 1085px) {
@@ -91,8 +152,21 @@
   }
 }
 @media (min-width: 992px) {
-  #page {
-    margin-top: 0px !important;
+  #content,
+#full-page,
+#page {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 576px) {
+  .about_wrapper {
+    margin: 120px 10px 0px;
+    padding: 0px;
+  }
+}
+@media (max-width: 576px) {
+  .biograph {
+    line-height: 1.4rem;
   }
 }
 #content {
@@ -112,7 +186,7 @@
   display: flex;
 }
 
-.about_wrapper {
+#about_wrapper {
   margin: 50px 20px 0px 20px;
   padding: 20px;
   border: 2px solid #C0C0C0;
@@ -133,7 +207,7 @@
   flex-direction: column;
 }
 
-.biograph {
+#biograph {
   display: flex;
   gap: 10px;
   line-height: 1.8rem;

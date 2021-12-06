@@ -86,6 +86,21 @@
   }
 }
 
+// Form Section Mobile
+@media (max-width: 576px) {
+  #form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  }
+  .user {
+    justify-content: center;
+  }
+  .blank_space {
+    margin-bottom: 0px;
+  }
+}
+
 // Projects card layout
 @media (max-width: 768px) {
   .card_wrapper {
@@ -104,30 +119,20 @@
     display: block !important;
   }
 }
+
 @media (max-width: 576px) {
+  #name,
   #email,
-  #name {
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 0;
-  }
-}
-@media (max-width: 576px) {
   #cc,
   #subject,
   #text_input {
     width: 300px;
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-right: 0;
   }
-
   .user {
     flex-wrap: wrap;
   }
-
-  #sub_btn {
-    margin-left: 20px;
-  }
-
   .sm_contact_text {
     text-align: center;
   }
@@ -175,3 +180,10 @@
     margin-top: 0 !important;
   }
 }
+
+//About page adjustment for extra-small breakpoint
+// @media (max-width: 576px) {
+//   #biograph {
+//     line-height: 1.4rem;
+//   }
+// }

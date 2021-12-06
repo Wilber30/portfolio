@@ -77,6 +77,21 @@
     margin-top: 20px;
   }
 }
+@media (max-width: 576px) {
+  #form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .user {
+    justify-content: center;
+  }
+
+  .blank_space {
+    margin-bottom: 0px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -94,27 +109,18 @@
   }
 }
 @media (max-width: 576px) {
-  #email,
-#name {
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 0;
-  }
-}
-@media (max-width: 576px) {
-  #cc,
+  #name,
+#email,
+#cc,
 #subject,
 #text_input {
     width: 300px;
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-right: 0;
   }
 
   .user {
     flex-wrap: wrap;
-  }
-
-  #sub_btn {
-    margin-left: 20px;
   }
 
   .sm_contact_text {
@@ -265,6 +271,21 @@ body {
     margin-top: 20px;
   }
 }
+@media (max-width: 576px) {
+  #form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .user {
+    justify-content: center;
+  }
+
+  .blank_space {
+    margin-bottom: 0px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -282,27 +303,18 @@ body {
   }
 }
 @media (max-width: 576px) {
-  #email,
-#name {
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 0;
-  }
-}
-@media (max-width: 576px) {
-  #cc,
+  #name,
+#email,
+#cc,
 #subject,
 #text_input {
     width: 300px;
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-right: 0;
   }
 
   .user {
     flex-wrap: wrap;
-  }
-
-  #sub_btn {
-    margin-left: 20px;
   }
 
   .sm_contact_text {
@@ -586,6 +598,21 @@ a .sm-in:hover {
     margin-top: 20px;
   }
 }
+@media (max-width: 576px) {
+  #form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .user {
+    justify-content: center;
+  }
+
+  .blank_space {
+    margin-bottom: 0px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -603,27 +630,18 @@ a .sm-in:hover {
   }
 }
 @media (max-width: 576px) {
-  #email,
-#name {
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 0;
-  }
-}
-@media (max-width: 576px) {
-  #cc,
+  #name,
+#email,
+#cc,
 #subject,
 #text_input {
     width: 300px;
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-right: 0;
   }
 
   .user {
     flex-wrap: wrap;
-  }
-
-  #sub_btn {
-    margin-left: 20px;
   }
 
   .sm_contact_text {
@@ -829,6 +847,21 @@ a .initials:hover {
     margin-top: 20px;
   }
 }
+@media (max-width: 576px) {
+  #form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .user {
+    justify-content: center;
+  }
+
+  .blank_space {
+    margin-bottom: 0px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -846,27 +879,18 @@ a .initials:hover {
   }
 }
 @media (max-width: 576px) {
-  #email,
-#name {
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 0;
-  }
-}
-@media (max-width: 576px) {
-  #cc,
+  #name,
+#email,
+#cc,
 #subject,
 #text_input {
     width: 300px;
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-right: 0;
   }
 
   .user {
     flex-wrap: wrap;
-  }
-
-  #sub_btn {
-    margin-left: 20px;
   }
 
   .sm_contact_text {
@@ -1018,6 +1042,21 @@ footer {
     margin-top: 20px;
   }
 }
+@media (max-width: 576px) {
+  #form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .user {
+    justify-content: center;
+  }
+
+  .blank_space {
+    margin-bottom: 0px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -1035,27 +1074,18 @@ footer {
   }
 }
 @media (max-width: 576px) {
-  #email,
-#name {
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 0;
-  }
-}
-@media (max-width: 576px) {
-  #cc,
+  #name,
+#email,
+#cc,
 #subject,
 #text_input {
     width: 300px;
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-right: 0;
   }
 
   .user {
     flex-wrap: wrap;
-  }
-
-  #sub_btn {
-    margin-left: 20px;
   }
 
   .sm_contact_text {
@@ -1298,6 +1328,21 @@ footer {
     margin-top: 20px;
   }
 }
+@media (max-width: 576px) {
+  #form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .user {
+    justify-content: center;
+  }
+
+  .blank_space {
+    margin-bottom: 0px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -1315,27 +1360,18 @@ footer {
   }
 }
 @media (max-width: 576px) {
-  #email,
-#name {
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 0;
-  }
-}
-@media (max-width: 576px) {
-  #cc,
+  #name,
+#email,
+#cc,
 #subject,
 #text_input {
     width: 300px;
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-right: 0;
   }
 
   .user {
     flex-wrap: wrap;
-  }
-
-  #sub_btn {
-    margin-left: 20px;
   }
 
   .sm_contact_text {
@@ -1493,6 +1529,21 @@ footer {
     margin-top: 20px;
   }
 }
+@media (max-width: 576px) {
+  #form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .user {
+    justify-content: center;
+  }
+
+  .blank_space {
+    margin-bottom: 0px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -1510,27 +1561,18 @@ footer {
   }
 }
 @media (max-width: 576px) {
-  #email,
-#name {
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 0;
-  }
-}
-@media (max-width: 576px) {
-  #cc,
+  #name,
+#email,
+#cc,
 #subject,
 #text_input {
     width: 300px;
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-right: 0;
   }
 
   .user {
     flex-wrap: wrap;
-  }
-
-  #sub_btn {
-    margin-left: 20px;
   }
 
   .sm_contact_text {
@@ -1755,6 +1797,21 @@ textarea {
     margin-top: 20px;
   }
 }
+@media (max-width: 576px) {
+  #form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .user {
+    justify-content: center;
+  }
+
+  .blank_space {
+    margin-bottom: 0px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -1772,27 +1829,18 @@ textarea {
   }
 }
 @media (max-width: 576px) {
-  #email,
-#name {
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 0;
-  }
-}
-@media (max-width: 576px) {
-  #cc,
+  #name,
+#email,
+#cc,
 #subject,
 #text_input {
     width: 300px;
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-right: 0;
   }
 
   .user {
     flex-wrap: wrap;
-  }
-
-  #sub_btn {
-    margin-left: 20px;
   }
 
   .sm_contact_text {
@@ -1855,7 +1903,7 @@ textarea {
   display: flex;
 }
 
-.about_wrapper {
+#about_wrapper {
   margin: 50px 20px 0px 20px;
   padding: 20px;
   border: 2px solid #C0C0C0;
@@ -1876,7 +1924,7 @@ textarea {
   flex-direction: column;
 }
 
-.biograph {
+#biograph {
   display: flex;
   gap: 10px;
   line-height: 1.8rem;
@@ -1968,6 +2016,21 @@ textarea {
     margin-top: 20px;
   }
 }
+@media (max-width: 576px) {
+  #form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .user {
+    justify-content: center;
+  }
+
+  .blank_space {
+    margin-bottom: 0px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -1985,27 +2048,18 @@ textarea {
   }
 }
 @media (max-width: 576px) {
-  #email,
-#name {
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 0;
-  }
-}
-@media (max-width: 576px) {
-  #cc,
+  #name,
+#email,
+#cc,
 #subject,
 #text_input {
     width: 300px;
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-right: 0;
   }
 
   .user {
     flex-wrap: wrap;
-  }
-
-  #sub_btn {
-    margin-left: 20px;
   }
 
   .sm_contact_text {
@@ -2146,6 +2200,21 @@ textarea {
     margin-top: 20px;
   }
 }
+@media (max-width: 576px) {
+  #form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .user {
+    justify-content: center;
+  }
+
+  .blank_space {
+    margin-bottom: 0px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -2163,27 +2232,18 @@ textarea {
   }
 }
 @media (max-width: 576px) {
-  #email,
-#name {
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 0;
-  }
-}
-@media (max-width: 576px) {
-  #cc,
+  #name,
+#email,
+#cc,
 #subject,
 #text_input {
     width: 300px;
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-right: 0;
   }
 
   .user {
     flex-wrap: wrap;
-  }
-
-  #sub_btn {
-    margin-left: 20px;
   }
 
   .sm_contact_text {

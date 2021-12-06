@@ -75,6 +75,21 @@
     margin-top: 20px;
   }
 }
+@media (max-width: 576px) {
+  #form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .user {
+    justify-content: center;
+  }
+
+  .blank_space {
+    margin-bottom: 0px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -92,27 +107,18 @@
   }
 }
 @media (max-width: 576px) {
-  #email,
-#name {
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 0;
-  }
-}
-@media (max-width: 576px) {
-  #cc,
+  #name,
+#email,
+#cc,
 #subject,
 #text_input {
     width: 300px;
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-right: 0;
   }
 
   .user {
     flex-wrap: wrap;
-  }
-
-  #sub_btn {
-    margin-left: 20px;
   }
 
   .sm_contact_text {

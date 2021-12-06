@@ -20,7 +20,7 @@
     display: flex;
 }
 
-.about_wrapper {
+#about_wrapper {
   margin: 50px 20px 0px 20px;
   padding: 20px;
   border: 2px solid #C0C0C0;
@@ -41,7 +41,7 @@ margin: 15px 0px 5px 15px;
   flex-direction: column;
 }
 
-.biograph {
+#biograph {
   display: flex;
   gap: 10px;
   line-height: 1.8rem;
