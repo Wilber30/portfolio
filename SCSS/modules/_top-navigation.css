@@ -1,45 +1,102 @@
+@media (max-width: 576px) {
+  .align_scroll, .type-container, #arrow_alignment {
+    width: 400px;
+    margin: auto;
+  }
+}
 @media (min-width: 576px) and (max-width: 767px) {
-  .container, .vessel, .alignment, .scroll_align {
+  .alignment,
+.container,
+.type-container,
+.align_scroll,
+.vessel {
     width: 560px;
     margin: auto;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .container, .vessel, .alignment, .scroll_align {
+  .alignment,
+.container,
+.type-container,
+.align_scroll,
+.vessel {
     width: 760px;
     margin: auto;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .container, .alignment, .scroll_align {
+  .alignment,
+.container,
+.type-container,
+.align_scroll {
     width: 780px;
     margin: auto;
   }
 }
 @media (min-width: 1200px) {
-  .container, .alignment, .scroll_align {
+  .alignment,
+.container,
+.scroll_align {
     width: 1000px;
     margin: auto;
   }
 }
 @media (max-width: 991px) {
   main {
-    margin-left: 0px;
+    margin-left: 0;
   }
 }
 @media (max-width: 991px) {
   .media {
-    padding: 0px;
+    padding: 0;
   }
 }
 @media (min-width: 992px) {
-  #top_navigation, #close, #reveal {
+  #close,
+#reveal,
+#top_navigation {
     display: none !important;
   }
 }
 @media (min-width: 992px) {
   .navigation {
     display: block;
+  }
+}
+@media (max-width: 576px) {
+  .scroll_align {
+    margin: auto;
+    width: 350px;
+  }
+}
+@media (max-width: 576px) {
+  #app {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 576px) {
+  .me {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  #close {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 576px) {
+  #form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .user {
+    justify-content: center;
+  }
+
+  .blank_space {
+    margin-bottom: 0px;
   }
 }
 @media (max-width: 768px) {
@@ -58,9 +115,28 @@
     display: block !important;
   }
 }
+@media (max-width: 576px) {
+  #name,
+#email,
+#cc,
+#subject,
+#text_input {
+    width: 300px;
+    margin-left: 0px;
+    margin-right: 0;
+  }
+
+  .user {
+    flex-wrap: wrap;
+  }
+
+  .sm_contact_text {
+    text-align: center;
+  }
+}
 @media (max-width: 991px) {
   footer {
-    margin-left: 0px;
+    margin-left: 0;
   }
 }
 @media (min-width: 1085px) {
@@ -91,8 +167,10 @@
   }
 }
 @media (min-width: 992px) {
-  #page, #full-page, #content {
-    margin-top: 0px !important;
+  #content,
+#full-page,
+#page {
+    margin-top: 0 !important;
   }
 }
 #top_navigation {
@@ -224,10 +302,6 @@ a .sm-in:hover {
 }
 
 #reveal {
-  z-index: 300;
-  position: absolute;
-  top: 2%;
-  left: 50%;
   color: lightgrey;
   font-size: 38px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -240,11 +314,7 @@ a .sm-in:hover {
 }
 
 #close {
-  z-index: 300;
-  position: absolute;
   display: none;
-  top: 18%;
-  left: 50%;
   color: lightgrey;
   font-size: 38px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;

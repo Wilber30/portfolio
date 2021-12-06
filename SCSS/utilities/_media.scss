@@ -1,9 +1,20 @@
+
+// Container width for mobile devices
+@media (max-width: 576px) {
+.align_scroll, .type-container, #arrow_alignment {
+  width: 400px;
+  margin: auto;
+  }
+}
+
 // Container width
 @media (min-width: 576px) and (max-width: 767px) {
   .alignment,
   .container,
-  .scroll_align,
-  .vessel {
+  .type-container,
+  .align_scroll,
+  .vessel,
+  #arrow_alignment {
     width: 560px;
     margin: auto;
   }
@@ -11,8 +22,10 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .alignment,
   .container,
-  .scroll_align,
-  .vessel {
+  .type-container,
+  .align_scroll,
+  .vessel,
+  #arrow_alignment {
     width: 760px;
     margin: auto;
   }
@@ -20,7 +33,9 @@
 @media (min-width: 992px) and (max-width: 1199px) {
   .alignment,
   .container,
-  .scroll_align {
+  .type-container,
+  .align_scroll,
+  #arrow_alignment {
     width: 780px;
     margin: auto;
   }
@@ -28,7 +43,9 @@
 @media (min-width: 1200px) {
   .alignment,
   .container,
-  .scroll_align {
+  .align_scroll,
+  .type-container,
+  #arrow_alignment {
     width: 1000px;
     margin: auto;
   }
@@ -86,20 +103,6 @@
   }
 }
 
-// Form Section Mobile
-@media (max-width: 576px) {
-  #form {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  }
-  .user {
-    justify-content: center;
-  }
-  .blank_space {
-    margin-bottom: 0px;
-  }
-}
 
 // Projects card layout
 @media (max-width: 768px) {
@@ -136,8 +139,26 @@
   .sm_contact_text {
     text-align: center;
   }
-
 }
+
+@media (max-width: 992px) {
+  #form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  }
+  .user {
+    justify-content: center;
+    width: 100%
+  }
+  .blank_space {
+    margin-bottom: 0px;
+  }
+  .sm_contact_text {
+    text-align: center;
+  }
+}
+
 //Footer responsive
 @media (max-width: 991px) {
   footer {
@@ -180,10 +201,3 @@
     margin-top: 0 !important;
   }
 }
-
-//About page adjustment for extra-small breakpoint
-// @media (max-width: 576px) {
-//   #biograph {
-//     line-height: 1.4rem;
-//   }
-// }

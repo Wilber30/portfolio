@@ -5,6 +5,7 @@ const close = document.getElementById("close");
 const cross = document.getElementById("cross");
 const page = document.getElementById("content");
 const banner = document.getElementById("full-page");
+const arrowAlign = document.getElementById("arrow_alignment");
 
 //media query and IDs affected
 const mediaQuery = window.matchMedia('(min-width: 576px)');
@@ -15,20 +16,26 @@ const bioParagraph = document.getElementById("biograph");
 // On click this changes the top nav's display value
 btn.addEventListener('click', () => {
   nav.style.display = 'block';
+  btn.style.display = 'none';
   close.style.display = 'block';
   banner.style.marginTop = "-148px";
+  arrowAlign.style.top = "20%";
 })
 
 close.addEventListener('click', () => {
   nav.style.display = 'none';
   close.style.display = 'none';
+  btn.style.display = 'block';
   banner.style.marginTop = "0px";
+  arrowAlign.style.top = "1%";
 })
 
 cross.addEventListener('click', () => {
   nav.style.display = 'none';
   close.style.display = 'none';
+  btn.style.display = 'block';
   banner.style.marginTop = "0px";
+  arrowAlign.style.top = "1%";
 })
 
 // On click adjusts margin-top to accomodate top nav

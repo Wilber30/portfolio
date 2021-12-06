@@ -19,6 +19,12 @@
   background-image: url(/Images/abstract-placeholder.jpeg);
 }
 
+#arrow_alignment {
+  position: absolute;
+  top: 1%;
+  text-align: center;
+}
+
 .overlay {
   position: absolute;
   display: flex;
@@ -98,7 +104,7 @@
   text-align: center;
 }
 
-.scroll_align {
+.align_scroll {
   position: absolute;
   bottom: 0;
 }
