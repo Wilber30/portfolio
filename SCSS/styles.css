@@ -427,11 +427,12 @@ body {
   }
 }
 #top_navigation {
-  transform: translateY(-100%);
   position: sticky;
   width: 100%;
   top: 0;
   z-index: 0;
+  transition: transform 0.8s ease-in-out;
+  transform: translateY(-100%);
   border-bottom: 1px solid lightgrey;
   background: white;
 }

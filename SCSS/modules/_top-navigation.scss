@@ -6,11 +6,12 @@
 // structural
 
 #top_navigation {
-  transform: translateY(-100%);
   position: sticky;
   width: 100%;
   top: 0;
   z-index: 0;
+  transition: transform .8s ease-in-out;
+  transform: translateY(-100%);
   border-bottom: 1px solid lightgrey;
   background: white;
 }
@@ -20,6 +21,10 @@
   transition: transform .5s ease-in-out;
   z-index: 400;
 }
+// #top_navigation.hide {
+//   transform: translateY(-100%);
+//   transition: transform .5s ease-in-out;
+// }
 
 .top_wrapper {
   display: flex;

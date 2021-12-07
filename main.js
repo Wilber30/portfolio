@@ -24,12 +24,12 @@ btn.addEventListener('click', () => {
   close.classList.toggle('appears');
   scsPage.classList.toggle('adjust');
   alignScs.classList.toggle('active');
-  // arrowAlign.classList.toggle('open');
+  arrowAlign.classList.toggle('open');
   arrowAlign.style.top = "17%";
 })
 
 close.addEventListener('click', () => {
-  nav.classList.remove('is-active');
+  nav.classList.toggle('is-active');
   close.classList.remove('appears');
   btn.classList.remove('hide');
   scsPage.classList.remove('adjust');
