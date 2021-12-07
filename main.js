@@ -15,19 +15,16 @@ const bioParagraph = document.getElementById("biograph");
 
 // On click this changes the top nav's display value
 btn.addEventListener('click', () => {
-  nav.style.display = 'block';
-  nav.style.transition = "all .8s ease-in-out"; 
+  nav.classList.toggle('is-active');
   btn.style.display = 'none';
   close.style.display = 'block';
-  banner.style.marginTop = "-148px";
   arrowAlign.style.top = "20%";
 })
 
 close.addEventListener('click', () => {
-  nav.style.display = 'none';
+  nav.classList.remove('is-active');
   close.style.display = 'none';
   btn.style.display = 'block';
-  banner.style.marginTop = "0px";
   arrowAlign.style.top = "1%";
 })
 
@@ -35,7 +32,6 @@ cross.addEventListener('click', () => {
   nav.style.display = 'none';
   close.style.display = 'none';
   btn.style.display = 'block';
-  banner.style.marginTop = "0px";
   arrowAlign.style.top = "1%";
 })
 

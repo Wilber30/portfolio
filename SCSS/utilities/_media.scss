@@ -103,7 +103,11 @@
   }
 }
 
-
+@media (min-width: 992px) {
+  #banner {
+   margin-top: 0px;
+  }
+}
 // Projects card layout
 @media (max-width: 768px) {
   .card_wrapper {
