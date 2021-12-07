@@ -1,7 +1,7 @@
 
 // Container width for mobile devices
 @media (max-width: 576px) {
-.align_scroll, .type-container, #arrow_alignment {
+.align_scroll, .type-container, #arrow_alignment, #scs_arrow_align {
   width: 400px;
   margin: auto;
   }
@@ -14,7 +14,8 @@
   .type-container,
   .align_scroll,
   .vessel,
-  #arrow_alignment {
+  #arrow_alignment,
+  #scs_arrow_align {
     width: 560px;
     margin: auto;
   }
@@ -25,7 +26,8 @@
   .type-container,
   .align_scroll,
   .vessel,
-  #arrow_alignment {
+  #arrow_alignment,
+  #scs_arrow_align {
     width: 760px;
     margin: auto;
   }
@@ -35,7 +37,8 @@
   .container,
   .type-container,
   .align_scroll,
-  #arrow_alignment {
+  #arrow_alignment,
+  #scs_arrow_align {
     width: 780px;
     margin: auto;
   }
@@ -45,7 +48,8 @@
   .container,
   .align_scroll,
   .type-container,
-  #arrow_alignment {
+  #arrow_alignment,
+  #scs_arrow_align {
     width: 1000px;
     margin: auto;
   }
@@ -197,6 +201,14 @@
     min-height: 1220px !important;
   }
 }
+
+// scs-scheme content for Mobile
+@media (max-width: 576px) {
+  .introduction, .second_wrapper {
+    line-height: 1.2rem !important;
+  }
+}
+
 // Adjusts margin-top as top nav disappears
 @media (min-width:992px) {
   #content,

@@ -4,10 +4,16 @@
         '../utilities/media';
 
 #page {
+  margin-top: -148px;
   position: relative;
   min-height: 950px;
   height: 100vh;
   background-image: url(/Images/abstract-placeholder.jpeg);
+}
+
+#page.adjust {
+  margin-top: 0px;
+  transition: all .5s ease-in-out;
 }
 
 .layer {
@@ -21,6 +27,16 @@
   top: 0;
   bottom: 0;
   background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.02);
+}
+
+#scs_arrow_align {
+  top: -2%;
+  position: absolute;
+  text-align: center;
+}
+
+#scs_arrow_align.active {
+  top: 1%;
 }
 
 .all_text {

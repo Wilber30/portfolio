@@ -141,8 +141,10 @@ a .sm-in {
 
 #reveal {
   color: lightgrey;
+  opacity: 1;
   font-size: 38px;
   text-shadow: $shadow;
+  transition: all .1s ease-in-out;
   &:hover {
     @include icon-hover;
     cursor: pointer;
@@ -150,14 +152,25 @@ a .sm-in {
   }
 }
 
+#reveal.hide {
+  opacity: 0;
+  transition: all .1s ease-in-out;
+}
+
 #close {
-  display: none;
+  opacity: 0;
   color: lightgrey;
   font-size: 38px;
   text-shadow: $shadow;
+  transition: all .1s ease-in-out;
   &:hover {
     @include icon-hover;
     cursor: pointer;
     color: orange;
   }
+}
+
+#close.appears {
+  opacity: 1;
+  transition: all .1s ease-in-out;
 }

@@ -89,6 +89,11 @@
     margin-top: 20px;
   }
 }
+@media (min-width: 992px) {
+  #banner {
+    margin-top: 0px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -199,7 +204,7 @@
   background-image: url(/Images/abstract-placeholder.jpeg);
 }
 
-arrow_alignment {
+#arrow_alignment {
   position: absolute;
   top: 1%;
   text-align: center;

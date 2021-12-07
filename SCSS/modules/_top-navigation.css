@@ -89,6 +89,11 @@
     margin-top: 20px;
   }
 }
+@media (min-width: 992px) {
+  #banner {
+    margin-top: 0px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -319,8 +324,10 @@ a .sm-in:hover {
 
 #reveal {
   color: lightgrey;
+  opacity: 1;
   font-size: 38px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  transition: all 0.1s ease-in-out;
 }
 #reveal:hover {
   transition-duration: 0.2s;
@@ -329,17 +336,28 @@ a .sm-in:hover {
   color: orange;
 }
 
+#reveal.hide {
+  opacity: 0;
+  transition: all 0.1s ease-in-out;
+}
+
 #close {
-  display: none;
+  opacity: 0;
   color: lightgrey;
   font-size: 38px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  transition: all 0.1s ease-in-out;
 }
 #close:hover {
   transition-duration: 0.2s;
   transition-timing-function: extend ease-in;
   cursor: pointer;
   color: orange;
+}
+
+#close.appears {
+  opacity: 1;
+  transition: all 0.1s ease-in-out;
 }
 
 /*# sourceMappingURL=_top-navigation.css.map */

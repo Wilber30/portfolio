@@ -6,6 +6,8 @@ const cross = document.getElementById("cross");
 const page = document.getElementById("content");
 const banner = document.getElementById("full-page");
 const arrowAlign = document.getElementById("arrow_alignment");
+const scsPage = document.getElementById("page");
+const alignScs = document.getElementById("scs_arrow_align");
 
 //media query and IDs affected
 const mediaQuery = window.matchMedia('(min-width: 576px)');
@@ -16,43 +18,68 @@ const bioParagraph = document.getElementById("biograph");
 // On click this changes the top nav's display value
 btn.addEventListener('click', () => {
   nav.classList.toggle('is-active');
-  btn.style.display = 'none';
-  close.style.display = 'block';
+  btn.classList.toggle('hide');
+  close.classList.toggle('appears');
+  scsPage.classList.toggle('adjust');
+  alignScs.classList.toggle('active');
   arrowAlign.style.top = "20%";
 })
 
 close.addEventListener('click', () => {
   nav.classList.remove('is-active');
-  close.style.display = 'none';
-  btn.style.display = 'block';
+  close.classList.remove('appears');
+  btn.classList.remove('hide');
+  scsPage.classList.remove('adjust');
+  alignScs.classList.remove('active');
   arrowAlign.style.top = "1%";
 })
 
 cross.addEventListener('click', () => {
-  nav.style.display = 'none';
-  close.style.display = 'none';
-  btn.style.display = 'block';
+  nav.classList.remove('is-active');
+  close.classList.remove('appears');
+  btn.classList.remove('hide');
+  scsPage.classList.remove('adjust');
+  alignScs.classList.remove('active');
   arrowAlign.style.top = "1%";
+  alignScs.style.top = "0%";
 })
 
-// On click adjusts margin-top to accomodate top nav
+// On click adjusts margin-top to accomodate top nav in the about section
 btn.addEventListener('click', () => {
-  page.style.marginTop = "-148px";
-
   // Corrects layout issues for mobile devices when slide-out appears
   if (window.matchMedia("(max-width: 576px)").matches) {
-  aboutWrapper.style.marginTop = "-20px";
+  aboutWrapper.style.marginTop = "100px";
   bioParagraph.style.lineHeight = "1.4rem";
-  page.style.marginTop = "0px";
+  arrowAlign.style.top = "17%";
+  alignScs.classList.toggle('active');
   }
 })
 
 close.addEventListener('click', () => {
-  page.style.marginTop = "0px";
+  // Corrects layout issues for mobile devices when slide-out appears
+  if (window.matchMedia("(max-width: 576px)").matches) {
+  aboutWrapper.style.marginTop = "0px";
+  bioParagraph.style.lineHeight = "1.8rem";
+  arrowAlign.style.top = "-2%";
+  alignScs.classList.remove('active');
+  }
 })
 
 cross.addEventListener('click', () => {
-  page.style.marginTop = "0px";
+  // Corrects layout issues for mobile devices when slide-out appears
+  if (window.matchMedia("(max-width: 576px)").matches) {
+  aboutWrapper.style.marginTop = "0px";
+  bioParagraph.style.lineHeight = "1.8rem";
+  arrowAlign.style.top = "-2%";
+  alignScs.style.top = "0%";
+  }
+})
+
+btn.addEventListener('click', () => {
+  // Adjusts layout up to large breakpoint when slide-out appears
+  if (window.matchMedia("(min-width: 577px) and (max-width: 991px)").matches) {
+
+  }
 })
 
 // Typewriter jQuery
