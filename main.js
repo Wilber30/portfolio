@@ -5,8 +5,10 @@ const close = document.getElementById("close");
 const cross = document.getElementById("cross");
 const page = document.getElementById("content");
 const banner = document.getElementById("full-page");
-const arrowAlign = document.getElementById("arrow_alignment");
 const scsPage = document.getElementById("page");
+
+// Arrow alignment containers from site pages
+const arrowAlign = document.getElementById("arrow_alignment");
 const alignScs = document.getElementById("scs_arrow_align");
 
 //media query and IDs affected
@@ -22,7 +24,8 @@ btn.addEventListener('click', () => {
   close.classList.toggle('appears');
   scsPage.classList.toggle('adjust');
   alignScs.classList.toggle('active');
-  arrowAlign.style.top = "20%";
+  // arrowAlign.classList.toggle('open');
+  arrowAlign.style.top = "17%";
 })
 
 close.addEventListener('click', () => {
@@ -31,7 +34,7 @@ close.addEventListener('click', () => {
   btn.classList.remove('hide');
   scsPage.classList.remove('adjust');
   alignScs.classList.remove('active');
-  arrowAlign.style.top = "1%";
+  arrowAlign.classList.remove('open');
 })
 
 cross.addEventListener('click', () => {
@@ -40,8 +43,7 @@ cross.addEventListener('click', () => {
   btn.classList.remove('hide');
   scsPage.classList.remove('adjust');
   alignScs.classList.remove('active');
-  arrowAlign.style.top = "1%";
-  alignScs.style.top = "0%";
+  arrowAlign.classList.remove('open');
 })
 
 // On click adjusts margin-top to accomodate top nav in the about section
@@ -50,7 +52,8 @@ btn.addEventListener('click', () => {
   if (window.matchMedia("(max-width: 576px)").matches) {
   aboutWrapper.style.marginTop = "100px";
   bioParagraph.style.lineHeight = "1.4rem";
-  arrowAlign.style.top = "17%";
+  // arrowAlign.style.top = "17%";
+  arrowAlign.classList.toggle('open');
   alignScs.classList.toggle('active');
   }
 })
@@ -60,7 +63,8 @@ close.addEventListener('click', () => {
   if (window.matchMedia("(max-width: 576px)").matches) {
   aboutWrapper.style.marginTop = "0px";
   bioParagraph.style.lineHeight = "1.8rem";
-  arrowAlign.style.top = "-2%";
+  // arrowAlign.style.top = "-2%";
+  arrowAlign.classList.remove('open');
   alignScs.classList.remove('active');
   }
 })
