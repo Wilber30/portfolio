@@ -102,7 +102,16 @@
   .card_wrapper {
     justify-content: center;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 30px;
+  }
+
+  .card {
+    width: 50%;
+  }
+}
+@media (max-width: 576px) {
+  .project {
+    width: 159px;
   }
 }
 @media (max-width: 991px) {
@@ -211,12 +220,6 @@
   flex-grow: 1;
   background-size: cover;
   background-image: url(/Images/abstract-placeholder.jpeg);
-}
-
-#arrow_alignment {
-  position: absolute;
-  top: 1%;
-  text-align: center;
 }
 
 .overlay {

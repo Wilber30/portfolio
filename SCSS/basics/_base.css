@@ -26,4 +26,26 @@ body {
   font-family: Ubuntu;
 }
 
+#arrow_alignment {
+  position: absolute;
+  transform: translateY(-350px);
+  transition: transform 0.1s ease-in-out;
+  text-align: center;
+}
+
+#arrow_alignment.open {
+  transition: transform 0.1s ease-in-out;
+  transform: translateY(-200px);
+}
+
+#scs_arrow_align {
+  top: -2%;
+  position: absolute;
+  text-align: center;
+}
+
+#scs_arrow_align.active {
+  top: 1%;
+}
+
 /*# sourceMappingURL=_base.css.map */

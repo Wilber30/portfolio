@@ -19,31 +19,29 @@ const bioParagraph = document.getElementById("biograph");
 
 // On click this changes the top nav's display value
 btn.addEventListener('click', () => {
+  arrowAlign.classList.toggle('open');
   nav.classList.toggle('is-active');
   btn.classList.toggle('hide');
   close.classList.toggle('appears');
   scsPage.classList.toggle('adjust');
-  alignScs.classList.toggle('active');
-  arrowAlign.classList.toggle('open');
-  arrowAlign.style.top = "17%";
 })
 
 close.addEventListener('click', () => {
+  arrowAlign.classList.remove('open');
   nav.classList.toggle('is-active');
   close.classList.remove('appears');
   btn.classList.remove('hide');
   scsPage.classList.remove('adjust');
   alignScs.classList.remove('active');
-  arrowAlign.classList.remove('open');
 })
 
 cross.addEventListener('click', () => {
+  arrowAlign.classList.remove('open');
   nav.classList.remove('is-active');
   close.classList.remove('appears');
   btn.classList.remove('hide');
   scsPage.classList.remove('adjust');
   alignScs.classList.remove('active');
-  arrowAlign.classList.remove('open');
 })
 
 // On click adjusts margin-top to accomodate top nav in the about section

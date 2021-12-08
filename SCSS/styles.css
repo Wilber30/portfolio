@@ -236,6 +236,28 @@ body {
   font-family: Ubuntu;
 }
 
+#arrow_alignment {
+  position: absolute;
+  transform: translateY(-350px);
+  transition: transform 0.1s ease-in-out;
+  text-align: center;
+}
+
+#arrow_alignment.open {
+  transition: transform 0.1s ease-in-out;
+  transform: translateY(-200px);
+}
+
+#scs_arrow_align {
+  top: -2%;
+  position: absolute;
+  text-align: center;
+}
+
+#scs_arrow_align.active {
+  top: 1%;
+}
+
 @media (max-width: 576px) {
   .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align {
     width: 400px;
@@ -1367,12 +1389,6 @@ footer {
   flex-grow: 1;
   background-size: cover;
   background-image: url(/Images/abstract-placeholder.jpeg);
-}
-
-#arrow_alignment {
-  position: absolute;
-  top: 1%;
-  text-align: center;
 }
 
 .overlay {
@@ -2797,16 +2813,6 @@ textarea {
   top: 0;
   bottom: 0;
   background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.02);
-}
-
-#scs_arrow_align {
-  top: -2%;
-  position: absolute;
-  text-align: center;
-}
-
-#scs_arrow_align.active {
-  top: 1%;
 }
 
 .all_text {
