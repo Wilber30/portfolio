@@ -117,9 +117,19 @@
   .card_wrapper {
     justify-content: center;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 30px;
+  }
+  .card {
+    width: 50%;
   }
 }
+
+@media (max-width: 576px) {
+ .project  {
+    width: 159px;
+  }
+}
+
 // Contact layout
 @media (max-width: 991px) {
   .contact_text {

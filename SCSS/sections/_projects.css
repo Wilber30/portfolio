@@ -1,35 +1,70 @@
+@media (max-width: 576px) {
+  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align {
+    width: 400px;
+    margin: auto;
+  }
+}
 @media (min-width: 576px) and (max-width: 767px) {
-  .container, .vessel {
+  .alignment,
+.container,
+.type-container,
+.align_scroll,
+.vessel,
+#arrow_alignment,
+#scs_arrow_align {
     width: 560px;
     margin: auto;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .container, .vessel {
+  .alignment,
+.container,
+.type-container,
+.align_scroll,
+.vessel,
+#arrow_alignment,
+#scs_arrow_align {
     width: 760px;
     margin: auto;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .container {
+  .alignment,
+.container,
+.type-container,
+.align_scroll,
+#arrow_alignment,
+#scs_arrow_align {
     width: 780px;
     margin: auto;
   }
 }
 @media (min-width: 1200px) {
-  .container, .alignment {
+  .alignment,
+.container,
+.align_scroll,
+.type-container,
+#arrow_alignment,
+#scs_arrow_align {
     width: 1000px;
     margin: auto;
   }
 }
 @media (max-width: 991px) {
   main {
-    margin-left: 0px;
+    margin-left: 0;
+  }
+}
+@media (max-width: 991px) {
+  .media {
+    padding: 0;
   }
 }
 @media (min-width: 992px) {
-  .top_navigation {
-    display: none;
+  #close,
+#reveal,
+#top_navigation {
+    display: none !important;
   }
 }
 @media (min-width: 992px) {
@@ -37,16 +72,46 @@
     display: block;
   }
 }
-@media (max-width: 992px) {
-  .scroll-down {
-    right: 39%;
+@media (max-width: 576px) {
+  .scroll_align {
+    margin: auto;
+    width: 350px;
+  }
+}
+@media (max-width: 576px) {
+  #app {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 576px) {
+  .me {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  #close {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 992px) {
+  #banner {
+    margin-top: 0px;
   }
 }
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 30px;
+  }
+
+  .card {
+    width: 50%;
+  }
+}
+@media (max-width: 576px) {
+  .project {
+    width: 159px;
   }
 }
 @media (max-width: 991px) {
@@ -58,14 +123,48 @@
     display: block !important;
   }
 }
-@media (max-width: 991px) {
-  footer {
+@media (max-width: 576px) {
+  #name,
+#email,
+#cc,
+#subject,
+#text_input {
+    width: 300px;
     margin-left: 0px;
+    margin-right: 0;
+  }
+
+  .user {
+    flex-wrap: wrap;
+  }
+
+  .sm_contact_text {
+    text-align: center;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  .about_wrapper {
-    margin: 0px;
+@media (max-width: 992px) {
+  #form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .user {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .blank_space {
+    margin-bottom: 0px;
+  }
+
+  .sm_contact_text {
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  footer {
+    margin-left: 0;
   }
 }
 @media (min-width: 1085px) {
@@ -74,7 +173,7 @@
   }
 }
 @media (min-width: 992px) and (max-width: 1099px) {
-  .vessel, .alignment {
+  .vessel {
     width: 830px;
     margin: auto;
   }
@@ -90,10 +189,21 @@
     display: block;
   }
 }
-@media (min-width: 992px) and (max-width: 1099px) {
-  .alignment {
-    width: 870px;
-    margin: auto;
+@media (max-width: 767px) {
+  #page {
+    min-height: 1220px !important;
+  }
+}
+@media (max-width: 576px) {
+  .introduction, .second_wrapper {
+    line-height: 1.2rem !important;
+  }
+}
+@media (min-width: 992px) {
+  #content,
+#full-page,
+#page {
+    margin-top: 0 !important;
   }
 }
 #port {
@@ -106,23 +216,59 @@
 .card_wrapper {
   margin-top: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: row;
+  flex: 1;
+  align-content: center;
+  flex-wrap: nowrap;
 }
 
 .card {
+  width: 33%;
   text-align: center;
+  margin-left: 20px;
+  padding: 6px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: lightsteelblue;
 }
 
 .project {
   width: 210px;
   height: 120px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid white;
 }
 .project:hover {
   opacity: 0.5;
 }
 
+.project_title {
+  color: darkred;
+}
+
+.project_description {
+  font-size: 14px;
+  line-height: 1.4rem;
+}
+
+.project_description.net {
+  margin-bottom: 35px;
+}
+
 .project_link {
+  border: 2px solid darkcyan;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-family: "Ubuntu";
+  box-shadow: 0.9px 0.6px;
   text-decoration: none;
+}
+.project_link:hover {
+  background-color: #e6e6e6;
+  border-color: #005858;
 }
 
 .blank_space {

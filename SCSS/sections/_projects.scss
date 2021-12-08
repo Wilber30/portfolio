@@ -14,23 +14,59 @@
 .card_wrapper {
   margin-top: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: row;
+  flex: 1;
+  align-content: center;
+  flex-wrap: nowrap;
 }
 
 .card {
+  width: 33%;
   text-align: center;
+  margin-left: 20px;
+  padding: 6px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: lightsteelblue;
 }
 
 .project {
   width: 210px;
   height: 120px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid white;
   &:hover {
     opacity: 0.5;
   }
 }
 
+.project_title {
+  color: darkred;
+}
+
+.project_description {
+  font-size: 14px;
+  line-height: 1.4rem;
+}
+
+.project_description.net {
+  margin-bottom: 35px;
+  }
+
 .project_link {
+  border: 2px solid darkcyan;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-family: 'Ubuntu';
+  box-shadow: 0.9px 0.6px;
   text-decoration: none;
+  &:hover {
+    background-color: $white-bg-hover;
+    border-color: $cyan-border-hover;
+  }
 }
 
 .blank_space {
