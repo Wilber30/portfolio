@@ -1899,6 +1899,10 @@ footer {
   white-space: nowrap;
 }
 
+.contact_detail {
+  font-size: 14px;
+}
+
 .form {
   display: flex;
   flex-flow: wrap;
@@ -1923,6 +1927,10 @@ input:focus, textarea:focus {
   flex: 1;
 }
 
+input {
+  padding: 4px 0px 4px 6px;
+}
+
 #name, #email {
   width: 50%;
 }
@@ -1945,6 +1953,7 @@ input {
 
 textarea {
   width: 100%;
+  padding: 4px 2px 4px 6px;
 }
 
 #error {

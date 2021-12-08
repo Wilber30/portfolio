@@ -112,18 +112,32 @@ form.addEventListener('submit', (e) => {
   // If users have not entered a value for name.
   if (name.value === '' || name.value == null) {
     messages.push('Name is required')
+    name.style.border = "1px red solid";
+  } else {
+    name.style.border = "1px solid #DCDCDC";
   }
 
   // If user has entered email/ else if, then compares value to regex format
   if (email.value === '' || email.value == null) {
     messages.push('Please enter an email address')
-  } else if (!isEmail(email.value)) {
+    email.style.border = "1px red solid";
+  } else {
+    email.style.border = "1px solid #DCDCDC";
+  }
+
+  if (!isEmail(email.value)) {
     messages.push('Invalid email address')
+    email.style.border = "1px red solid";
+  } else {
+    email.style.border = "1px solid #DCDCDC";
   }
 
   // If user has not filled in the textarea
   if (textInput.value === '' || textInput == null) {
     messages.push('Please fill in the text field')
+    textInput.style.border = "1px red solid";
+  } else {
+    textInput.style.border = "1px solid #DCDCDC";
   }
 
   // If  message length  >  0, prevent submit & display messages in error div
