@@ -122,41 +122,42 @@
           <h1 class="code_heading">Coding Example</h1>
 
         <pre><code id="example1" class="javascript">
-            // Form Validation & localStorage check
-              form.addEventListener('submit', (e) => {
-              let messages = []
-              // If user has entered email/ else if, then compares value to regex format
-              if (email.value === '' || email.value == null) {
-                messages.push('Please enter an email address')
-              } else if (!isEmail(email.value)) {
-                messages.push('Invalid email address')
-              }
+{// Form Validation & localStorage check
+  form.addEventListener('submit', (e) => {
+  let messages = []
 
-              // Prevent submit & display messages in error div, or accept and store cookie
-              if (messages.length > 0) {
-                e.preventDefault()
-                error.innerText = messages.join(', ')
-                return;
-                } else if (isEmail(email.value)) {
-              }
+  if (email.value === '' || email.value == null) {
+    messages.push('Please enter an email address')
+  } else if (!isEmail(email.value)) {
+    messages.push('Invalid email address')
+  }
 
-              // Email already exists
-              if (localStorage.getItem(email.value) !== null) {
-                e.preventDefault();
-                addImgToRow();
-              }
-              // Email does not exist
-              else {
-                e.preventDefault();
-                addEmailRow();
-                localStorage.setItem(email.value, email.value);
-              }
-              })
 
-              // Function tests variable against regex format
-              function isEmail(i) {
-              return /^([a-z\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/.test(i);
-              }
+  if (messages.length > 0) {
+    e.preventDefault()
+    error.innerText = messages.join(', ')
+    return;
+    } else if (isEmail(email.value)) {
+  }
+
+
+  if (localStorage.getItem(email.value) !== null) {
+    e.preventDefault();
+    addImgToRow();
+  }
+
+  else {
+    e.preventDefault();
+    addEmailRow();
+    localStorage.setItem(email.value, email.value);
+  }
+  })
+
+  // Function tests variable against regex format
+  function isEmail(i) {
+  return /^([a-z\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]
+  {2,8})?$/.test(i);
+  }}
           </code></pre>
 
       </div>
