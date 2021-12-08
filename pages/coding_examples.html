@@ -11,7 +11,7 @@
   <!-- Stylesheet links -->
   <link rel="stylesheet" href="../CSS/all.min.css">
   <link rel="stylesheet" type="text/css" href="../SCSS/styles.css">
-
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/styles/default.min.css">
 </head>
 
 <body>
@@ -75,7 +75,7 @@
       <div class="image-wrapper">
         <a href="../index.html">
           <h1 class="initials">WS</h1>
-        </a> 
+        </a>
       </div>
 
       <ul class="sidenav">
@@ -118,11 +118,48 @@
           <div id="close"><i class="fas fa-arrow-circle-up"></i></div>
           <div id="reveal"><i class="fas fa-arrow-circle-down"></i></div>
         </div>
+        <div class="example">
+          <h1 class="code_heading">Coding Example</h1>
 
-        <!-- <div class="heading_wrapper">
-          <h1 class="soon">Coming Soon</h1>
-        </div> -->
+        <pre><code id="example1" class="javascript">
+            // Form Validation & localStorage check
+              form.addEventListener('submit', (e) => {
+              let messages = []
+              // If user has entered email/ else if, then compares value to regex format
+              if (email.value === '' || email.value == null) {
+                messages.push('Please enter an email address')
+              } else if (!isEmail(email.value)) {
+                messages.push('Invalid email address')
+              }
 
+              // Prevent submit & display messages in error div, or accept and store cookie
+              if (messages.length > 0) {
+                e.preventDefault()
+                error.innerText = messages.join(', ')
+                return;
+                } else if (isEmail(email.value)) {
+              }
+
+              // Email already exists
+              if (localStorage.getItem(email.value) !== null) {
+                e.preventDefault();
+                addImgToRow();
+              }
+              // Email does not exist
+              else {
+                e.preventDefault();
+                addEmailRow();
+                localStorage.setItem(email.value, email.value);
+              }
+              })
+
+              // Function tests variable against regex format
+              function isEmail(i) {
+              return /^([a-z\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/.test(i);
+              }
+          </code></pre>
+
+      </div>
       </div>
     </div>
     </div>
@@ -138,6 +175,8 @@
   </footer>
   <script src="dist/core.js"></script>
   <script src="../main.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
 </body>
 
 </html>

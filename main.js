@@ -72,7 +72,7 @@ cross.addEventListener('click', () => {
   if (window.matchMedia("(max-width: 576px)").matches) {
   aboutWrapper.style.marginTop = "0px";
   bioParagraph.style.lineHeight = "1.8rem";
-  arrowAlign.style.top = "-2%";
+  // arrowAlign.style.top = "-2%";
   alignScs.style.top = "0%";
   }
 })
