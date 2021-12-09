@@ -31,7 +31,7 @@ body {
 #arrow_alignment {
   position: absolute;
   // top: 1%;
-  transform: translateY(-350px);
+  transform: translateY(-250px);
   transition: transform .1s ease-in-out;
   text-align: center;
 }
@@ -39,7 +39,7 @@ body {
 #arrow_alignment.open {
   // top: 20%;
   transition: transform .1s ease-in-out;
-  transform: translateY(-200px);
+  transform: translateY(-110px);
 }
 
 #scs_arrow_align {
