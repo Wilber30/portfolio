@@ -12,8 +12,11 @@
   <link rel="stylesheet" href="../CSS/all.min.css">
   <link rel="stylesheet" type="text/css" href="../SCSS/styles.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/styles/default.min.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
-jubblies
+
 
 <body>
   <!--  Top navigation -->
@@ -114,15 +117,18 @@ jubblies
 
     <div id="content">
       <div class="overlay">
-      <div class="container">
-        <div id="arrow_alignment">
-          <div id="close"><i class="fas fa-arrow-circle-up"></i></div>
-          <div id="reveal"><i class="fas fa-arrow-circle-down"></i></div>
-        </div>
-        <div class="example">
-          <h1 class="code_heading">Coding Example</h1>
+        <div class="container">
+          <div id="arrow_alignment">
+            <div id="close"><i class="fas fa-arrow-circle-up"></i></div>
+            <div id="reveal"><i class="fas fa-arrow-circle-down"></i></div>
+          </div>
+          <div id="accordion">
 
-        <pre><code id="example1" class="javascript">
+            <!-- <div class="example">
+               -->
+            <h1 class="code_heading">JavaScript Example</h1>
+            <div>
+              <pre><code id="example1" class="javascript">
 {// Form Validation & localStorage check
   form.addEventListener('submit', (e) => {
   let messages = []
@@ -160,12 +166,34 @@ jubblies
   {2,8})?$/.test(i);
   }}
           </code></pre>
-
-      </div>
+            </div>
+            <h1 class="code_heading">SQL Example</h1>
+            <div>
+              <pre><code id="example2" class="sql">
+SELECT
+  m.mov_id AS "ID",
+  mov_title AS "Movie", 
+  r.rev_stars AS "Star Rating"
+FROM
+  movie AS m
+  INNER JOIN (
+    SELECT
+      mov_id,
+      rev_stars
+    FROM
+      rating
+    WHERE
+      rev_stars > 3
+  ) AS r ON m.mov_id = r.mov_id
+ORDER BY
+  r.rev_stars ASC;
+            </div>
+            </code></pre>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    </div>
-
   </main>
 
   <footer>
@@ -178,7 +206,12 @@ jubblies
   <script src="dist/core.js"></script>
   <script src="../main.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
-  <script>hljs.highlightAll();</script>
+  <script>
+    hljs.highlightAll();
+  </script>
+  <script>
+    $("#accordion").accordion();
+  </script>
 </body>
 
 </html>
