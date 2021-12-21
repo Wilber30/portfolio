@@ -102,6 +102,8 @@
 
       <ul class="social_media">
         <li class="media media-insta">
+          <a href="https://github.com/Wilber30" target="_blank">
+            <i class="fab fa-github"></i></a>
           <a href="https://www.instagram.com/bellybones_records/?hl=en-gb" target="_blank">
             <i class="fab fa-instagram"></i></a>
         </li>
@@ -128,6 +130,7 @@
                -->
             <h1 class="code_heading">JavaScript Example</h1>
             <div>
+
               <pre><code id="example1" class="javascript">
 {// Form Validation & localStorage check
   form.addEventListener('submit', (e) => {
@@ -139,14 +142,12 @@
     messages.push('Invalid email address')
   }
 
-
   if (messages.length > 0) {
     e.preventDefault()
     error.innerText = messages.join(', ')
     return;
     } else if (isEmail(email.value)) {
   }
-
 
   if (localStorage.getItem(email.value) !== null) {
     e.preventDefault();
@@ -165,25 +166,29 @@
   return /^([a-z\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]
   {2,8})?$/.test(i);
   }}
-          </code></pre>
-            </div>
+            </code></pre>
+          </div>
+
             <h1 class="code_heading">SQL Example</h1>
-              <div>
+            <div>
 
-            <p>The objective of this challenge was to create a query that
-              retrieves data from the tables in the movie database.</p>
-
-            <p>The query below combines data from the movie and rating tables
-            to display three columns for ID, Movie and Star Rating. The subquery
-            returns all movie movie IDs with a rating that is higher than three
-            and the outer query retrieves the movie titles that match those IDs.
-            The ouput is formatted in ascending order.</p>
-            <h3 class="table_header">Movie Database</h3>
+              <p>The objective of this challenge was to create a
+                <a class="query_link" href="#mid_point">query</a>
+                that retrieves data from the tables in the movie database.
+              </p>
+              <h3 class="table_header">Movie Database</h3>
               <div class="database_wrapper">
                 <img id="movie_data" src="/Images/table_structure.png" alt="Movie database structure">
               </div>
+              <h3 class="query_heading">Query and Output</h3>
+              <p class="explanation">The query below combines data from the movie and rating tables
+                in the Movie Database, to display three columns for ID, Movie and Star Rating.
+                The subquery returns all movie IDs with a rating that is higher than three;
+                the outer query then retrieves the movie titles that match those IDs.
+                Finally, the ouput is formatted in ascending order by star rating.</p>
               <div class="example_wrapper2">
-                <pre class="embedded_sql"><code id="example2" class="sql">
+
+                <pre id="mid_point" class="embedded_sql"><code id="example2" class="sql">
 SELECT
   m.mov_id AS "ID",
   mov_title AS "Movie",
@@ -202,8 +207,7 @@ FROM
 ORDER BY
   r.rev_stars ASC;
               </code></pre>
-                <i class="fas fa-long-arrow-alt-right output_arrow">
-                  <p class="sql_output">Output</p>
+                <i class="fas fa-long-arrow-alt-right output_arrow_right">
                 </i>
                 <img src="/Images/subquery_output.png" alt="Output from SQL query">
               </div>

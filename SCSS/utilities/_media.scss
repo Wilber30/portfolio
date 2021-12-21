@@ -227,3 +227,14 @@
     margin-top: 0 !important;
   }
 }
+
+// Coding examples mobile
+@media (max-width: 576px) {
+  .example_wrapper2 {
+    display: block;
+    text-align: center;
+  }
+  .output_arrow_right {
+    display: none;
+  }
+}
