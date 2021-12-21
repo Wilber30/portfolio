@@ -113,7 +113,7 @@
   </div>
 
   <!-- main content -->
-  <main>
+  <main id='code_main'>
 
     <div id="content">
       <div class="overlay">
@@ -168,11 +168,25 @@
           </code></pre>
             </div>
             <h1 class="code_heading">SQL Example</h1>
-            <div>
-              <pre><code id="example2" class="sql">
+              <div>
+
+            <p>The objective of this challenge was to create a query that
+              retrieves data from the tables in the movie database.</p>
+
+            <p>The query below combines data from the movie and rating tables
+            to display three columns for ID, Movie and Star Rating. The subquery
+            returns all movie movie IDs with a rating that is higher than three
+            and the outer query retrieves the movie titles that match those IDs.
+            The ouput is formatted in ascending order.</p>
+            <h3 class="table_header">Movie Database</h3>
+              <div class="database_wrapper">
+                <img id="movie_data" src="/Images/table_structure.png" alt="Movie database structure">
+              </div>
+              <div class="example_wrapper2">
+                <pre class="embedded_sql"><code id="example2" class="sql">
 SELECT
   m.mov_id AS "ID",
-  mov_title AS "Movie", 
+  mov_title AS "Movie",
   r.rev_stars AS "Star Rating"
 FROM
   movie AS m
@@ -187,12 +201,18 @@ FROM
   ) AS r ON m.mov_id = r.mov_id
 ORDER BY
   r.rev_stars ASC;
+              </code></pre>
+                <i class="fas fa-long-arrow-alt-right output_arrow">
+                  <p class="sql_output">Output</p>
+                </i>
+                <img src="/Images/subquery_output.png" alt="Output from SQL query">
+              </div>
             </div>
-            </code></pre>
-            </div>
+
           </div>
         </div>
       </div>
+    </div>
     </div>
   </main>
 
