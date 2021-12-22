@@ -32,14 +32,21 @@ body {
 
 #arrow_alignment {
   position: absolute;
-  transform: translateY(-250px);
   transition: transform 0.1s ease-in-out;
   text-align: center;
 }
 
+.home_reveal {
+  transform: translateY(-350px);
+}
+
+.home_close {
+  transform: translateY(-180px);
+  margin-top: 10px;
+}
+
 #arrow_alignment.open {
   transition: transform 0.1s ease-in-out;
-  transform: translateY(-110px);
 }
 
 #scs_arrow_align {

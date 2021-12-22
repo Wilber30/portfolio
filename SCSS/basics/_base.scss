@@ -2,7 +2,7 @@
 
 html {
   scroll-behavior: smooth;
-} 
+}
 
 html body {
   padding: 0px;
@@ -35,15 +35,26 @@ body {
 #arrow_alignment {
   position: absolute;
   // top: 1%;
-  transform: translateY(-250px);
+  // transform: translateY(-250px);
   transition: transform .1s ease-in-out;
   text-align: center;
+}
+
+.home_reveal {
+  transform: translateY(-350px);
+//   transition: transform .1s ease-in-out;
+}
+
+.home_close {
+  transform: translateY(-180px);
+  // transition: transform .1s ease-in-out;
+  margin-top: 10px;
 }
 
 #arrow_alignment.open {
   // top: 20%;
   transition: transform .1s ease-in-out;
-  transform: translateY(-110px);
+  // transform: translateY(-110px);
 }
 
 #scs_arrow_align {
