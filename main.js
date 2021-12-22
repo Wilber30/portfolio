@@ -8,6 +8,7 @@ const page = document.getElementById("content");
 const banner = document.getElementById("full-page");
 const scsPage = document.getElementById("page");
 
+
 // Arrow alignment containers from site pages
 const arrowAlign = document.getElementById("arrow_alignment");
 const alignScs = document.getElementById("scs_arrow_align");
@@ -25,6 +26,7 @@ btn.addEventListener('click', () => {
   btn.classList.toggle('hide');
   close.classList.toggle('appears');
   scsPage.classList.toggle('adjust');
+  page.classList.toggle('margin');
 })
 
 close.addEventListener('click', () => {
@@ -34,6 +36,7 @@ close.addEventListener('click', () => {
   btn.classList.remove('hide');
   scsPage.classList.remove('adjust');
   alignScs.classList.remove('active');
+  page.classList.remove('margin');
 })
 
 cross.addEventListener('click', () => {
@@ -43,6 +46,7 @@ cross.addEventListener('click', () => {
   btn.classList.remove('hide');
   scsPage.classList.remove('adjust');
   alignScs.classList.remove('active');
+  page.classList.remove('margin');
 })
 
 // On click adjusts margin-top to accomodate top nav in the about section

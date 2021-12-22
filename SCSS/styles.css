@@ -2393,18 +2393,6 @@ textarea {
     display: none;
   }
 }
-#content {
-  position: relative;
-  height: 100vh;
-  min-height: 700px;
-  margin-top: -148px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  background-image: url(/Images/abstract-placeholder.jpeg);
-}
-
 .section {
   justify-content: center;
   margin-top: 30px;
@@ -2665,10 +2653,11 @@ textarea {
     display: none;
   }
 }
-#page_content {
+#content {
   position: relative;
   height: 100vh;
   min-height: 700px;
+  margin-top: -148px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2676,9 +2665,12 @@ textarea {
   background-image: url(/Images/abstract-placeholder.jpeg);
 }
 
+#content.margin {
+  margin-top: 0px !important;
+}
+
 #code_main {
   height: 100vh;
-  overflow: scroll;
 }
 
 .heading_wrapper {
