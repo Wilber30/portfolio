@@ -1,11 +1,11 @@
 
 // Container width for mobile devices
 @media (max-width: 576px) {
-.align_scroll, .type-container, #arrow_alignment, #scs_arrow_align {
+.align_scroll, .type-container, #arrow_alignment, #scs_arrow_align, .container {
   width: 400px;
   margin: auto;
   }
-}
+} 
 
 // Container width
 @media (min-width: 576px) and (max-width: 767px) {

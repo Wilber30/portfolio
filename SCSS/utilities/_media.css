@@ -1,5 +1,5 @@
 @media (max-width: 576px) {
-  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align {
+  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align, .container {
     width: 400px;
     margin: auto;
   }

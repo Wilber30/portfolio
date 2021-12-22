@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @media (max-width: 576px) {
-  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align {
+  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align, .container {
     width: 400px;
     margin: auto;
   }
@@ -280,7 +280,7 @@ body {
 }
 
 @media (max-width: 576px) {
-  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align {
+  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align, .container {
     width: 400px;
     margin: auto;
   }
@@ -671,7 +671,7 @@ a .sm-in:hover {
 }
 
 @media (max-width: 576px) {
-  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align {
+  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align, .container {
     width: 400px;
     margin: auto;
   }
@@ -972,7 +972,7 @@ a .initials:hover {
 }
 
 @media (max-width: 576px) {
-  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align {
+  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align, .container {
     width: 400px;
     margin: auto;
   }
@@ -1219,7 +1219,7 @@ footer {
 }
 
 @media (max-width: 576px) {
-  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align {
+  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align, .container {
     width: 400px;
     margin: auto;
   }
@@ -1557,7 +1557,7 @@ footer {
 }
 
 @media (max-width: 576px) {
-  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align {
+  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align, .container {
     width: 400px;
     margin: auto;
   }
@@ -1830,6 +1830,7 @@ footer {
   border: 2px solid darkcyan;
   border-radius: 6px;
   padding: 8px 14px;
+  object-fit: cover;
   font-family: "Ubuntu";
   box-shadow: 0.9px 0.6px;
   text-decoration: none;
@@ -1846,7 +1847,7 @@ footer {
 }
 
 @media (max-width: 576px) {
-  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align {
+  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align, .container {
     width: 400px;
     margin: auto;
   }
@@ -2175,7 +2176,7 @@ textarea {
 }
 
 @media (max-width: 576px) {
-  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align {
+  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align, .container {
     width: 400px;
     margin: auto;
   }
@@ -2447,7 +2448,7 @@ textarea {
 }
 
 @media (max-width: 576px) {
-  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align {
+  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align, .container {
     width: 400px;
     margin: auto;
   }
@@ -2664,8 +2665,20 @@ textarea {
     display: none;
   }
 }
+#page_content {
+  position: relative;
+  height: 100vh;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-image: url(/Images/abstract-placeholder.jpeg);
+}
+
 #code_main {
   height: 100vh;
+  overflow: scroll;
 }
 
 .heading_wrapper {
@@ -2745,7 +2758,7 @@ textarea {
 }
 
 @media (max-width: 576px) {
-  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align {
+  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align, .container {
     width: 400px;
     margin: auto;
   }

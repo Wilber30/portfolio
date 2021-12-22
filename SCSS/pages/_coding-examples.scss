@@ -3,8 +3,22 @@
         '../utilities/mixins',
         '../utilities/media';
 
+  #page_content {
+    position: relative;
+    height: 100vh;
+    min-height: 700px;
+    // margin-top: -148px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(/Images/abstract-placeholder.jpeg);
+  }
+
+
 #code_main {
   height: 100vh;
+  overflow: scroll;
 }
 
 .heading_wrapper {
