@@ -218,6 +218,10 @@
     display: none;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 html body {
   padding: 0px;
   margin: 0;
