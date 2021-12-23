@@ -2691,7 +2691,7 @@ textarea {
 }
 
 .ui-accordion-content {
-  height: 800px;
+  max-height: 700px;
 }
 
 #example1 {
