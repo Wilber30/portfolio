@@ -204,7 +204,8 @@
 @media (min-width: 992px) {
   #content,
 #full-page,
-#page {
+#page,
+#code_page {
     margin-top: 0 !important;
   }
 }
@@ -483,7 +484,8 @@ body {
 @media (min-width: 992px) {
   #content,
 #full-page,
-#page {
+#page,
+#code_page {
     margin-top: 0 !important;
   }
 }
@@ -874,7 +876,8 @@ a .sm-in:hover {
 @media (min-width: 992px) {
   #content,
 #full-page,
-#page {
+#page,
+#code_page {
     margin-top: 0 !important;
   }
 }
@@ -1175,7 +1178,8 @@ a .initials:hover {
 @media (min-width: 992px) {
   #content,
 #full-page,
-#page {
+#page,
+#code_page {
     margin-top: 0 !important;
   }
 }
@@ -1422,7 +1426,8 @@ footer {
 @media (min-width: 992px) {
   #content,
 #full-page,
-#page {
+#page,
+#code_page {
     margin-top: 0 !important;
   }
 }
@@ -1760,7 +1765,8 @@ footer {
 @media (min-width: 992px) {
   #content,
 #full-page,
-#page {
+#page,
+#code_page {
     margin-top: 0 !important;
   }
 }
@@ -2050,7 +2056,8 @@ footer {
 @media (min-width: 992px) {
   #content,
 #full-page,
-#page {
+#page,
+#code_page {
     margin-top: 0 !important;
   }
 }
@@ -2379,7 +2386,8 @@ textarea {
 @media (min-width: 992px) {
   #content,
 #full-page,
-#page {
+#page,
+#code_page {
     margin-top: 0 !important;
   }
 }
@@ -2639,7 +2647,8 @@ textarea {
 @media (min-width: 992px) {
   #content,
 #full-page,
-#page {
+#page,
+#code_page {
     margin-top: 0 !important;
   }
 }
@@ -2653,7 +2662,7 @@ textarea {
     display: none;
   }
 }
-#content {
+#code_page {
   position: relative;
   height: 100vh;
   min-height: 700px;
@@ -2665,7 +2674,7 @@ textarea {
   background-image: url(/Images/abstract-placeholder.jpeg);
 }
 
-#content.margin {
+#code_page.margin {
   margin-top: 0px !important;
 }
 
@@ -2953,7 +2962,8 @@ textarea {
 @media (min-width: 992px) {
   #content,
 #full-page,
-#page {
+#page,
+#code_page {
     margin-top: 0 !important;
   }
 }

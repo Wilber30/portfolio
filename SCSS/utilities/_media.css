@@ -202,7 +202,8 @@
 @media (min-width: 992px) {
   #content,
 #full-page,
-#page {
+#page,
+#code_page {
     margin-top: 0 !important;
   }
 }

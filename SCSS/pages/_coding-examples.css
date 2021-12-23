@@ -216,7 +216,7 @@
     display: none;
   }
 }
-#content {
+#code_page {
   position: relative;
   height: 100vh;
   min-height: 700px;
@@ -228,7 +228,7 @@
   background-image: url(/Images/abstract-placeholder.jpeg);
 }
 
-#content.margin {
+#code_page.margin {
   margin-top: 0px !important;
 }
 
