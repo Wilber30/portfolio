@@ -266,6 +266,14 @@ body {
   margin-top: 10px;
 }
 
+#ce_close {
+  transform: translateY(-80px);
+}
+
+#ce_reveal {
+  transform: translateY(-200px);
+}
+
 #arrow_alignment.open {
   transition: transform 0.1s ease-in-out;
 }
@@ -2700,7 +2708,8 @@ textarea {
 }
 
 .ui-accordion-content {
-  max-height: 700px;
+  height: 60vh;
+  width: 50vw;
 }
 
 #example1 {
