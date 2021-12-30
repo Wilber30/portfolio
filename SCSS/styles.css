@@ -2682,6 +2682,10 @@ textarea {
   height: 100vh;
 }
 
+#code_main.top {
+  margin-top: 148px !important;
+}
+
 .heading_wrapper {
   display: flex;
   justify-content: center;

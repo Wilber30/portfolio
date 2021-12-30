@@ -3,6 +3,8 @@
         '../utilities/mixins',
         '../utilities/media';
 
+
+
 #code_page {
   position: relative;
   height: 100vh;
@@ -21,6 +23,10 @@
 
 #code_main {
   height: 100vh;
+}
+
+#code_main.top {
+  margin-top: 148px !important;
 }
 
 .heading_wrapper {

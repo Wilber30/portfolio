@@ -7,7 +7,7 @@ const cross = document.getElementById("cross");
 const page = document.getElementById("content");
 const banner = document.getElementById("full-page");
 const scsPage = document.getElementById("page");
-const code = document.getElementById("code_page");
+const codeMain = document.getElementById("code_main");
 
 
 // Arrow alignment containers from site pages
@@ -28,6 +28,7 @@ btn.addEventListener('click', () => {
   close.classList.toggle('appears');
   scsPage.classList.toggle('adjust');
   close.style.transform = "translateY(400px)";
+  codeMain.classList.add('top');
 })
 
 close.addEventListener('click', () => {
