@@ -314,4 +314,12 @@
   margin: 0px;
 }
 
+#close {
+  transform: translateY(-80px) !important;
+}
+
+.ce_reveal {
+  transform: translateY(-100px) !important;
+}
+
 /*# sourceMappingURL=_coding-examples.css.map */

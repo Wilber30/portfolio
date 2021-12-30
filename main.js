@@ -27,7 +27,7 @@ btn.addEventListener('click', () => {
   btn.classList.toggle('hide');
   close.classList.toggle('appears');
   scsPage.classList.toggle('adjust');
-  document.getElementById("code_page").style.color = "yellow";
+  close.style.transform = "translateY(400px)";
 })
 
 close.addEventListener('click', () => {
