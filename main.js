@@ -22,16 +22,19 @@ const bioParagraph = document.getElementById("biograph");
 
 // On click this changes the top nav's display value
 btn.addEventListener('click', () => {
+  codeMain.style.marginTop = "0px";
   arrowAlign.classList.toggle('open');
   nav.classList.toggle('is-active');
   btn.classList.toggle('hide');
   close.classList.toggle('appears');
   scsPage.classList.toggle('adjust');
-  close.style.transform = "translateY(400px)";
-  codeMain.classList.add('top');
+
+  // close.style.transform = "translateY(400px)";
+  // codeMain..style.marginTop = "0px";
 })
 
 close.addEventListener('click', () => {
+  codeMain.style.marginTop = "-148px";
   arrowAlign.classList.remove('open');
   nav.classList.toggle('is-active');
   close.classList.remove('appears');
@@ -42,6 +45,7 @@ close.addEventListener('click', () => {
 })
 
 cross.addEventListener('click', () => {
+  codeMain.style.marginTop = "-148px";
   arrowAlign.classList.remove('open');
   nav.classList.remove('is-active');
   close.classList.remove('appears');

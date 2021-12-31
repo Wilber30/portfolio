@@ -9,7 +9,7 @@
   position: relative;
   height: 100vh;
   min-height: 700px;
-  margin-top: -148px;
+  // margin-top: -148px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,16 +17,12 @@
   background-image: url(/Images/abstract-placeholder.jpeg);
 }
 
-#code_page.margin {
-  margin-top: 0px !important;
-}
+// #code_page.margin {
+//   margin-top: 0px !important;
+// }
 
 #code_main {
-  height: 100vh;
-}
-
-#code_main.top {
-  margin-top: 148px !important;
+  margin-top: -148px;
 }
 
 .heading_wrapper {
@@ -48,7 +44,7 @@
 
 .ui-accordion-content {
  height: 60vh;
- width: 50vw;
+ // width: 50vw;
 }
 
 #example1 {
@@ -106,10 +102,10 @@
   margin: 0px;
 }
 
- #close {
+ #ce_close {
   transform: translateY(-80px) !important;
 }
 
-.ce_reveal {
+#ce_reveal {
   transform: translateY(-100px) !important;
 }

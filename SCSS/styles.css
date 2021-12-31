@@ -205,8 +205,8 @@
   #content,
 #full-page,
 #page,
-#code_page {
-    margin-top: 0 !important;
+#code_main {
+    margin-top: 0px !important;
   }
 }
 @media (max-width: 576px) {
@@ -485,8 +485,8 @@ body {
   #content,
 #full-page,
 #page,
-#code_page {
-    margin-top: 0 !important;
+#code_main {
+    margin-top: 0px !important;
   }
 }
 @media (max-width: 576px) {
@@ -877,8 +877,8 @@ a .sm-in:hover {
   #content,
 #full-page,
 #page,
-#code_page {
-    margin-top: 0 !important;
+#code_main {
+    margin-top: 0px !important;
   }
 }
 @media (max-width: 576px) {
@@ -1179,8 +1179,8 @@ a .initials:hover {
   #content,
 #full-page,
 #page,
-#code_page {
-    margin-top: 0 !important;
+#code_main {
+    margin-top: 0px !important;
   }
 }
 @media (max-width: 576px) {
@@ -1427,8 +1427,8 @@ footer {
   #content,
 #full-page,
 #page,
-#code_page {
-    margin-top: 0 !important;
+#code_main {
+    margin-top: 0px !important;
   }
 }
 @media (max-width: 576px) {
@@ -1766,8 +1766,8 @@ footer {
   #content,
 #full-page,
 #page,
-#code_page {
-    margin-top: 0 !important;
+#code_main {
+    margin-top: 0px !important;
   }
 }
 @media (max-width: 576px) {
@@ -2057,8 +2057,8 @@ footer {
   #content,
 #full-page,
 #page,
-#code_page {
-    margin-top: 0 !important;
+#code_main {
+    margin-top: 0px !important;
   }
 }
 @media (max-width: 576px) {
@@ -2387,8 +2387,8 @@ textarea {
   #content,
 #full-page,
 #page,
-#code_page {
-    margin-top: 0 !important;
+#code_main {
+    margin-top: 0px !important;
   }
 }
 @media (max-width: 576px) {
@@ -2648,8 +2648,8 @@ textarea {
   #content,
 #full-page,
 #page,
-#code_page {
-    margin-top: 0 !important;
+#code_main {
+    margin-top: 0px !important;
   }
 }
 @media (max-width: 576px) {
@@ -2666,7 +2666,6 @@ textarea {
   position: relative;
   height: 100vh;
   min-height: 700px;
-  margin-top: -148px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2674,16 +2673,8 @@ textarea {
   background-image: url(/Images/abstract-placeholder.jpeg);
 }
 
-#code_page.margin {
-  margin-top: 0px !important;
-}
-
 #code_main {
-  height: 100vh;
-}
-
-#code_main.top {
-  margin-top: 148px !important;
+  margin-top: -148px;
 }
 
 .heading_wrapper {
@@ -2705,7 +2696,6 @@ textarea {
 
 .ui-accordion-content {
   height: 60vh;
-  width: 50vw;
 }
 
 #example1 {
@@ -2763,11 +2753,11 @@ textarea {
   margin: 0px;
 }
 
-#close {
+#ce_close {
   transform: translateY(-80px) !important;
 }
 
-.ce_reveal {
+#ce_reveal {
   transform: translateY(-100px) !important;
 }
 
@@ -2976,8 +2966,8 @@ textarea {
   #content,
 #full-page,
 #page,
-#code_page {
-    margin-top: 0 !important;
+#code_main {
+    margin-top: 0px !important;
   }
 }
 @media (max-width: 576px) {
