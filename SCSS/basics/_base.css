@@ -43,13 +43,4 @@ body {
   transition: transform 0.1s ease-in-out;
 }
 
-.home_reveal {
-  transform: translateY(-350px);
-}
-
-.home_close {
-  transform: translateY(-180px);
-  margin-top: 10px;
-}
-
 /*# sourceMappingURL=_base.css.map */

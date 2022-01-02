@@ -264,15 +264,6 @@ body {
   transition: transform 0.1s ease-in-out;
 }
 
-.home_reveal {
-  transform: translateY(-350px);
-}
-
-.home_close {
-  transform: translateY(-180px);
-  margin-top: 10px;
-}
-
 @media (max-width: 576px) {
   .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align, .container {
     width: 400px;
