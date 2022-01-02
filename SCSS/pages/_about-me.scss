@@ -3,6 +3,19 @@
         '../utilities/mixins',
         '../utilities/media';
 
+#content {
+  position: relative;
+  height: 100vh;
+  min-height: 700px;
+  margin-top: -148px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: margin .65s;
+  background-size: cover;
+  background-image: url(/Images/abstract-placeholder.jpeg);
+}
+
 .section {
   justify-content: center;
     margin-top: 30px;

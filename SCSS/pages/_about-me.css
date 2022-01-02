@@ -202,8 +202,9 @@
 @media (min-width: 992px) {
   #content,
 #full-page,
-#page {
-    margin-top: 0 !important;
+#page,
+#code_main {
+    margin-top: 0px !important;
   }
 }
 @media (max-width: 576px) {
@@ -216,6 +217,19 @@
     display: none;
   }
 }
+#content {
+  position: relative;
+  height: 100vh;
+  min-height: 700px;
+  margin-top: -148px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: margin 0.65s;
+  background-size: cover;
+  background-image: url(/Images/abstract-placeholder.jpeg);
+}
+
 .section {
   justify-content: center;
   margin-top: 30px;
