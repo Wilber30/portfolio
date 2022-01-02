@@ -230,6 +230,7 @@
 
 #code_main {
   margin-top: -148px;
+  transition: margin 0.65s;
 }
 
 .heading_wrapper {
