@@ -9,12 +9,14 @@
   min-height: 950px;
   height: 100vh;
   background-image: url(/Images/abstract-placeholder.jpeg);
+  background-size: cover;
+  transition: margin .65s;
 }
 
-#page.adjust {
-  margin-top: 0px;
-  transition: all .5s ease-in-out;
-}
+// #page.adjust {
+//   margin-top: 0px;
+//   transition: all .5s ease-in-out;
+// }
 
 .layer {
   position: absolute;
@@ -29,8 +31,28 @@
   background: linear-gradient(270deg, transparent 25%, #000), rgba(0, 0, 0, 0.02);
 }
 
+#scs_arrow_align {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#scs_arrow_align.open {
+  transition: transform .1s ease-in-out;
+}
+
+#scs_close {
+ transform: translateY(0px);
+ margin-bottom: 30px;
+}
+
+#scs_reveal {
+ transform: translateY(0px);
+  margin-bottom: 30px;
+}
+
 .all_text {
-  margin: 50px 10px 0px 10px;
+  margin: 0px 10px 0px 10px;
   padding: 6px;
   border: 3px solid darkgray;
   border-radius: 10px;

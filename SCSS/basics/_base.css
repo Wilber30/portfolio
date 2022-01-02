@@ -32,8 +32,15 @@ body {
 
 #arrow_alignment {
   position: absolute;
+  top: 2%;
+  display: flex;
+  justify-content: center;
   transition: transform 0.1s ease-in-out;
   text-align: center;
+}
+
+#arrow_alignment.open {
+  transition: transform 0.1s ease-in-out;
 }
 
 .home_reveal {
@@ -43,20 +50,6 @@ body {
 .home_close {
   transform: translateY(-180px);
   margin-top: 10px;
-}
-
-#arrow_alignment.open {
-  transition: transform 0.1s ease-in-out;
-}
-
-#scs_arrow_align {
-  top: -2%;
-  position: absolute;
-  text-align: center;
-}
-
-#scs_arrow_align.active {
-  top: 1%;
 }
 
 /*# sourceMappingURL=_base.css.map */
