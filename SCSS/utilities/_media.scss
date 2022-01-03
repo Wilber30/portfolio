@@ -205,6 +205,16 @@
     display: block;
   }
 }
+
+// scs-scheme content opening paragraph
+@media (min-width: 768px) and (max-width: 991px) {
+  .first_wrapper {
+    line-height: 1.5rem !important;
+    font-size: 17px !important;
+  }
+}
+
+
 // scs-scheme content height
 @media (max-width:767px) {
   #page {

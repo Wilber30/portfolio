@@ -15,6 +15,7 @@ const arrowAlign = document.getElementById("arrow_alignment");
 btn.addEventListener('click', () => {
   arrowAlign.classList.toggle('open');
   arrowAlign.style.top = "25%";
+  arrowAlign.style.transition = "all .5s";
   nav.classList.toggle('is-active');
   btn.classList.toggle('hide');
   close.classList.toggle('appears');
@@ -23,6 +24,8 @@ btn.addEventListener('click', () => {
 close.addEventListener('click', () => {
   arrowAlign.classList.remove('open');
   arrowAlign.style.top = "2%";
+  arrowAlign.style.transition = "all .5s";
+  nav.style.transition = "all .5s";
   nav.classList.toggle('is-active');
   close.classList.remove('appears');
   btn.classList.remove('hide');
@@ -31,7 +34,9 @@ close.addEventListener('click', () => {
 cross.addEventListener('click', () => {
   arrowAlign.classList.remove('open');
   arrowAlign.style.top = "2%";
-  nav.classList.remove('is-active');
+  arrowAlign.style.transition = "all .5s";
+  nav.style.transition = "all .5s";
+  nav.classList.toggle('is-active');
   close.classList.remove('appears');
   btn.classList.remove('hide');
 })
