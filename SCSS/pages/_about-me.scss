@@ -11,7 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: margin .65s;
+  transition: margin .4s ease-in-out;
   background-size: cover;
   background-image: url(/Images/abstract-placeholder.jpeg);
 }

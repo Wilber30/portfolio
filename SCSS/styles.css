@@ -500,7 +500,7 @@ body {
   width: 100%;
   top: 0;
   z-index: 0;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.4s ease-in-out;
   transform: translateY(-100%);
   border-bottom: 1px solid lightgrey;
   background: white;
@@ -508,7 +508,7 @@ body {
 
 #top_navigation.is-active {
   transform: translateY(0);
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.4s ease-in-out;
   z-index: 400;
 }
 
@@ -2445,7 +2445,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: margin 0.65s;
+  transition: margin 0.4s ease-in-out;
   background-size: cover;
   background-image: url(/Images/abstract-placeholder.jpeg);
 }
@@ -2730,7 +2730,7 @@ textarea {
 
 #code_main {
   margin-top: -148px;
-  transition: margin 0.65s;
+  transition: margin 0.4s ease-in-out;
 }
 
 .heading_wrapper {
@@ -3041,7 +3041,7 @@ textarea {
   height: 100vh;
   background-image: url(/Images/abstract-placeholder.jpeg);
   background-size: cover;
-  transition: margin 0.65s;
+  transition: margin 0.4s ease-in-out;
 }
 
 .layer {

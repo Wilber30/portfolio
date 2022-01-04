@@ -189,6 +189,12 @@
     display: block;
   }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .first_wrapper {
+    line-height: 1.5rem !important;
+    font-size: 17px !important;
+  }
+}
 @media (max-width: 767px) {
   #page {
     min-height: 1220px !important;
@@ -225,7 +231,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: margin 0.65s;
+  transition: margin 0.4s ease-in-out;
   background-size: cover;
   background-image: url(/Images/abstract-placeholder.jpeg);
 }

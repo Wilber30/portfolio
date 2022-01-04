@@ -189,6 +189,12 @@
     display: block;
   }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .first_wrapper {
+    line-height: 1.5rem !important;
+    font-size: 17px !important;
+  }
+}
 @media (max-width: 767px) {
   #page {
     min-height: 1220px !important;
@@ -222,7 +228,7 @@
   width: 100%;
   top: 0;
   z-index: 0;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.4s ease-in-out;
   transform: translateY(-100%);
   border-bottom: 1px solid lightgrey;
   background: white;
@@ -230,7 +236,7 @@
 
 #top_navigation.is-active {
   transform: translateY(0);
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.4s ease-in-out;
   z-index: 400;
 }
 

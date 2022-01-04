@@ -10,7 +10,7 @@
   width: 100%;
   top: 0;
   z-index: 0;
-  transition: transform .5s ease-in-out;
+  transition: transform .4s ease-in-out;
   transform: translateY(-100%);
   border-bottom: 1px solid lightgrey;
   background: white;
@@ -18,7 +18,7 @@
 
 #top_navigation.is-active {
   transform: translateY(0);
-  transition: transform .5s ease-in-out;
+  transition: transform .4s ease-in-out;
   z-index: 400;
 }
 // #top_navigation.hide {
