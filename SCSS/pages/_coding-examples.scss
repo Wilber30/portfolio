@@ -24,6 +24,17 @@
   justify-content: center;
 }
 
+.coding-ex_heading {
+  border-radius: 3px;
+  border: 2px solid lightgrey;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.code_title {
+  margin: 10px;
+}
+
 .query_link {
   color: blue !important;
 }
@@ -94,11 +105,3 @@
   font-size: 16px;
   margin: 0px;
 }
-
-//  #ce_close {
-//   transform: translateY(-60px) !important;
-// }
-//
-// #ce_reveal {
-//   transform: translateY(-60px) !important;
-// }

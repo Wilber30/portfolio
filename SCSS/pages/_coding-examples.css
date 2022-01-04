@@ -244,6 +244,17 @@
   justify-content: center;
 }
 
+.coding-ex_heading {
+  border-radius: 3px;
+  border: 2px solid lightgrey;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.code_title {
+  margin: 10px;
+}
+
 .query_link {
   color: blue !important;
 }

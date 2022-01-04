@@ -5,6 +5,7 @@ const close = document.getElementById("close");
 const cross = document.getElementById("cross");
 const aboutPage = document.getElementById("content");
 
+
 // Arrow alignment containers from site pages
 const arrowAlign = document.getElementById("arrow_alignment");
 

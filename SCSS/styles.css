@@ -2457,7 +2457,7 @@ textarea {
 }
 
 #about_wrapper {
-  margin: 50px 20px 0px 20px;
+  margin: 50px 20px 50px 20px;
   padding: 20px;
   border: 2px solid #C0C0C0;
   border-radius: 10px;
@@ -2736,6 +2736,17 @@ textarea {
 .heading_wrapper {
   display: flex;
   justify-content: center;
+}
+
+.coding-ex_heading {
+  border-radius: 3px;
+  border: 2px solid lightgrey;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.code_title {
+  margin: 10px;
 }
 
 .query_link {
