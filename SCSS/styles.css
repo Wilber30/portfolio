@@ -225,6 +225,11 @@
     width: 60%;
   }
 }
+@media (max-width: 991px) {
+  #expanded_database {
+    width: 95%;
+  }
+}
 @media (max-width: 767px) {
   .code_title {
     width: 70%;
@@ -520,6 +525,11 @@ body {
 
   #example1 {
     width: 60%;
+  }
+}
+@media (max-width: 991px) {
+  #expanded_database {
+    width: 95%;
   }
 }
 @media (max-width: 767px) {
@@ -951,6 +961,11 @@ a .sm-in:hover {
     width: 60%;
   }
 }
+@media (max-width: 991px) {
+  #expanded_database {
+    width: 95%;
+  }
+}
 @media (max-width: 767px) {
   .code_title {
     width: 70%;
@@ -1286,6 +1301,11 @@ a .initials:hover {
     width: 60%;
   }
 }
+@media (max-width: 991px) {
+  #expanded_database {
+    width: 95%;
+  }
+}
 @media (max-width: 767px) {
   .code_title {
     width: 70%;
@@ -1565,6 +1585,11 @@ footer {
 
   #example1 {
     width: 60%;
+  }
+}
+@media (max-width: 991px) {
+  #expanded_database {
+    width: 95%;
   }
 }
 @media (max-width: 767px) {
@@ -1939,6 +1964,11 @@ footer {
     width: 60%;
   }
 }
+@media (max-width: 991px) {
+  #expanded_database {
+    width: 95%;
+  }
+}
 @media (max-width: 767px) {
   .code_title {
     width: 70%;
@@ -2261,6 +2291,11 @@ footer {
 
   #example1 {
     width: 60%;
+  }
+}
+@media (max-width: 991px) {
+  #expanded_database {
+    width: 95%;
   }
 }
 @media (max-width: 767px) {
@@ -2626,6 +2661,11 @@ textarea {
     width: 60%;
   }
 }
+@media (max-width: 991px) {
+  #expanded_database {
+    width: 95%;
+  }
+}
 @media (max-width: 767px) {
   .code_title {
     width: 70%;
@@ -2933,6 +2973,11 @@ textarea {
     width: 60%;
   }
 }
+@media (max-width: 991px) {
+  #expanded_database {
+    width: 95%;
+  }
+}
 @media (max-width: 767px) {
   .code_title {
     width: 70%;
@@ -2993,7 +3038,23 @@ textarea {
   border-radius: 3px;
   border: 2px solid lightgrey;
   text-align: center;
-  background-color: lightblue;
+  background-color: lightsteelblue;
+}
+
+#expanded-image {
+  height: 100%;
+  width: 100vw;
+  display: none;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#expanded_database {
+  width: 70%;
 }
 
 .js_link {
@@ -3040,12 +3101,24 @@ textarea {
   text-decoration: underline;
 }
 
-.database_wrapper {
+#data_label {
+  font-size: 14px;
+}
+#data_label:hover {
+  color: crimson;
+  cursor: pointer;
+}
+
+#database_wrapper {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
   border-radius: 6px;
   border: 2px solid grey;
+}
+#database_wrapper:hover {
+  border-color: crimson;
+  cursor: pointer;
 }
 
 #movie_data {
@@ -3307,6 +3380,11 @@ textarea {
 
   #example1 {
     width: 60%;
+  }
+}
+@media (max-width: 991px) {
+  #expanded_database {
+    width: 95%;
   }
 }
 @media (max-width: 767px) {

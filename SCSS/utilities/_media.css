@@ -223,6 +223,11 @@
     width: 60%;
   }
 }
+@media (max-width: 991px) {
+  #expanded_database {
+    width: 95%;
+  }
+}
 @media (max-width: 767px) {
   .code_title {
     width: 70%;

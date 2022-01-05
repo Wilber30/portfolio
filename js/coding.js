@@ -34,3 +34,25 @@ cross.addEventListener('click', () => {
   close.classList.remove('appears');
   btn.classList.remove('hide');
 })
+
+// Expanded Image
+const imageExpand = document.getElementById("expanded-image");
+const originalImage = document.getElementById("database_wrapper");
+const dataLabel = document.getElementById("data_label");
+
+originalImage.addEventListener('click', () => {
+  imageExpand.style.display = "flex";
+  codeMain.classList.toggle('over');
+})
+
+dataLabel.addEventListener('click', () => {
+  imageExpand.style.display = "flex";
+  codeMain.classList.toggle('over');
+})
+
+codeMain.addEventListener('click', () => {
+  if(codeMain.classList.toggle('over')) {
+  imageExpand.style.display = "none";
+  codeMain.classList.remove('over');
+  }
+})
