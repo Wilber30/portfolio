@@ -2959,8 +2959,7 @@ textarea {
   border-radius: 10px;
   display: flex;
   gap: 10px;
-  background-color: white;
-  opacity: 90%;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .about_heading {
