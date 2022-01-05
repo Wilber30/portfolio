@@ -239,13 +239,39 @@
   }
 }
 
-// Coding examples mobile
-@media (max-width: 576px) {
+//Coding Examples
+@media (min-width: 1200px) {
+.js_wrapper {
+  display: flex;
+  justify-content: center;
+  }
+ #example1 {
+   width: 60%;
+ }
+}
+
+@media (max-width: 767px) {
+  .code_title {
+    width: 70%;
+  }
+  #example1 {
+    font-size: 11px;
+  }
   .example_wrapper2 {
     display: block;
-    text-align: center;
   }
   .output_arrow_right {
     display: none;
+  }
+  .output_arrow_down {
+    display: block;
+  }
+}
+
+// Coding Examples mobile
+@media (max-width: 576px) {
+  #example1 {
+    width: 90%;
+    margin-left: 0px;
   }
 }

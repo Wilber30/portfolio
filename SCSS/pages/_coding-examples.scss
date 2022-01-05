@@ -25,18 +25,26 @@
 }
 
 .coding-ex_heading {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.code_title {
+  width: 40%;
+  margin-bottom: 5px;
   border-radius: 3px;
   border: 2px solid lightgrey;
   text-align: center;
   background-color: lightblue;
 }
 
-.code_title {
-  margin: 10px;
+.js_link {
+  color: crimson !important;
 }
 
 .query_link {
-  color: blue !important;
+  color: crimson !important;
 }
 
 .explanation {
@@ -79,6 +87,8 @@
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+  border-radius: 6px;
+  border: 2px solid grey;
 }
 
 #movie_data {
@@ -99,6 +109,17 @@
   margin-right: 30px;
   text-align: center;
   font-size: 50px;
+}
+
+.output_arrow_down {
+  display: none;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.output_img_wrapper {
+  text-align: center;
 }
 
 .sql_output {
