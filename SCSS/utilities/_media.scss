@@ -279,6 +279,12 @@
     width: 90%;
     margin-left: 0px;
   }
+  .query_heading {
+    margin-bottom: 20px;
+  }
+  .query_out {
+    width: 98%;
+  }
 }
 
 @media (max-width: 481px) {
@@ -294,5 +300,8 @@
   }
   .code-close {
     margin-top: 0px !important;
+  }
+  .explanation, .sql_objective {
+    font-size: 14px;
   }
 }
