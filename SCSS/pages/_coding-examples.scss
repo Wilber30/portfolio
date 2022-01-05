@@ -43,11 +43,11 @@
 }
 
 #data_close {
-  position: absolute;
-  top: 30%;
-  z-index: 15;
   font-size: 24px;
   color: white;
+  &:hover {
+    color: orange;
+  }
 }
 
 #expanded-image {

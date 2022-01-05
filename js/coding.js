@@ -38,6 +38,7 @@ cross.addEventListener('click', () => {
 // Expanded Image
 const imageExpand = document.getElementById("expanded-image");
 const originalImage = document.getElementById("database_wrapper");
+const dataClose = document.getElementById("data_close");
 const dataLabel = document.getElementById("data_label");
 
 originalImage.addEventListener('click', () => {
@@ -55,6 +56,11 @@ codeMain.addEventListener('click', () => {
   imageExpand.style.display = "none";
   codeMain.classList.remove('over');
   }
+})
+
+dataClose.addEventListener('click', () => {
+  imageExpand.style.display = "none";
+  codeMain.classList.remove('over');
 })
 
 // Mouseover for border colour and font colour

@@ -255,5 +255,23 @@
     margin-left: 0px;
   }
 }
+@media (max-width: 481px) {
+  .ui-accordion-content {
+    max-height: 450px;
+  }
+
+  .coding_container {
+    width: 350px;
+  }
+
+  .top_arrow {
+    top: 0% !important;
+    left: 2%;
+  }
+
+  .code-close {
+    margin-top: 0px !important;
+  }
+}
 
 /*# sourceMappingURL=_media.css.map */
