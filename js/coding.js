@@ -56,3 +56,24 @@ codeMain.addEventListener('click', () => {
   codeMain.classList.remove('over');
   }
 })
+
+// Mouseover for border colour and font colour
+dataLabel.addEventListener("mouseover", () => {
+  dataLabel.style.color = "crimson";
+  originalImage.style.borderColor = "crimson";
+})
+
+dataLabel.addEventListener("mouseout", () => {
+  originalImage.style.borderColor = "grey";
+  dataLabel.style.color = "black";
+})
+
+originalImage.addEventListener("mouseover", () => {
+  originalImage.style.borderColor = "crimson";
+  dataLabel.style.color = "crimson";
+})
+
+originalImage.addEventListener("mouseout", () => {
+  originalImage.style.borderColor = "grey";
+  dataLabel.style.color = "black";
+})
