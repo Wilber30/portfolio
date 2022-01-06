@@ -3356,6 +3356,11 @@ textarea {
     font-size: 14px;
   }
 }
+#code_main {
+  margin-top: -148px;
+  transition: margin 0.4s ease-in-out;
+}
+
 #code_page {
   position: relative;
   height: 100vh;
@@ -3367,14 +3372,22 @@ textarea {
   background-image: url(/Images/abstract-placeholder.jpeg);
 }
 
-#code_main {
-  margin-top: -148px;
-  transition: margin 0.4s ease-in-out;
+#expanded-image {
+  height: 100%;
+  width: 100vw;
+  display: none;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-.heading_wrapper {
-  display: flex;
-  justify-content: center;
+#expanded_database {
+  width: 70%;
+  border-radius: 4px;
+  border: 4px solid lightsteelblue;
 }
 
 .coding-ex_heading {
@@ -3399,24 +3412,6 @@ textarea {
 #data_close:hover {
   color: orange;
   cursor: pointer;
-}
-
-#expanded-image {
-  height: 100%;
-  width: 100vw;
-  display: none;
-  position: fixed;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 10;
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-#expanded_database {
-  width: 70%;
-  border-radius: 4px;
-  border: 4px solid lightsteelblue;
 }
 
 .query_link, .js_link, .movie_link {
