@@ -3397,6 +3397,7 @@ textarea {
 }
 #data_close:hover {
   color: orange;
+  cursor: pointer;
 }
 
 #expanded-image {
