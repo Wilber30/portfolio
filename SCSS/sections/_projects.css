@@ -1,5 +1,5 @@
 @media (max-width: 576px) {
-  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align {
+  .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align, .container {
     width: 400px;
     margin: auto;
   }
@@ -98,6 +98,11 @@
     margin-top: 0px;
   }
 }
+@media (min-width: 1200px) {
+  .project_description.axure {
+    margin-bottom: 35px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -189,6 +194,12 @@
     display: block;
   }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .first_wrapper {
+    line-height: 1.5rem !important;
+    font-size: 17px !important;
+  }
+}
 @media (max-width: 767px) {
   #page {
     min-height: 1220px !important;
@@ -202,18 +213,85 @@
 @media (min-width: 992px) {
   #content,
 #full-page,
-#page {
-    margin-top: 0 !important;
+#page,
+#code_main {
+    margin-top: 0px !important;
   }
 }
-@media (max-width: 576px) {
+@media (min-width: 1200px) {
+  .js_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  #example1 {
+    width: 60%;
+  }
+
+  .output_arrow_right {
+    font-size: 80px;
+  }
+}
+@media (max-width: 991px) {
+  #expanded_database {
+    width: 95%;
+  }
+}
+@media (max-width: 767px) {
+  .code_title {
+    width: 70%;
+  }
+
+  #example1 {
+    font-size: 11px;
+  }
+
   .example_wrapper2 {
     display: block;
-    text-align: center;
   }
 
   .output_arrow_right {
     display: none;
+  }
+
+  .output_arrow_down {
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  #example1 {
+    width: 90%;
+    margin-left: 0px;
+  }
+
+  .query_heading {
+    margin-bottom: 20px;
+  }
+
+  .query_out {
+    width: 98%;
+  }
+}
+@media (max-width: 481px) {
+  .ui-accordion-content {
+    max-height: 450px;
+  }
+
+  .coding_container {
+    width: 350px;
+  }
+
+  .top_arrow {
+    top: 0% !important;
+    left: 2%;
+  }
+
+  .code-close {
+    margin-top: 0px !important;
+  }
+
+  .explanation, .sql_objective {
+    font-size: 14px;
   }
 }
 #port {
@@ -280,6 +358,7 @@
 .project_link:hover {
   background-color: #e6e6e6;
   border-color: #005858;
+  cursor: pointer;
 }
 
 .blank_space {
