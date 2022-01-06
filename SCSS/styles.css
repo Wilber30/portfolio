@@ -3417,12 +3417,12 @@ textarea {
   border: 4px solid lightsteelblue;
 }
 
-.js_link {
+.query_link, .js_link, .movie_link {
   color: crimson !important;
 }
-
-.query_link {
-  color: crimson !important;
+.query_link:hover, .js_link:hover, .movie_link:hover {
+  color: lightseagreen !important;
+  cursor: pointer;
 }
 
 .explanation {

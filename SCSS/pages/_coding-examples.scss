@@ -68,12 +68,12 @@
   border: 4px solid lightsteelblue;
 }
 
-.js_link {
+.query_link, .js_link, .movie_link {
   color: crimson !important;
-}
-
-.query_link {
-  color: crimson !important;
+  &:hover {
+    color: lightseagreen !important;
+    cursor: pointer;
+  }
 }
 
 .explanation {
@@ -111,6 +111,7 @@
   text-align: center;
   text-decoration: underline;
 }
+
 
 #data_label {
   font-size: 14px;
