@@ -113,6 +113,12 @@
   }
 }
 // Projects card layout
+@media (min-width: 1200px) {
+  .project_description.axure {
+    margin-bottom: 35px;
+  }
+}
+
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -246,6 +252,9 @@
   }
  #example1 {
    width: 60%;
+ }
+ .output_arrow_right {
+   font-size: 80px;
  }
 }
 

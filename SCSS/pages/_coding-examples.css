@@ -98,6 +98,11 @@
     margin-top: 0px;
   }
 }
+@media (min-width: 1200px) {
+  .project_description.axure {
+    margin-bottom: 35px;
+  }
+}
 @media (max-width: 768px) {
   .card_wrapper {
     justify-content: center;
@@ -254,6 +259,36 @@
     width: 90%;
     margin-left: 0px;
   }
+
+  .query_heading {
+    margin-bottom: 20px;
+  }
+
+  .query_out {
+    width: 98%;
+  }
+}
+@media (max-width: 481px) {
+  .ui-accordion-content {
+    max-height: 450px;
+  }
+
+  .coding_container {
+    width: 350px;
+  }
+
+  .top_arrow {
+    top: 0% !important;
+    left: 2%;
+  }
+
+  .code-close {
+    margin-top: 0px !important;
+  }
+
+  .explanation, .sql_objective {
+    font-size: 14px;
+  }
 }
 #code_page {
   position: relative;
@@ -349,7 +384,7 @@
 }
 
 #example2 {
-  margin: 0px 30px 0px 30px;
+  margin: 0px 10px 0px 10px;
   border: 1px solid;
   border-radius: 6px;
 }
@@ -395,7 +430,7 @@
 }
 
 .output_arrow_right {
-  margin-right: 30px;
+  margin-right: 10px;
   text-align: center;
   font-size: 50px;
 }

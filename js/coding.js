@@ -66,7 +66,7 @@ dataClose.addEventListener('click', () => {
 // Mouseover for border colour and font colour
 dataLabel.addEventListener("mouseover", () => {
   dataLabel.style.color = "crimson";
-  originalImage.style.borderColor = "crimson";
+  originalImage.style.borderColor = "lightsteelblue";
 })
 
 dataLabel.addEventListener("mouseout", () => {
@@ -75,7 +75,7 @@ dataLabel.addEventListener("mouseout", () => {
 })
 
 originalImage.addEventListener("mouseover", () => {
-  originalImage.style.borderColor = "crimson";
+  originalImage.style.borderColor = "lightsteelblue";
   dataLabel.style.color = "crimson";
 })
 
