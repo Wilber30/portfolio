@@ -21,16 +21,6 @@
   background-image: url(/Images/abstract-placeholder.jpeg);
 }
 
-// #arrow_alignment {
-//   position: absolute;
-//   top: 1%;
-//   text-align: center;
-// }
-//
-// #arrow_alignment.open {
-//   top: 20%;
-// }
-
 .overlay {
   position: absolute;
   display: flex;
@@ -71,11 +61,11 @@
 .fade-in {
   display: flex;
   justify-content: center;
-  animation: fadeIn linear 8s;
-   -webkit-animation: fadeIn linear 8s;
-   -moz-animation: fadeIn linear 8s;
-   -o-animation: fadeIn linear 8s;
-   -ms-animation: fadeIn linear 8s;
+  animation: fadeIn linear 4s;
+   -webkit-animation: fadeIn linear 4s;
+   -moz-animation: fadeIn linear 4s;
+   -o-animation: fadeIn linear 4s;
+   -ms-animation: fadeIn linear 4s;
    font-size: 24px;
    color: white;
 }
