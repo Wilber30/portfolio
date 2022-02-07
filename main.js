@@ -98,7 +98,7 @@ form.addEventListener('submit', (e) => {
   // If  message length  >  0, prevent submit & display messages in error div
   if (messages.length > 0) {
     e.preventDefault()
-    error.innerText = messages.join(', ')
+    error.innerText = messages.join(', \n')
   }
 })
 
