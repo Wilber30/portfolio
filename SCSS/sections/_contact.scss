@@ -96,7 +96,10 @@ textarea {
   display: flex;
   justify-content: center;
   line-height: 1.4rem;
+  padding: 8px;
+  border-radius: 5px;
   color: red;
+  background: gainsboro;
 }
 
 #sub_btn {

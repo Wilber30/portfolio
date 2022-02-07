@@ -3223,6 +3223,7 @@ textarea {
 #error {
   display: flex;
   justify-content: center;
+  line-height: 1.4rem;
   color: red;
 }
 
@@ -4677,6 +4678,7 @@ textarea {
 }
 
 .net_heading {
+  margin: 0px;
   padding: 10px 0px 10px 0px;
   font-size: 1.5em;
   font-weight: bold;
