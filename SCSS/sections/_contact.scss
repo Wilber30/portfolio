@@ -33,6 +33,10 @@
 .email_address {
   width: 100%;
   white-space: nowrap;
+  color: cornsilk;
+  &:hover {
+    color: $dark-cornsilk;
+  }
 }
 
 .contact_detail {

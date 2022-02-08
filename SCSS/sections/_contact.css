@@ -400,6 +400,10 @@
 .email_address {
   width: 100%;
   white-space: nowrap;
+  color: cornsilk;
+}
+.email_address:hover {
+  color: #ffcf10;
 }
 
 .contact_detail {
