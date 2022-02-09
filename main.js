@@ -57,7 +57,7 @@ const name = document.getElementById("name");
 const email = document.getElementById("email");
 const cc = document.getElementById("cc").required = false;
 const subject = document.getElementById("subject").required = false;
-const textInput = document.getElementById("text_input");
+const writeMessage = document.getElementById("message");
 const error = document.getElementById("error");
 
 // messages accepts string
@@ -88,11 +88,11 @@ form.addEventListener('submit', (e) => {
   }
 
   // If user has not filled in the textarea
-  if (textInput.value === '' || textInput == null) {
+  if (writeMessage.value === '' || writeMessage == null) {
     messages.push('Please fill in the text field')
-    textInput.style.border = "1px red solid";
+    writeMessage.style.border = "1px red solid";
   } else {
-    textInput.style.border = "1px solid #DCDCDC";
+    writeMessage.style.border = "1px solid #DCDCDC";
   }
 
   // If  message length  >  0, prevent submit & display messages in error div

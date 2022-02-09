@@ -148,7 +148,6 @@
 
         </div>
       </div>
-      <?php include 'inc/connection.php'; ?>
 
     <!-- Project cards -->
     <div class="inner">
@@ -209,15 +208,15 @@
               <p class="contact_detail">You can also contact me via the above email address.</p>
             </div>
 
-            <form action="/" method="get" id="form">
+            <form action="inc/processor.php" method="post" id="form">
               <div id="error"></div>
               <div class="user">
                 <input id="name" type="text" name="name" placeholder="Name:">
-                <input id="email" name="email" placeholder="Email:">
+                <input id="email" name="email" type="text" placeholder="Email:">
               </div>
-              <input id="cc" class="input" name="email" placeholder="Cc:">
+              <input id="cc" class="input" name="cc" placeholder="Cc:">
               <input id="subject" class="input" type="text" name="subject" placeholder="Subject">
-              <textarea id="text_input" name="message" rows="8" cols="80" placeholder="Message:"></textarea>
+              <textarea id="message" name="message" rows="8" cols="80" placeholder="Message:"></textarea>
               <button id="sub_btn" type="submit" name="Submit">Submit</button>
             </form>
 
