@@ -5,6 +5,8 @@ $dbUsername = "will";
 $dbPassword = "maine";
 $dbName = "portfolio";
 
+
+// test
   $conn = mysqli_connect('127.0.0.1', 'will', 'maine', 'portfolio');
   // Check connection
     if($conn === false) {
