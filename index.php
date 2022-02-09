@@ -148,7 +148,7 @@
 
         </div>
       </div>
-
+      <?php include 'inc/connection.php'; ?>
 
     <!-- Project cards -->
     <div class="inner">
