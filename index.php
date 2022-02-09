@@ -14,7 +14,8 @@
   <!-- Stylesheet links -->
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" type="text/css" href="scss/styles.css">
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/submitmessage.js"></script>
 </head>
 
 <body>
@@ -208,7 +209,7 @@
               <p class="contact_detail">You can also contact me via the above email address.</p>
             </div>
 
-            <form action="inc/processor.php" method="post" id="form">
+            <form action="" method="post" id="form">
               <div id="error"></div>
               <div class="user">
                 <input id="name" type="text" name="name" placeholder="Name:">
@@ -219,6 +220,7 @@
               <textarea id="message" name="message" rows="8" cols="80" placeholder="Message:"></textarea>
               <button id="sub_btn" type="submit" name="Submit">Submit</button>
             </form>
+            <div id="response"></div>
 
           </div> <!-- contact_wrapper end -->
 

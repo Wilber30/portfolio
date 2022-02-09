@@ -20,7 +20,7 @@ $sql = "INSERT INTO portfolio_contact(`name`, `email`, `cc`, `subject`, `message
 if(mysqli_query($conn, $sql)){
       echo "<h3>data stored in a database successfully." ;
 
-      echo nl2br("\n Thank you $nameclean\n");
+      echo nl2br("\n Thank you $name\n");
   } else {
       echo "ERROR: Hush! Sorry $sql. "
           . mysqli_error($conn);
