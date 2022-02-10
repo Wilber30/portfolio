@@ -51,7 +51,7 @@
                 <a class="drop_item" href="pages/about-me.html">About Me</a>
               </li>
               <li>
-                <a class="drop_item" href="../index.html#port">My Portfolio</a>
+                <a class="drop_item" href="../index.php#port">My Portfolio</a>
               </li>
               <li>
                 <a class="drop_item" href="../pages/coding_examples.html">Coding Examples</a>
@@ -60,7 +60,7 @@
                 <a class="drop_item" href="pages/scs-scheme.html">SCS Scheme</a>
               </li>
               <li>
-                <a class="drop_item" href="../index.html#contact">Contact Me</a>
+                <a class="drop_item" href="../index.php#contact">Contact Me</a>
               </li>
             </ul>
           </div>
