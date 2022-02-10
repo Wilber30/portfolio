@@ -3177,6 +3177,19 @@ footer {
   justify-content: space-evenly;
 }
 
+#response {
+  border-radius: 6px;
+}
+
+#response h3 {
+  margin: 0px;
+  padding: 6px;
+  line-height: 1.6rem;
+  text-align: center;
+  background-color: #e8f0fe;
+  font-weight: 500;
+}
+
 input, textarea {
   margin-top: 15px;
   font-family: Ubuntu !important;
