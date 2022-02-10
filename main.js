@@ -60,6 +60,7 @@ const subject = document.getElementById("subject").required = false;
 const writeMessage = document.getElementById("message");
 const submitBtn = document.getElementById("sub_btn");
 const error = document.getElementById("error");
+const response = document.getElementById("response");
 
 // messages accepts string
 submitBtn.addEventListener('click', (e) => {
@@ -100,6 +101,7 @@ submitBtn.addEventListener('click', (e) => {
   if (messages.length > 0) {
     e.preventDefault()
     error.innerText = messages.join(', \n')
+    response.innerText = "";
   } else
   { $(document).ready(function(){
     $.post("./inc/processor.php",
