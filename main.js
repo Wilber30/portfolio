@@ -58,10 +58,11 @@ const email = document.getElementById("email");
 const cc = document.getElementById("cc").required = false;
 const subject = document.getElementById("subject").required = false;
 const writeMessage = document.getElementById("message");
+const submitBtn = document.getElementById("sub_btn");
 const error = document.getElementById("error");
 
 // messages accepts string
-form.addEventListener('submit', (e) => {
+submitBtn.addEventListener('click', (e) => {
   let messages = []
 
   // If users have not entered a value for name.
@@ -99,9 +100,20 @@ form.addEventListener('submit', (e) => {
   if (messages.length > 0) {
     e.preventDefault()
     error.innerText = messages.join(', \n')
-  }
-})
+  } else
+  { $(document).ready(function(){
+    $.post("./inc/processor.php",
+    {name: $('#name').val(), email: $('#email').val(),
+    cc: $('#cc').val(), subject: $('#subject').val(), message: $('#message').val()},
+    function(data){
+      $('#response').html(data);
+      }
+    );
+  })
+  error.innerText = "";
+}
 
+})
 // Function tests variable against regex format
 function isEmail(i) {
   return /^([a-z\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/.test(i);

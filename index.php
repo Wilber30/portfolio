@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" type="text/css" href="scss/styles.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="js/submitmessage.js"></script>
+  <!-- <script src="js/submitmessage.js"></script> -->
 </head>
 
 <body>
@@ -209,7 +209,7 @@
               <p class="contact_detail">You can also contact me via the above email address.</p>
             </div>
 
-            <form action="" method="post" id="form">
+            <!-- <form action="" method="post" id="form">
               <div id="error"></div>
               <div class="user">
                 <input id="name" type="text" name="name" placeholder="Name:">
@@ -219,7 +219,19 @@
               <input id="subject" class="input" type="text" name="subject" placeholder="Subject">
               <textarea id="message" name="message" rows="8" cols="80" placeholder="Message:"></textarea>
               <button id="sub_btn" type="submit" name="Submit">Submit</button>
-            </form>
+            </form> -->
+
+            <div id="form">
+              <div id="error"></div>
+              <div class="user">
+                <input id="name" type="text" name="name" placeholder="Name:" required="required">
+                <input id="email" name="email" type="text" placeholder="Email:" required="required">
+              </div>
+              <input id="cc" class="input" name="cc" placeholder="Cc:">
+              <input id="subject" class="input" type="text" name="subject" placeholder="Subject" required="required">
+              <textarea id="message" name="message" rows="8" cols="80" placeholder="Message:" required/></textarea>
+              <button id="sub_btn" type="submit" name="Submit">Submit</button>
+            </div>
             <div id="response"></div>
 
           </div> <!-- contact_wrapper end -->

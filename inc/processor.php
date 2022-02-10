@@ -17,13 +17,14 @@ $messageclean = filter_var($message, FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_H
 $sql = "INSERT INTO portfolio_contact(`name`, `email`, `cc`, `subject`, `message`) VALUES ('$nameclean',
           '$emailclean', '$ccclean','$subjectclean','$messageclean')";
 
-if(mysqli_query($conn, $sql)){
-      echo "<h3>data stored in a database successfully." ;
+  if (mysqli_query($conn, $sql)){
 
-      echo nl2br("\n Thank you $name\n");
+      echo "<h3>Your form has been submitted." ;
+
+      echo nl2br("\n Thank you for your message, $name.\n");
+
   } else {
-      echo "ERROR: Hush! Sorry $sql. "
-          . mysqli_error($conn);
+      echo "Oh dear, something went wrong. $sql";
   }
 
 //Close connection
