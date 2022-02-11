@@ -2,7 +2,7 @@
 // Utilities imports
 @import 'utilities/variables',
         'utilities/mixins',
-        'utilities/media';
+        'utilities/media';       
 //Fonts
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
@@ -18,7 +18,7 @@
 // Section imports
 @import 'sections/banner',
         'sections/projects',
-        'sections/contact';  
+        'sections/contact';
 
 // Pages imports
 @import 'pages/about-me',
