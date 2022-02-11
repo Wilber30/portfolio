@@ -2207,7 +2207,7 @@ footer {
   display: flex;
   flex-grow: 1;
   background-size: cover;
-  background-image: url(/Images/abstract-placeholder.jpeg);
+  background-image: url(/Images/pawel-czerwinski-SrQqwr2Z5No-unsplash.jpg);
 }
 
 .overlay {
@@ -4116,10 +4116,10 @@ textarea {
   background-color: lightsteelblue;
 }
 
-.query_link, .js_link, .movie_link {
+.query_link, .js_link, .movie_link, .php_link {
   color: crimson !important;
 }
-.query_link:hover, .js_link:hover, .movie_link:hover {
+.query_link:hover, .js_link:hover, .movie_link:hover, .php_link:hover {
   color: lightseagreen !important;
   cursor: pointer;
 }
