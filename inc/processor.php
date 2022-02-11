@@ -24,7 +24,7 @@ $sql = "INSERT INTO portfolio_contact(`name`, `email`, `cc`, `subject`, `message
       echo nl2br("\n Thank you for your message, $name.\n");
 
   } else {
-      echo "Oh dear, something went wrong. $sql";
+      echo "Oh dear, something went wrong.";
   }
 
 //Close connection
