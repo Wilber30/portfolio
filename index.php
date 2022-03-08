@@ -12,7 +12,7 @@
   <link rel="shortcut icon" type="image/png" href="Images/favicon-32x32.png"/>
   <!-- Stylesheet links -->
   <link rel="stylesheet" href="css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="scss/styles.css">
+  <link rel="stylesheet" type="text/css" href="scss/styles.min.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
@@ -156,30 +156,53 @@
 
         <div class="card_wrapper">
           <div class="card">
+
+            <div class="img_container">
+
+
+              <a href="https://arrayreflection.william-sears.netmatters-scs.co.uk/" target="_blank">
+                <img class="project" src="Images/arrayreflection.png" alt="Array Reflection">
+                </a>
+            
+            </div>
+
+            <div class="card_text">
+
+
+            <h3 class="project_title">Array Reflection</h3>
+            <p class="project_description">A JavaScript project that assigns <br> an email address to an image loaded from UnSplash API.</p>
+            <form >
+                <button class="project_link" formaction="https://arrayreflection.william-sears.netmatters-scs.co.uk/" formtarget="_blank">View Project</button>
+            </form>
+
+            </div>
+          </div>
+          <!-- <div class="card">
             <a href="https://arrayreflection.william-sears.netmatters-scs.co.uk/" target="_blank"><img class="project" src="Images/arrayreflection.png" alt="Array Reflection"></a><br>
             <h3 class="project_title">Array Reflection</h3>
             <p class="project_description">A JavaScript project that assigns <br> an email address to an image loaded from UnSplash API.</p>
             <form >
                 <button class="project_link" formaction="https://arrayreflection.william-sears.netmatters-scs.co.uk/" formtarget="_blank">View Project</button>
             </form>
-          </div>
-          <div class="card">
+          </div> -->
+          <!-- <div class="card">
             <a href="https://netmatters.william-sears.netmatters-scs.co.uk/" target="_blank"><img class="project" src="Images/Placeholder-1.png" alt="Netmatters site"></a><br>
             <h3 class="project_title">Netmatters Homepage</h3>
             <p class="project_description net">A reconstruction of the Netmatters homepage.</p>
             <form >
                 <button class="project_link" formaction="https://netmatters.william-sears.netmatters-scs.co.uk/" formtarget="_blank">View Project</button>
             </form>
-          </div>
-          <div class="card">
+          </div> -->
+          <!-- <div class="card">
             <a href="https://3ny7nh.axshare.com/#id=w7l75t" target="_blank"><img class="project" src="Images/Placeholder-3.png" alt="Axure shopping app"></a><br>
             <h3 class="project_title">Axure Shopping App</h3>
             <p class="project_description axure">A prototype for a shopping cart application, which I designed using Axure.</p>
             <form >
                 <button class="project_link" formaction="https://3ny7nh.axshare.com/#id=w7l75t" formtarget="_blank">View Project</button>
             </form>
+          </div> -->
           </div>
-        </div>
+
 
         <div class="blank_space">&nbsp;</div>
 
