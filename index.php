@@ -149,12 +149,12 @@
       </div>
 
     <!-- Project cards -->
-    <div class="inner">
+    <div class="inner port_section">
       <div class="container">
 
         <h1 id="port">Portfolio</h1>
 
-        <div class="card_wrapper">
+        <div class="card_wrapper top_row">
 
             <div class="card">
               <div class="img_container">
@@ -194,16 +194,16 @@
                     </div>
                       <div class="card_text">
                           <h3 class="project_title">Wordpress Reflection</h3>
-                            <p class="project_description axure">A site built using Wordpress themes and plugin architecture, with a paired database on the backend.</p>
+                            <p class="project_description axure">A site built using Wordpress themes and plugin architecture.</p>
                         <form >
-                          <button class="project_link" formaction="https://wordpress.william-sears.netmatters-scs.co.uk/" formtarget="_blank">View Project</button>
+                          <button class="project_link word_btn" formaction="https://wordpress.william-sears.netmatters-scs.co.uk/" formtarget="_blank">View Project</button>
                         </form>
                       </div>
                     </div>
 
                 </div>
 
-                <div class="card_wrapper">
+                <div class="card_wrapper bottom_row">
                   <div class="card">
                     <div class="img_container">
                       <a href="https://3ny7nh.axshare.com/#id=w7l75t" target="_blank">
@@ -221,15 +221,15 @@
 
                     <div class="card">
                       <div class="img_container">
-                        <a href="https://wordpress.william-sears.netmatters-scs.co.uk/" target="_blank">
-                          <img class="project" src="Images/Placeholder-4.png" alt="Wordpress reflection task">
+                        <a href="http://qualitybuilders.william-sears.netmatters-scs.co.uk/" target="_blank">
+                          <img class="project" src="Images/Placeholder-2.png" alt="Quality builders collaborative task">
                         </a>
                       </div>
                         <div class="card_text">
-                            <h3 class="project_title">Wordpress Reflection</h3>
-                              <p class="project_description axure">A site built using Wordpress themes and plugin architecture, with a paired database on the backend.</p>
+                            <h3 class="project_title">Collaborative Project</h3>
+                              <p class="project_description axure">I constructed this site in collaboration with another student on the SCS course.</p>
                           <form >
-                            <button class="project_link" formaction="https://wordpress.william-sears.netmatters-scs.co.uk/" formtarget="_blank">View Project</button>
+                            <button class="project_link" formaction="http://qualitybuilders.william-sears.netmatters-scs.co.uk/" formtarget="_blank">View Project</button>
                           </form>
                         </div>
                       </div>

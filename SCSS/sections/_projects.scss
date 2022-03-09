@@ -4,6 +4,11 @@
         '../utilities/mixins',
         '../utilities/media';
 
+
+.port_section {
+  background-color: $white-bg;
+}
+
 #port {
   display: flex;
   justify-content: center;
@@ -11,32 +16,30 @@
 }
 
 .card_wrapper {
-  margin-top: 50px;
   display: flex;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-evenly;
+  // gap: 30px;
   flex-direction: row;
   flex: 1;
   align-content: center;
   flex-wrap: nowrap;
 }
 
+.top_row {
+  margin-top: 35px;
+  gap: 50px;
+}
+
+.bottom_row {
+  margin-top: 50px;
+}
+
 .card {
-  width: 40%;
+  width: 30%;
   background-color: aliceblue;
-  // background-size: cover;
-    // background-image: url(/Images/arrayreflection.png);
-    // width: 50%;
     border-radius: 10px;
     border: 1px solid;
-    // height: 50vh;
     background-position: center;
-  // width: 33%;
-  // text-align: center;
-  // margin-left: 20px;
-  // padding: 6px;
-  // border-radius: 10px;
-  // background-color: lightsteelblue;
 }
 
 .img_container {
@@ -67,11 +70,6 @@
   height: 100%;
   border-radius: 10px;
   object-fit: cover;
-  // width: 210px;
-  // height: 120px;
-  // margin-top: 10px;
-  // border-radius: 6px;
-  // border: 1px solid white;
   &:hover {
     opacity: 0.5;
   }
