@@ -49,17 +49,6 @@
     border-radius: 10px
 }
 
-// .img_container::before {
-//   content: " ";
-//   position: absolute;
-//   left: 0;
-//   top: 0;
-//   right: 0;
-//   bottom: 0;
-//   background: linear-gradient(270deg, transparent 25%, #000);
-//   z-index: 100;
-// }
-
 .card_text {
   text-align: center;
   margin-bottom: 20px;
@@ -85,10 +74,6 @@
   line-height: 1.4rem;
 }
 
-// .project_description.net {
-//   margin-bottom: 35px;
-//   }
-
 .project_link {
   border: 2px solid darkcyan;
   border-radius: 6px;
@@ -105,7 +90,7 @@
 }
 
 .blank_space {
-  height: 30px;
-  margin-bottom: 30px;
+  // height: 20px;
+  margin-bottom: 20px;
   // box-shadow: 0 5px 35px rgb(0 0 0 10%);
 }

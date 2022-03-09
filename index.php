@@ -244,7 +244,7 @@
 
     <!-- Contact -->
     <div class="contact_section">
-      <div class="inner">
+      <div class="contact_inner">
         <div class="container contact_container">
 
           <div class="sm_contact_text">
@@ -273,7 +273,9 @@
               <input id="cc" class="input" name="cc" placeholder="Cc:">
               <input id="subject" class="input" type="text" name="subject" placeholder="Subject" required="required">
               <textarea id="message" name="message" rows="8" cols="80" placeholder="Message:" required/></textarea>
-              <button id="sub_btn" type="submit" name="Submit">Submit</button>
+              <div class="btn_container">
+                 <button id="sub_btn" type="submit" name="Submit">Submit</button>
+              </div>
             </div>
 
           </div> <!-- contact_wrapper end -->
