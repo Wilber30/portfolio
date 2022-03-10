@@ -1,121 +1,9 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<?php include 'includes/ce_head.php' ?>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="This portfolio contains links to my
-  projects, explains my interest in web development and also includes a
-  contact form.">
-  <meta name="viewport" content="width=device-width,
-  initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>William Sears Portfolio</title>
-  <link rel="shortcut icon" type="image/png" href="../Images/favicon-32x32.png"/>
-  <!-- Stylesheet links -->
-  <link rel="stylesheet" href="../css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="../scss/styles.min.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/styles/default.min.css">
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
-  <script src="//code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-</head>
+<?php include 'includes/topnav.php' ?>
 
+<?php include 'includes/sidenav.php' ?>
 
-<body>
-  <!--  Top navigation -->
-  <div id="top_navigation">
-
-    <ul class="top_icons">
-      <li class="william"><small>William Sears. 2021</small></li>
-      <li class="media media-insta">
-        <a href="https://github.com/Wilber30" target="_blank">
-          <i class="fab fa-github"></i></a>
-        <a href="https://www.instagram.com/bellybones_records/?hl=en-gb" target="_blank">
-          <i class="fab fa-instagram"></i></a>
-      </li>
-    </ul>
-
-    <!-- <div class="inner"> -->
-    <div class="container">
-
-      <div class="top_wrapper">
-        <div id="cross">
-          <i class="fas fa-times-circle"></i>
-        </div>
-        <a href="../index.php">
-          <h1 class="sm-in">WS</h1>
-        </a>
-
-        <div class="links">
-          <div class="hamburger">
-            <i class="fas fa-bars"></i>
-          </div>
-
-          <div class="drop_menu">
-            <ul class="drop_down">
-              <li>
-                <a class="drop_item" href="about-me.html">About Me</a>
-              </li>
-              <li>
-                <a class="drop_item" href="../index.php#port">My Portfolio</a>
-              </li>
-              <li>
-                <a class="drop_item" href="coding_examples.html">Coding Examples</a>
-              </li>
-              <li>
-                <a class="drop_item" href="scs-scheme.html">SCS Scheme</a>
-              </li>
-              <li>
-                <a class="drop_item" href="../index.php#contact">Contact Me</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div> <!-- top_navigation end -->
-
-  <!-- Side navigation -->
-  <div class="navigation">
-    <div class="nav-container">
-      <div class="image-wrapper">
-        <a href="../index.php">
-          <h1 class="initials">WS</h1>
-        </a>
-      </div>
-
-      <ul class="sidenav">
-        <li>
-          <a class="link_item" href="about-me.html">About Me</a>
-        </li>
-        <li>
-          <a class="link_item" href="../index.php#port">My Portfolio</a>
-        </li>
-        <li>
-          <a class="link_item" href="coding_examples.html">Coding Examples</a>
-        </li>
-        <li>
-          <a class="link_item" href="scs-scheme.html">SCS Scheme</a>
-        </li>
-        <li>
-          <a class="link_item" href="../index.php#contact">Contact Me</a>
-        </li>
-      </ul>
-
-      <ul class="social_media">
-        <li class="media media-insta">
-          <a href="https://github.com/Wilber30" target="_blank">
-            <i class="fab fa-github"></i></a>
-          <a href="https://www.instagram.com/bellybones_records/?hl=en-gb" target="_blank">
-            <i class="fab fa-instagram"></i></a>
-        </li>
-      </ul>
-
-      <p class="sears"><small>William Sears. 2021</small></p>
-
-    </div>
-  </div>
 
   <!-- main content -->
   <main id="code_main">
@@ -302,9 +190,9 @@ mysqli_close($conn);
       </div>
     </div>
   </footer>
-  <script src="../js/coding.js"></script>
-  <script src="../dist/core.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+  <script src="js/coding.js"></script>
+  <script src="dist/core.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
   <script>
     hljs.highlightAll();
   </script>
