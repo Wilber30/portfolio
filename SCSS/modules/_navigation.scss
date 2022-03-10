@@ -9,7 +9,8 @@
   position: fixed;
   height: 100%;
   width: 160px;
-  border-right: 2px solid $dark-orange-border;
+  // border-right: 2px solid $dark-orange-border;
+  border-right: 1.5px solid $white-bg-hover;
   z-index: 100;
   background-color: #333645;
 }

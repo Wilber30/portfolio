@@ -7,9 +7,9 @@
       <li class="william"><small>William Sears. 2021</small></li>
       <li class="media media-insta">
         <a href="https://github.com/Wilber30" target="_blank">
-          <i class="fab fa-github"></i></a>
+          <i class="fab fa-github git"></i></a>
         <a href="https://www.instagram.com/bellybones_records/?hl=en-gb" target="_blank">
-          <i class="fab fa-instagram"></i></a>
+          <i class="fab fa-instagram insta"></i></a>
       </li>
     </ul>
 
@@ -31,19 +31,19 @@
           <div class="drop_menu">
             <ul class="drop_down">
               <li>
-                <a class="drop_item" href="pages/about-me.html">About Me</a>
+                <a class="drop_item" href="about-me.php">About Me</a>
               </li>
               <li>
-                <a class="drop_item" href="../index.php#port">My Portfolio</a>
+                <a class="drop_item" href="index.php#port">My Portfolio</a>
               </li>
               <li>
-                <a class="drop_item" href="../pages/coding_examples.html">Coding Examples</a>
+                <a class="drop_item" href="coding_examples.php">Coding Examples</a>
               </li>
               <li>
-                <a class="drop_item" href="pages/scs-scheme.html">SCS Scheme</a>
+                <a class="drop_item" href="scs-scheme.php">SCS Scheme</a>
               </li>
               <li>
-                <a class="drop_item" href="../index.php#contact">Contact Me</a>
+                <a class="drop_item" href="index.php#contact">Contact Me</a>
               </li>
             </ul>
           </div>

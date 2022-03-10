@@ -12,7 +12,7 @@
         <a class="link_item" href="about-me.php">About Me</a>
       </li>
       <li>
-        <a class="link_item" href="#port">My Portfolio</a>
+        <a class="link_item" href="index.php#port">My Portfolio</a>
       </li>
       <li>
         <a class="link_item" href="coding_examples.php">Coding Examples</a>
@@ -21,7 +21,7 @@
         <a class="link_item" href="scs-scheme.php">SCS Scheme</a>
       </li>
       <li>
-        <a class="link_item" href="#contact">Contact Me</a>
+        <a class="link_item" href="index.php#contact">Contact Me</a>
       </li>
     </ul>
 

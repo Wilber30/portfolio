@@ -13,7 +13,7 @@
   transition: transform .4s ease-in-out;
   transform: translateY(-100%);
   border-bottom: 1px solid lightgrey;
-  background: white; 
+  background: white;
 }
 
 #top_navigation.is-active {
@@ -35,12 +35,12 @@
 //content
 a .sm-in {
   margin-left: 10px;
-  font-family: Pacifico;
+  // font-family: Pacifico;
   letter-spacing: 3px;
   text-shadow: -1px -1px 0 #A0A0A0, 1px -1px 0 #A0A0A0, -1px 1px 0 #A0A0A0, 1px 1px 0 #A0A0A0;
   color: #696969 !important;
   &:hover {
-    text-shadow: -1px -1px 0 orange, 1px -1px 0 orange, -1px 1px 0 orange, 1px 1px 0 orange;
+    text-shadow: -1px -1px 0 $dark-orange-border, 1px -1px 0 $dark-orange-border, -1px 1px 0 $dark-orange-border, 1px 1px 0 $dark-orange-border;
   }
 }
 
@@ -58,11 +58,19 @@ a .sm-in {
 
 .william {
   padding: 4px;
-  font-family: Pacifico;
+  margin-top: 3.5px;
+//   font-family: Pacifico;
 }
 
 .media-insta {
   margin-right: 15px;
+}
+
+.insta, .git {
+  color: black !important;
+  &:hover {
+    color: white !important;
+  }
 }
 
 // Sub menu on hover
