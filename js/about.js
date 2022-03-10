@@ -13,6 +13,8 @@ const arrowAlign = document.getElementById("arrow_alignment");
 btn.addEventListener('click', () => {
   aboutPage.style.marginTop = "0px";
   arrowAlign.classList.toggle('open');
+  arrowAlign.style.top = "2%";
+  arrowAlign.style.transition = "all .5s";
   nav.classList.toggle('is-active');
   btn.classList.toggle('hide');
   close.classList.toggle('appears');
@@ -21,7 +23,10 @@ btn.addEventListener('click', () => {
 close.addEventListener('click', () => {
   aboutPage.style.marginTop = "-148px";
   arrowAlign.classList.remove('open');
+  arrowAlign.style.top = "2%";
+  arrowAlign.style.transition = "all .5s";
   nav.classList.toggle('is-active');
+  nav.style.transition = "all .5s";
   close.classList.remove('appears');
   btn.classList.remove('hide');
 })
@@ -29,7 +34,10 @@ close.addEventListener('click', () => {
 cross.addEventListener('click', () => {
   aboutPage.style.marginTop = "-148px";
   arrowAlign.classList.remove('open');
+  arrowAlign.style.top = "2%";
+  arrowAlign.style.transition = "all .5s";
   nav.classList.remove('is-active');
+  nav.style.transition = "all .5s";
   close.classList.remove('appears');
   btn.classList.remove('hide');
 })

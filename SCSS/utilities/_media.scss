@@ -259,19 +259,51 @@
 }
 
 // About-me
-@media (min-width: 320px) and (max-width: 410px) {
+@media (min-width: 320px) and (max-width: 576px) {
     .about_heading {
     font-size: 1.5em;
     margin: 10px 0px 5px 10px;
+  } .section {
+    margin-top: 70px;
   }
-  #biograph {
-    font-size: 14px;
+}
+
+@media (min-width: 320px) and (max-width: 411px) {
+  #biograph, .additional_wrapper {
+    font-size: 16px;
+  }
+}
+
+@media (min-width:768px) {
+  .additional_wrapper {
+  margin-top: 50px;
+  }
+}
+
+@media (max-width:768px) {
+  .text {
+gap: 0px;
+flex-direction: column;
+} .additional_wrapper {
+  // margin-top: 10px;
   }
 }
 
 @media (min-width:768px) {
   .profile_image {
     display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  #content {
+    height: 1250px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  #content {
+    height: 1100px;
   }
 }
 

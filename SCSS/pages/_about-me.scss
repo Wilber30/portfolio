@@ -6,14 +6,13 @@
 #content {
   position: relative;
   height: 100vh;
-  min-height: 700px;
+  // min-height: 700px;
   margin-top: -148px;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: margin .4s ease-in-out;
   background-size: cover;
-  // background-image: url(/Images/pawel-czerwinski-SrQqwr2Z5No-unsplash.jpg);
   background-color: steelblue;
 }
 
@@ -24,13 +23,13 @@
 }
 
 #about_wrapper {
-  margin: 50px 20px 50px 20px;
+  // margin: 50px 20px 50px 20px;
   padding: 20px;
-  border: 2px solid #C0C0C0;
+  // border: 2px solid #C0C0C0;
   border-radius: 10px;
   display: flex;
   gap: 10px;
-  background-color: rgba(255,255,255, 0.9);
+  // background-color: rgba(255,255,255, 0.9);
 }
 
 
@@ -40,16 +39,31 @@ margin: 15px 0px 5px 15px;
 
 .text {
   display: flex;
-  flex-direction: column;
+  gap: 50px;
+  // flex-direction: column;
+  color: white;
 }
 
 #biograph {
-  display: flex;
+  // display: flex;
   gap: 10px;
   line-height: 1.8rem;
   margin-left: 10px;
   margin-right: 10px;
   font-size: 18px;
+}
+
+
+.additional_wrapper {
+  font-size: 18px;
+}
+
+.achievements {
+  line-height: 1.4em;
+}
+
+.second_achievement {
+  margin-top: 10px;
 }
 
 .profile_image {
