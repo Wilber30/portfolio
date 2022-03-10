@@ -178,7 +178,7 @@
     </div>
   </main>
   <footer>
-
+text 
     <div class="inner">
       <div class="container">
         <a id="up" href="#">
