@@ -16,9 +16,11 @@ $shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
 //Background-colour
 $white-bg-hover: darken(white, 10%);
+$white-bg: darken(white, 5%);
 
 // Border colour
 $cyan-border-hover: darken(darkcyan, 10%);
+$dark-orange-border: darken(darkorange, 10%);
 
 // Link hover
 $dark-crimson: darken(crimson, 60%);

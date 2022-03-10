@@ -7,6 +7,10 @@
   background-color: #a9a9a9;
 }
 
+.contact_inner {
+  padding: 40px 0px 40px 0px;
+}
+
 .contact_container {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -24,7 +28,9 @@
 
 .contact_text, .sm_contact_text {
   color: white;
+  font-family: system-ui;
 }
+
 
 .info {
   line-height: 1.4rem;
@@ -98,7 +104,7 @@ input {
 }
 
 .input {
-  width: 100%;
+  width: 99%;
 }
 
 input {
@@ -106,7 +112,7 @@ input {
 }
 
 textarea {
-  width: 100%;
+  width: 99%;
   padding: 4px 2px 4px 6px;
 }
 
@@ -115,6 +121,10 @@ textarea {
   justify-content: center;
   line-height: 1.4rem;
   color: red;
+}
+
+.btn_container {
+  text-align: -webkit-center;
 }
 
 #sub_btn {

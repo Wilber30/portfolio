@@ -144,13 +144,20 @@
   }
 }
 // Projects card layout
-@media (min-width: 1200px) {
-  .project_description.axure {
-    margin-bottom: 35px;
+
+@media (min-width: 768px) {
+  .word_btn {
+    margin-top: 20px;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1199px) {
+  .net_btn {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
   .card_wrapper {
     justify-content: center;
     flex-wrap: wrap;
@@ -174,6 +181,13 @@
   }
 
 // Contact layout
+@media (max-width: 991px) {
+  .contact_inner {
+    padding: 20px 0px 20px 0px;
+  }
+}
+
+
 @media (max-width: 991px) {
   .contact_text {
     display: none;
@@ -292,11 +306,11 @@
   }
 }
 
-@media (max-width: 576px) {
-  .introduction, .second_wrapper {
-    line-height: 1.2rem !important;
-  }
-}
+// @media (max-width: 576px) {
+//   .introduction, .second_wrapper {
+//     line-height: 1.2rem !important;
+//   }
+// }
 
 // Adjusts margin-top as top nav disappears
 @media (min-width:992px) {
