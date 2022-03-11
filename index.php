@@ -165,7 +165,7 @@
               </div>
               <input id="cc" class="input" name="cc" placeholder="Cc:">
               <input id="subject" class="input" type="text" name="subject" placeholder="Subject" required="required">
-              <textarea id="message" name="message" rows="8" cols="80" placeholder="Message:" required/></textarea>
+              <textarea id="message" name="message" rows="8" cols="80" placeholder="Message:" required></textarea>
               <div class="btn_container">
                  <button id="sub_btn" type="submit" name="Submit">Submit</button>
               </div>
@@ -178,7 +178,7 @@
     </div>
   </main>
   <footer>
- 
+
     <div class="inner">
       <div class="container">
         <a id="up" href="#">
