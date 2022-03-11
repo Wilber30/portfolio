@@ -319,7 +319,13 @@
 
 // About-me responsive
 
-@media (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 410px) {
+  #content {
+    height: 1550px;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
   #content {
     height: 1250px;
   }
@@ -339,13 +345,20 @@
 
 // scs-scheme responsive
 
-@media (min-width: 320px) and (max-width: 411px) {
+@media (min-width: 320px) and (max-width: 410px) {
+#page  {
+    height: 1700px !important;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 576px) {
 #page  {
     height: 1600px !important;
   }
 }
 
-@media (min-width: 412px) and (max-width: 767px) {
+
+@media (min-width: 577px) and (max-width: 767px) {
   #page {
     height: 1300px !important;
   }
