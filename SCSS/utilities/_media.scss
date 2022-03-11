@@ -174,17 +174,17 @@
   }
 }
 
-@media (min-width: 411px) and (max-width: 576px) {
- .project  {
-    width: 159px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 410px) {
-  .project {
-      width: 145px;
-    }
-  }
+// @media (min-width: 411px) and (max-width: 576px) {
+//  .project  {
+//     width: 159px;
+//   }
+// }
+//
+// @media (min-width: 320px) and (max-width: 410px) {
+//   .project {
+//       width: 145px;
+//     }
+//   }
 
 // Contact layout
 @media (max-width: 991px) {
@@ -201,6 +201,12 @@
 
   .sm_contact_text {
     display: block !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+    textarea{
+    width: 75%;
   }
 }
 
@@ -296,6 +302,18 @@
 @media (min-width:768px) {
   .profile_image {
     display: block;
+  }
+}
+
+@media (max-width: 991px) {
+  .message {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  #about_up {
+    display: none;
   }
 }
 

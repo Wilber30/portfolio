@@ -75,6 +75,10 @@
     <div class="inner">
       <div class="container">
         <p class="message">Thank you for stopping by <i class="far fa-smile"></i></p>
+        <a id="about_up" href="#">
+          <p class="up"><i class="fas fa-chevron-up"></i>
+            Back to the top<br></p>
+        </a>
       </div>
     </div>
   </footer>
