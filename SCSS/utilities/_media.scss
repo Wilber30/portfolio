@@ -143,6 +143,12 @@
    margin-top: 0px;
   }
 }
+
+@media (max-width: 991px) {
+  #banner {
+    height: 103vh;
+  }
+}
 // Projects card layout
 
 @media (min-width: 768px) {
@@ -282,11 +288,9 @@
 
 @media (max-width:768px) {
   .text {
-gap: 0px;
-flex-direction: column;
-} .additional_wrapper {
-  // margin-top: 10px;
-  }
+    gap: 0px;
+    flex-direction: column;
+ }
 }
 
 @media (min-width:768px) {
@@ -294,6 +298,8 @@ flex-direction: column;
     display: block;
   }
 }
+
+// About-me responsive
 
 @media (max-width: 767px) {
   #content {
@@ -307,42 +313,38 @@ flex-direction: column;
   }
 }
 
-// scs-scheme content opening paragraph
-@media (min-width: 768px) and (max-width: 991px) {
-  .first_wrapper {
-    line-height: 1.5rem !important;
-    font-size: 17px !important;
+@media (min-width: 992px) {
+  #content {
+    height: 950px;
   }
 }
 
-// scs-scheme content height
-@media (max-width:767px) {
+// scs-scheme responsive
+
+@media (min-width: 320px) and (max-width: 411px) {
+#page  {
+    height: 1600px !important;
+  }
+}
+
+@media (min-width: 412px) and (max-width: 767px) {
   #page {
-    min-height: 1220px !important;
+    height: 1300px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  #page {
+    height: 1100px !important;
   }
 }
 
 // scs-scheme content for Mobile
-@media (min-width: 320px) and (max-width: 410px) {
+@media (min-width: 320px) and (max-width: 411px) {
   .all_text {
     margin-bottom: 20px !important;
   }
-  .scheme_heading {
-    font-size: 1.5em;
-  }
-  .intro_text {
-    font-size: 16px;
-  }
-  .net_list {
-    font-size: 16px;
-  }
 }
-
-// @media (max-width: 576px) {
-//   .introduction, .second_wrapper {
-//     line-height: 1.2rem !important;
-//   }
-// }
 
 // Adjusts margin-top as top nav disappears
 @media (min-width:992px) {

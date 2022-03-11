@@ -24,7 +24,6 @@
 }
 
 a .initials {
-  // font-family: Pacifico;
   text-shadow: -1px -1px 0 #A0A0A0, 1px -1px 0 #A0A0A0, -1px 1px 0 #A0A0A0, 1px 1px 0 #A0A0A0;
   color: lightgrey !important;
   &:hover {
@@ -50,7 +49,8 @@ a .initials {
   &:hover {
     transition-duration: 0.08s;
     transition-timing-function: extend ease-in;
-    border-bottom: 2px solid #3CAFB7;
+    // border-bottom: 2px solid #3CAFB7;
+    border-bottom: 2px solid steelblue;
     margin-bottom: 8px;
   }
 }
@@ -89,5 +89,4 @@ a .initials {
   bottom: 0;
   left: 10%;
   color: white;
-  // font-family: Pacifico;
 }

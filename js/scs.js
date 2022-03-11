@@ -12,7 +12,7 @@ const arrowAlign = document.getElementById("scs_arrow_align");
 btn.addEventListener('click', () => {
   scsPage.style.marginTop = "0px";
   arrowAlign.classList.toggle('open');
-  // arrowAlign.style.top = "-2%";
+  arrowAlign.style.top = "2%";
   nav.classList.toggle('is-active');
   btn.classList.toggle('hide');
   close.classList.toggle('appears');

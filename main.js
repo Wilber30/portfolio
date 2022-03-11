@@ -23,7 +23,7 @@ btn.addEventListener('click', () => {
 
 close.addEventListener('click', () => {
   arrowAlign.classList.remove('open');
-  arrowAlign.style.top = "2%";
+  arrowAlign.style.top = "3%";
   arrowAlign.style.transition = "all .5s";
   nav.style.transition = "all .5s";
   nav.classList.toggle('is-active');
@@ -33,7 +33,7 @@ close.addEventListener('click', () => {
 
 cross.addEventListener('click', () => {
   arrowAlign.classList.remove('open');
-  arrowAlign.style.top = "2%";
+  arrowAlign.style.top = "3%";
   arrowAlign.style.transition = "all .5s";
   nav.style.transition = "all .5s";
   nav.classList.toggle('is-active');
