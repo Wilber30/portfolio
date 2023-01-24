@@ -13,7 +13,7 @@
   <link rel="shortcut icon" type="image/png" href="Images/favicon-32x32.png"/>
   <!-- Stylesheet links -->
   <link rel="stylesheet" href="css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="scss/styles.min.css">
+  <link rel="stylesheet" type="text/css" href="sass/styles.min.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/styles/default.min.css">
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
   <script src="//code.jquery.com/jquery-1.12.4.js"></script>
