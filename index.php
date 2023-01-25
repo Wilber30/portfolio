@@ -1,9 +1,9 @@
 
-<?php include 'includes/head.php' ?>
+<?php include 'layout/head.php' ?>
 
-<?php include 'includes/topnav.php' ?>
+<?php include 'layout/topnav.php' ?>
 
-<?php include 'includes/sidenav.php' ?>
+<?php include 'layout/sidenav.php' ?>
 
   <!-- Page content -->
   <main>
