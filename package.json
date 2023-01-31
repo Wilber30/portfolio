@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A portfolio containing my projects",
+  "main": "main.js",
+  "scripts": {
+    "compile:sass": "node-sass src/sass/styles.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wilber30/portfolio.git"
+  },
+  "author": "William Sears",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wilber30/portfolio/issues"
+  },
+  "homepage": "https://github.com/Wilber30/portfolio#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
