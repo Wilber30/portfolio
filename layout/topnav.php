@@ -4,7 +4,7 @@
   <div id="top_navigation">
 
     <ul class="top_icons">
-      <li class="william"><small>William Sears. 2021</small></li>
+      <li class="william"><small>William Sears. 2023</small></li>
       <li class="media media-insta">
         <a href="https://github.com/Wilber30" target="_blank">
           <i class="fab fa-github git"></i></a>
