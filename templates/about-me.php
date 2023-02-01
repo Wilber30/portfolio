@@ -1,8 +1,8 @@
-<?php include 'includes/head.php' ?>
+<?php include '../layout/head.php' ?>
 
-<?php include 'includes/topnav.php' ?>
+<?php include '../layout/topnav.php' ?>
 
-<?php include 'includes/sidenav.php' ?>
+<?php include '../layout/sidenav.php' ?>
   <main>
     <div id="content">
       <div class="overlay">
@@ -41,7 +41,7 @@
                 </div>
                 <div class="additional_wrapper">
 
-                <img class="profile_image" src="../Images/profile.jpg" alt="William Sears" width="267" height="369">
+                <img class="profile_image" src="../src/assets/images/profile.jpg" alt="William Sears" width="267" height="369">
                 <div class="skills">
                   <h3>Skills</h3>
                   <ul>
@@ -83,7 +83,7 @@
     </div>
   </footer>
   <script src="../dist/core.js"></script>
-  <script src="../js/about.js"></script>
+  <script src="../src/js/about.js"></script>
 </body>
 
 </html>
