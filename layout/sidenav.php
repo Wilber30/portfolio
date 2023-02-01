@@ -9,16 +9,16 @@
 
     <ul class="sidenav">
       <li>
-        <a class="link_item" href="about-me.php">About Me</a>
+        <a class="link_item" href="/templates/about-me.php">About Me</a>
       </li>
       <li>
         <a class="link_item" href="index.php#port">My Portfolio</a>
       </li>
       <li>
-        <a class="link_item" href="coding_examples.php">Coding Examples</a>
+        <a class="link_item" href="/templates/coding_examples.php">Coding Examples</a>
       </li>
       <li>
-        <a class="link_item" href="scs-scheme.php">SCS Scheme</a>
+        <a class="link_item" href="/templates/scs-scheme.php">SCS Scheme</a>
       </li>
       <li>
         <a class="link_item" href="index.php#contact">Contact Me</a>
@@ -34,7 +34,7 @@
       </li>
     </ul>
 
-    <p class="sears"><small>William Sears. 2021</small></p>
+    <p class="sears"><small>William Sears. 2023</small></p>
 
   </div>
 </div>
