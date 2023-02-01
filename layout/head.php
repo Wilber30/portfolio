@@ -11,7 +11,8 @@
   <title>William Sears Portfolio</title>
   <link rel="shortcut icon" type="image/png" href="Images/favicon-32x32.png"/>
   <!-- Stylesheet links -->
-  <link rel="stylesheet" href="src/css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <!-- <link rel="stylesheet" href="../src/css/all.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
