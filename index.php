@@ -1,8 +1,8 @@
-<?php include 'layout/head.php' ?>
+<?php include 'templates/layout/head.php' ?>
 
-<?php include 'layout/topnav.php' ?>
+<?php include 'templates/layout/topnav.php' ?>
 
-<?php include 'layout/sidenav.php' ?>
+<?php include 'templates/layout/sidenav.php' ?>
 
   <!-- Page content -->
   <main>
