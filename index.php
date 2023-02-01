@@ -188,7 +188,7 @@
     </div>
 
   </footer>
-  <script src="dist/core.js"></script>
+  <script src="src/js/dist/core.js"></script>
   <script src="main.js"></script>
 </body>
 
