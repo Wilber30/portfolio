@@ -10,7 +10,7 @@
     <div id="expanded-image">
       <i id="data_close" class="far fa-times-circle"></i>
 
-      <img id="expanded_database" src="/Images/table_structure.png" alt="Movie database structure">
+      <img id="expanded_database" src="../src/assets/images/table_structure.png" alt="Movie database structure">
     </div>
 
     <div class="overlay">
@@ -31,76 +31,78 @@
             JavaScript Example
           </h1>
 
-        <div>
-          <p class="explanation">The JavaScript example
-          below validates a user's email address and then checks whether a value is stored in local storage for the submitted address.
-          Depending on the outcome of the local storage check, a generated image is then displayed in an interface either in a pre-existing row,
-          or an entirely new row is created. Click
-            <a class="js_link" href="http://arrayreflection.william-sears.netmatters-scs.co.uk/" target="_blank">
-            here
-            </a>
-            , to see the JavaScript code below in action.
-          </p>
+          <div>
+            <p class="explanation">The JavaScript example
+            below validates a user's email address and then checks whether a value is stored in local storage for the submitted address.
+            Depending on the outcome of the local storage check, a generated image is then displayed in an interface either in a pre-existing row,
+            or an entirely new row is created. Click
+              <a class="js_link" href="http://arrayreflection.william-sears.netmatters-scs.co.uk/" target="_blank">
+              here
+              </a>
+              , to see the JavaScript code below in action.
+            </p>
 
-          <pre class="js_wrapper">
-            <code id="example1" class="javascript">
-              <?php include '../templates/content/js_example.php' ?>
-            </code>
-          </pre>
-        </div>
-
-        <h1 class="code_heading">
-          SQL Example<
-        </h1>
-
-        <div>
-          <p class="sql_objective">The objective of this challenge was to create a
-            <a class="query_link" href="#mid_point">query</a>
-            that retrieves data from the tables in the movie database.
-          </p>
-
-          <h3 class="table_header">
-            Movie Database
-          </h3>
-
-          <label id="data_label">
-            click to expand
-          </label>
-
-          <div id="database_wrapper">
-            <img id="movie_data" src="../src/assets/images/table_structure.png" alt="Movie database structure">
+            <pre class="js_wrapper">
+              <code id="example1" class="javascript">
+                <?php include '../templates/content/js_example.php' ?>
+              </code>
+            </pre>
           </div>
 
-          <h3 class="query_heading">
-            Query and Output
-          </h3>
+          <h1 class="code_heading">
+            SQL Example<
+          </h1>
 
-          <p class="explanation">The query below combines data from the movie and rating tables
-            in the 
-            <a class="movie_link" href="#data_label">Movie Database</a>
-            , to display three columns for ID, Movie and Star Rating.
-            The subquery returns all movie IDs with a rating that is higher than three;
-            the outer query then retrieves the movie titles that match those IDs.
-            Finally, the ouput is formatted in ascending order by star rating.
-          </p>
+          <div>
+            <p class="sql_objective">The objective of this challenge was to create a
+              <a class="query_link" href="#mid_point">query</a>
+              that retrieves data from the tables in the movie database.
+            </p>
 
-          <div class="example_wrapper2">
-            <pre id="mid_point" class="embedded_sql">
-              <code id="example2" class="sql">
-                <?php include '../templates/content/sql_query.php' ?>
-              </code> 
-            </pre>
+            <h3 class="table_header">
+              Movie Database
+            </h3>
 
-            <i class="fas fa-long-arrow-alt-right output_arrow_right"></i>
+            <label id="data_label">
+              click to expand
+            </label>
 
-            <i class="fas fa-arrow-down output_arrow_down"></i>
+            <div id="database_wrapper">
+              <img id="movie_data" src="../src/assets/images/table_structure.png" alt="Movie database structure">
+            </div>
 
-            <div class="output_img_wrapper">
-              <img class="query_out" src="../src/assets/images/subquery_output.png" alt="Output from SQL query">
+            <h3 class="query_heading">
+              Query and Output
+            </h3>
+
+            <p class="explanation">The query below combines data from the movie and rating tables
+              in the 
+              <a class="movie_link" href="#data_label">Movie Database</a>
+              , to display three columns for ID, Movie and Star Rating.
+              The subquery returns all movie IDs with a rating that is higher than three;
+              the outer query then retrieves the movie titles that match those IDs.
+              Finally, the ouput is formatted in ascending order by star rating.
+            </p>
+
+            <div class="example_wrapper2">
+              <pre id="mid_point" class="embedded_sql">
+                <code id="example2" class="sql">
+                  <?php include '../templates/content/sql_query.php' ?>
+                </code> 
+              </pre>
+
+              <i class="fas fa-long-arrow-alt-right output_arrow_right"></i>
+
+              <i class="fas fa-arrow-down output_arrow_down"></i>
+
+              <div class="output_img_wrapper">
+                <img class="query_out" src="../src/assets/images/subquery_output.png" alt="Output from SQL query">
+              </div>
             </div>
           </div>
-        </div>
+
           <h1 class="code_heading">PHP Example</h1>
+
           <div>
             <p class="explanation">The PHP code below receives data from a
               form submission and cleanses the data using filters. Then, an attempt
@@ -151,7 +153,9 @@
   </script>
 
   <script>
-    $("#accordion").accordion();
+    $( function() {
+      $( "#accordion" ).accordion();
+    } );
   </script>
 </body>
 
