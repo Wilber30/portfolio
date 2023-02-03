@@ -15,4 +15,5 @@
   <link rel="stylesheet" type="text/css" href="/css/styles.css">
   <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
 </head>
