@@ -224,7 +224,7 @@
   #content {
     height: 1450px; } }
 
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   #content {
     height: 1100px; } }
 
@@ -269,9 +269,13 @@
   .example_wrapper2 {
     display: block; }
   .output_arrow_right {
-    display: none; }
+    display: none !important; }
   .output_arrow_down {
     display: block; } }
+
+@media (min-width: 768px) {
+  .example_wrapper {
+    justify-content: center; } }
 
 @media (max-width: 991px) {
   #expanded_database {
@@ -281,23 +285,26 @@
   .js_wrapper {
     display: flex;
     justify-content: center; }
-  #example1 {
-    width: 60%; }
   .output_arrow_right {
     font-size: 80px; } }
 
+@media (min-width: 768px) {
+  .output_arrow_down {
+    display: none !important; } }
+
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
-    top: 1% !important;
+    top: 4% !important;
     left: 0%;
     right: 1%; }
   .code_title {
-    width: 90%; } }
+    width: 90%; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
-  .top_arrow {
-    top: 0% !important;
-    left: 2%; } }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -307,7 +314,9 @@
   .code-close {
     margin-top: 0px !important; }
   .explanation, .sql_objective {
-    font-size: 14px; } }
+    font-size: 14px; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -316,7 +325,9 @@
   .query_heading {
     margin-bottom: 20px; }
   .query_out {
-    width: 98%; } }
+    width: 98%; }
+  #code_page {
+    height: 800px !important; } }
 
 html {
   scroll-behavior: smooth; }
@@ -578,7 +589,7 @@ body {
   #content {
     height: 1450px; } }
 
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   #content {
     height: 1100px; } }
 
@@ -623,9 +634,13 @@ body {
   .example_wrapper2 {
     display: block; }
   .output_arrow_right {
-    display: none; }
+    display: none !important; }
   .output_arrow_down {
     display: block; } }
+
+@media (min-width: 768px) {
+  .example_wrapper {
+    justify-content: center; } }
 
 @media (max-width: 991px) {
   #expanded_database {
@@ -635,23 +650,26 @@ body {
   .js_wrapper {
     display: flex;
     justify-content: center; }
-  #example1 {
-    width: 60%; }
   .output_arrow_right {
     font-size: 80px; } }
 
+@media (min-width: 768px) {
+  .output_arrow_down {
+    display: none !important; } }
+
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
-    top: 1% !important;
+    top: 4% !important;
     left: 0%;
     right: 1%; }
   .code_title {
-    width: 90%; } }
+    width: 90%; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
-  .top_arrow {
-    top: 0% !important;
-    left: 2%; } }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -661,7 +679,9 @@ body {
   .code-close {
     margin-top: 0px !important; }
   .explanation, .sql_objective {
-    font-size: 14px; } }
+    font-size: 14px; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -670,7 +690,9 @@ body {
   .query_heading {
     margin-bottom: 20px; }
   .query_out {
-    width: 98%; } }
+    width: 98%; }
+  #code_page {
+    height: 800px !important; } }
 
 #top_navigation {
   position: sticky;
@@ -1050,7 +1072,7 @@ a .sm-in {
   #content {
     height: 1450px; } }
 
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   #content {
     height: 1100px; } }
 
@@ -1095,9 +1117,13 @@ a .sm-in {
   .example_wrapper2 {
     display: block; }
   .output_arrow_right {
-    display: none; }
+    display: none !important; }
   .output_arrow_down {
     display: block; } }
+
+@media (min-width: 768px) {
+  .example_wrapper {
+    justify-content: center; } }
 
 @media (max-width: 991px) {
   #expanded_database {
@@ -1107,23 +1133,26 @@ a .sm-in {
   .js_wrapper {
     display: flex;
     justify-content: center; }
-  #example1 {
-    width: 60%; }
   .output_arrow_right {
     font-size: 80px; } }
 
+@media (min-width: 768px) {
+  .output_arrow_down {
+    display: none !important; } }
+
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
-    top: 1% !important;
+    top: 4% !important;
     left: 0%;
     right: 1%; }
   .code_title {
-    width: 90%; } }
+    width: 90%; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
-  .top_arrow {
-    top: 0% !important;
-    left: 2%; } }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -1133,7 +1162,9 @@ a .sm-in {
   .code-close {
     margin-top: 0px !important; }
   .explanation, .sql_objective {
-    font-size: 14px; } }
+    font-size: 14px; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -1142,7 +1173,9 @@ a .sm-in {
   .query_heading {
     margin-bottom: 20px; }
   .query_out {
-    width: 98%; } }
+    width: 98%; }
+  #code_page {
+    height: 800px !important; } }
 
 .navigation {
   display: none;
@@ -1441,7 +1474,7 @@ a .initials {
   #content {
     height: 1450px; } }
 
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   #content {
     height: 1100px; } }
 
@@ -1486,9 +1519,13 @@ a .initials {
   .example_wrapper2 {
     display: block; }
   .output_arrow_right {
-    display: none; }
+    display: none !important; }
   .output_arrow_down {
     display: block; } }
+
+@media (min-width: 768px) {
+  .example_wrapper {
+    justify-content: center; } }
 
 @media (max-width: 991px) {
   #expanded_database {
@@ -1498,23 +1535,26 @@ a .initials {
   .js_wrapper {
     display: flex;
     justify-content: center; }
-  #example1 {
-    width: 60%; }
   .output_arrow_right {
     font-size: 80px; } }
 
+@media (min-width: 768px) {
+  .output_arrow_down {
+    display: none !important; } }
+
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
-    top: 1% !important;
+    top: 4% !important;
     left: 0%;
     right: 1%; }
   .code_title {
-    width: 90%; } }
+    width: 90%; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
-  .top_arrow {
-    top: 0% !important;
-    left: 2%; } }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -1524,7 +1564,9 @@ a .initials {
   .code-close {
     margin-top: 0px !important; }
   .explanation, .sql_objective {
-    font-size: 14px; } }
+    font-size: 14px; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -1533,7 +1575,9 @@ a .initials {
   .query_heading {
     margin-bottom: 20px; }
   .query_out {
-    width: 98%; } }
+    width: 98%; }
+  #code_page {
+    height: 800px !important; } }
 
 footer {
   background-color: #333645;
@@ -1782,7 +1826,7 @@ footer {
   #content {
     height: 1450px; } }
 
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   #content {
     height: 1100px; } }
 
@@ -1827,9 +1871,13 @@ footer {
   .example_wrapper2 {
     display: block; }
   .output_arrow_right {
-    display: none; }
+    display: none !important; }
   .output_arrow_down {
     display: block; } }
+
+@media (min-width: 768px) {
+  .example_wrapper {
+    justify-content: center; } }
 
 @media (max-width: 991px) {
   #expanded_database {
@@ -1839,23 +1887,26 @@ footer {
   .js_wrapper {
     display: flex;
     justify-content: center; }
-  #example1 {
-    width: 60%; }
   .output_arrow_right {
     font-size: 80px; } }
 
+@media (min-width: 768px) {
+  .output_arrow_down {
+    display: none !important; } }
+
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
-    top: 1% !important;
+    top: 4% !important;
     left: 0%;
     right: 1%; }
   .code_title {
-    width: 90%; } }
+    width: 90%; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
-  .top_arrow {
-    top: 0% !important;
-    left: 2%; } }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -1865,7 +1916,9 @@ footer {
   .code-close {
     margin-top: 0px !important; }
   .explanation, .sql_objective {
-    font-size: 14px; } }
+    font-size: 14px; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -1874,7 +1927,9 @@ footer {
   .query_heading {
     margin-bottom: 20px; }
   .query_out {
-    width: 98%; } }
+    width: 98%; }
+  #code_page {
+    height: 800px !important; } }
 
 #full-page {
   width: 100%;
@@ -2198,7 +2253,7 @@ footer {
   #content {
     height: 1450px; } }
 
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   #content {
     height: 1100px; } }
 
@@ -2243,9 +2298,13 @@ footer {
   .example_wrapper2 {
     display: block; }
   .output_arrow_right {
-    display: none; }
+    display: none !important; }
   .output_arrow_down {
     display: block; } }
+
+@media (min-width: 768px) {
+  .example_wrapper {
+    justify-content: center; } }
 
 @media (max-width: 991px) {
   #expanded_database {
@@ -2255,23 +2314,26 @@ footer {
   .js_wrapper {
     display: flex;
     justify-content: center; }
-  #example1 {
-    width: 60%; }
   .output_arrow_right {
     font-size: 80px; } }
 
+@media (min-width: 768px) {
+  .output_arrow_down {
+    display: none !important; } }
+
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
-    top: 1% !important;
+    top: 4% !important;
     left: 0%;
     right: 1%; }
   .code_title {
-    width: 90%; } }
+    width: 90%; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
-  .top_arrow {
-    top: 0% !important;
-    left: 2%; } }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -2281,7 +2343,9 @@ footer {
   .code-close {
     margin-top: 0px !important; }
   .explanation, .sql_objective {
-    font-size: 14px; } }
+    font-size: 14px; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -2290,7 +2354,9 @@ footer {
   .query_heading {
     margin-bottom: 20px; }
   .query_out {
-    width: 98%; } }
+    width: 98%; }
+  #code_page {
+    height: 800px !important; } }
 
 .port_section {
   background-color: #f2f2f2; }
@@ -2588,7 +2654,7 @@ footer {
   #content {
     height: 1450px; } }
 
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   #content {
     height: 1100px; } }
 
@@ -2633,9 +2699,13 @@ footer {
   .example_wrapper2 {
     display: block; }
   .output_arrow_right {
-    display: none; }
+    display: none !important; }
   .output_arrow_down {
     display: block; } }
+
+@media (min-width: 768px) {
+  .example_wrapper {
+    justify-content: center; } }
 
 @media (max-width: 991px) {
   #expanded_database {
@@ -2645,23 +2715,26 @@ footer {
   .js_wrapper {
     display: flex;
     justify-content: center; }
-  #example1 {
-    width: 60%; }
   .output_arrow_right {
     font-size: 80px; } }
 
+@media (min-width: 768px) {
+  .output_arrow_down {
+    display: none !important; } }
+
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
-    top: 1% !important;
+    top: 4% !important;
     left: 0%;
     right: 1%; }
   .code_title {
-    width: 90%; } }
+    width: 90%; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
-  .top_arrow {
-    top: 0% !important;
-    left: 2%; } }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -2671,7 +2744,9 @@ footer {
   .code-close {
     margin-top: 0px !important; }
   .explanation, .sql_objective {
-    font-size: 14px; } }
+    font-size: 14px; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -2680,7 +2755,9 @@ footer {
   .query_heading {
     margin-bottom: 20px; }
   .query_out {
-    width: 98%; } }
+    width: 98%; }
+  #code_page {
+    height: 800px !important; } }
 
 .contact_section {
   background-color: #a9a9a9; }
@@ -3017,7 +3094,7 @@ textarea {
   #content {
     height: 1450px; } }
 
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   #content {
     height: 1100px; } }
 
@@ -3062,9 +3139,13 @@ textarea {
   .example_wrapper2 {
     display: block; }
   .output_arrow_right {
-    display: none; }
+    display: none !important; }
   .output_arrow_down {
     display: block; } }
+
+@media (min-width: 768px) {
+  .example_wrapper {
+    justify-content: center; } }
 
 @media (max-width: 991px) {
   #expanded_database {
@@ -3074,23 +3155,26 @@ textarea {
   .js_wrapper {
     display: flex;
     justify-content: center; }
-  #example1 {
-    width: 60%; }
   .output_arrow_right {
     font-size: 80px; } }
 
+@media (min-width: 768px) {
+  .output_arrow_down {
+    display: none !important; } }
+
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
-    top: 1% !important;
+    top: 4% !important;
     left: 0%;
     right: 1%; }
   .code_title {
-    width: 90%; } }
+    width: 90%; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
-  .top_arrow {
-    top: 0% !important;
-    left: 2%; } }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -3100,7 +3184,9 @@ textarea {
   .code-close {
     margin-top: 0px !important; }
   .explanation, .sql_objective {
-    font-size: 14px; } }
+    font-size: 14px; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -3109,7 +3195,9 @@ textarea {
   .query_heading {
     margin-bottom: 20px; }
   .query_out {
-    width: 98%; } }
+    width: 98%; }
+  #code_page {
+    height: 800px !important; } }
 
 #content {
   position: relative;
@@ -3387,7 +3475,7 @@ textarea {
   #content {
     height: 1450px; } }
 
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   #content {
     height: 1100px; } }
 
@@ -3432,9 +3520,13 @@ textarea {
   .example_wrapper2 {
     display: block; }
   .output_arrow_right {
-    display: none; }
+    display: none !important; }
   .output_arrow_down {
     display: block; } }
+
+@media (min-width: 768px) {
+  .example_wrapper {
+    justify-content: center; } }
 
 @media (max-width: 991px) {
   #expanded_database {
@@ -3444,23 +3536,26 @@ textarea {
   .js_wrapper {
     display: flex;
     justify-content: center; }
-  #example1 {
-    width: 60%; }
   .output_arrow_right {
     font-size: 80px; } }
 
+@media (min-width: 768px) {
+  .output_arrow_down {
+    display: none !important; } }
+
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
-    top: 1% !important;
+    top: 4% !important;
     left: 0%;
     right: 1%; }
   .code_title {
-    width: 90%; } }
+    width: 90%; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
-  .top_arrow {
-    top: 0% !important;
-    left: 2%; } }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -3470,7 +3565,9 @@ textarea {
   .code-close {
     margin-top: 0px !important; }
   .explanation, .sql_objective {
-    font-size: 14px; } }
+    font-size: 14px; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -3479,7 +3576,9 @@ textarea {
   .query_heading {
     margin-bottom: 20px; }
   .query_out {
-    width: 98%; } }
+    width: 98%; }
+  #code_page {
+    height: 800px !important; } }
 
 #code_main {
   margin-top: -148px;
@@ -3488,7 +3587,6 @@ textarea {
 #code_page {
   position: relative;
   height: 100vh;
-  min-height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3538,17 +3636,32 @@ textarea {
 
 .explanation {
   line-height: 1.5rem;
+  margin-bottom: 0px;
   padding: 10px;
   border-radius: 10px;
   font-family: system-ui; }
 
+.code_heading {
+  color: white;
+  cursor: pointer; }
+
 .ui-accordion-content {
-  height: 60vh; }
+  height: 60vh !important;
+  overflow-y: scroll;
+  background-color: ghostwhite;
+  border: 3px solid gainsboro;
+  border-radius: 8px; }
+
+.code_ex {
+  margin-top: 0px; }
 
 #example1 {
   margin: 0px 30px 0px 30px;
   border: 1px solid;
   border-radius: 6px; }
+
+.example_wrapper {
+  display: flex; }
 
 .example_wrapper2 {
   display: flex;
@@ -3591,13 +3704,16 @@ textarea {
 .embedded_sql {
   margin-top: 0px; }
 
+.arrow_wrapper {
+  display: flex;
+  justify-content: center; }
+
 .output_arrow_right {
   margin-right: 10px;
   text-align: center;
   font-size: 50px; }
 
 .output_arrow_down {
-  display: none;
   margin-bottom: 10px;
   text-align: center;
   font-size: 40px; }
@@ -3833,7 +3949,7 @@ textarea {
   #content {
     height: 1450px; } }
 
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   #content {
     height: 1100px; } }
 
@@ -3878,9 +3994,13 @@ textarea {
   .example_wrapper2 {
     display: block; }
   .output_arrow_right {
-    display: none; }
+    display: none !important; }
   .output_arrow_down {
     display: block; } }
+
+@media (min-width: 768px) {
+  .example_wrapper {
+    justify-content: center; } }
 
 @media (max-width: 991px) {
   #expanded_database {
@@ -3890,23 +4010,26 @@ textarea {
   .js_wrapper {
     display: flex;
     justify-content: center; }
-  #example1 {
-    width: 60%; }
   .output_arrow_right {
     font-size: 80px; } }
 
+@media (min-width: 768px) {
+  .output_arrow_down {
+    display: none !important; } }
+
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
-    top: 1% !important;
+    top: 4% !important;
     left: 0%;
     right: 1%; }
   .code_title {
-    width: 90%; } }
+    width: 90%; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
-  .top_arrow {
-    top: 0% !important;
-    left: 2%; } }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -3916,7 +4039,9 @@ textarea {
   .code-close {
     margin-top: 0px !important; }
   .explanation, .sql_objective {
-    font-size: 14px; } }
+    font-size: 14px; }
+  #code_page {
+    height: 800px !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -3925,7 +4050,9 @@ textarea {
   .query_heading {
     margin-bottom: 20px; }
   .query_out {
-    width: 98%; } }
+    width: 98%; }
+  #code_page {
+    height: 800px !important; } }
 
 #page {
   margin-top: -148px;
