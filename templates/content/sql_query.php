@@ -1,3 +1,5 @@
+<pre id="mid_point" class="embedded_sql">
+  <code id="example2" class="sql">
 SELECT
   m.mov_id AS "ID",
   mov_title AS "Movie",
@@ -15,3 +17,5 @@ FROM
   ) AS r ON m.mov_id = r.mov_id
 ORDER BY
   r.rev_stars ASC;
+  </code> 
+</pre>

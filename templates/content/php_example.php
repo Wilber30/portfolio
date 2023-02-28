@@ -1,3 +1,5 @@
+<pre class="code_ex"> 
+  <code class="php">
 include_once('connection.php');
 
 $name = mysqli_real_escape_string($conn, $_POST["name"]);
@@ -27,3 +29,5 @@ $sql = "INSERT INTO portfolio_contact(`name`, `email`, `cc`, `subject`, `message
 
 //Close connection
 mysqli_close($conn);
+  </code>
+</pre>
