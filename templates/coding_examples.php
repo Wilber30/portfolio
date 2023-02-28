@@ -27,9 +27,9 @@
         </div>
 
         <div id="accordion">
-          <h1 class="code_heading">
+          <h3 class="code_heading">
             JavaScript Example
-          </h1>
+          </h3>
 
           <div>
             <p class="explanation">The JavaScript example
@@ -42,16 +42,15 @@
               , to see the JavaScript code below in action.
             </p>
 
-            <pre class="js_wrapper">
-              <code id="example1" class="javascript">
-                <?php include '../templates/content/js_example.php' ?>
-              </code>
-            </pre>
+            <div class="example_wrapper">
+              <?php include '../templates/content/js_example.php' ?>
+            </div>
+
           </div>
 
-          <h1 class="code_heading">
-            SQL Example<
-          </h1>
+          <h3 class="code_heading">
+            SQL Example
+          </h3>
 
           <div>
             <p class="sql_objective">The objective of this challenge was to create a
@@ -85,23 +84,21 @@
             </p>
 
             <div class="example_wrapper2">
-              <pre id="mid_point" class="embedded_sql">
-                <code id="example2" class="sql">
-                  <?php include '../templates/content/sql_query.php' ?>
-                </code> 
-              </pre>
+              <?php include './content/sql_query.php' ?>
+            </div>
 
+            <div class="arrow_wrapper">
               <i class="fas fa-long-arrow-alt-right output_arrow_right"></i>
 
               <i class="fas fa-arrow-down output_arrow_down"></i>
+            </div>
 
-              <div class="output_img_wrapper">
-                <img class="query_out" src="../src/assets/images/subquery_output.png" alt="Output from SQL query">
-              </div>
+            <div class="output_img_wrapper">
+              <img class="query_out" src="../src/assets/images/subquery_output.png" alt="Output from SQL query">
             </div>
           </div>
 
-          <h1 class="code_heading">PHP Example</h1>
+          <h3 class="code_heading">PHP Example</h3>
 
           <div>
             <p class="explanation">The PHP code below receives data from a
@@ -116,11 +113,11 @@
               of this site’s homepage.
             </p>
 
-            <pre id="third"> 
-              <code id="example3" class="php">
-                <?php include '../templates/content/php_example.php' ?>
-              </code>
-            </pre>
+            <div class="example_wrapper">
+              <?php include '../templates/content/php_example.php' ?>
+            </div>
+            
+        </div>
         </div>
       </div>
       </div>
@@ -136,19 +133,24 @@
         Thank you for stopping by 
         <i class="far fa-smile"></i>
       </p>
+      <a id="about_up" href="#">
+          <p class="up"><i class="fas fa-chevron-up"></i>
+            Back to the top<br></p>
+        </a>
     </div>
   </div>
 </footer>
+
   <script src="../src/js/coding.js">
   </script>
 
   <script src="../src/js/dist/core.js">
   </script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js">
   </script>
 
-  <script>
+  <script type="text/javascript">
     hljs.highlightAll();
   </script>
 
