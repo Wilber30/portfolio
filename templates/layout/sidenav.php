@@ -18,9 +18,6 @@
         <a class="link_item" href="/templates/coding_examples.php">Coding Examples</a>
       </li>
       <li>
-        <a class="link_item" href="/templates/scs-scheme.php">SCS Scheme</a>
-      </li>
-      <li>
         <a class="link_item" href="../index.php#contact">Contact Me</a>
       </li>
     </ul>

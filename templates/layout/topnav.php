@@ -31,19 +31,16 @@
           <div class="drop_menu">
             <ul class="drop_down">
               <li>
-                <a class="drop_item" href="about-me.php">About Me</a>
+                <a class="drop_item" href="/templates/about-me.php">About Me</a>
               </li>
               <li>
-                <a class="drop_item" href="index.php#port">My Portfolio</a>
+                <a class="drop_item" href="../index.php#port">My Portfolio</a>
               </li>
               <li>
-                <a class="drop_item" href="coding_examples.php">Coding Examples</a>
+                <a class="drop_item" href="/templates/coding_examples.php">Coding Examples</a>
               </li>
               <li>
-                <a class="drop_item" href="scs-scheme.php">SCS Scheme</a>
-              </li>
-              <li>
-                <a class="drop_item" href="index.php#contact">Contact Me</a>
+                <a class="drop_item" href="../index.php#contact">Contact Me</a>
               </li>
             </ul>
           </div>
