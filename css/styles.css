@@ -290,7 +290,9 @@
 
 @media (min-width: 768px) {
   .output_arrow_down {
-    display: none !important; } }
+    display: none !important; }
+  .sql_example {
+    flex-direction: row !important; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
@@ -300,11 +302,14 @@
   .code_title {
     width: 90%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
+  .top_arrow {
+    top: 0% !important;
+    left: 2%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -316,7 +321,7 @@
   .explanation, .sql_objective {
     font-size: 14px; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -327,7 +332,7 @@
   .query_out {
     width: 98%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 html {
   scroll-behavior: smooth; }
@@ -655,7 +660,9 @@ body {
 
 @media (min-width: 768px) {
   .output_arrow_down {
-    display: none !important; } }
+    display: none !important; }
+  .sql_example {
+    flex-direction: row !important; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
@@ -665,11 +672,14 @@ body {
   .code_title {
     width: 90%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
+  .top_arrow {
+    top: 0% !important;
+    left: 2%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -681,7 +691,7 @@ body {
   .explanation, .sql_objective {
     font-size: 14px; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -692,7 +702,7 @@ body {
   .query_out {
     width: 98%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 #top_navigation {
   position: sticky;
@@ -1138,7 +1148,9 @@ a .sm-in {
 
 @media (min-width: 768px) {
   .output_arrow_down {
-    display: none !important; } }
+    display: none !important; }
+  .sql_example {
+    flex-direction: row !important; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
@@ -1148,11 +1160,14 @@ a .sm-in {
   .code_title {
     width: 90%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
+  .top_arrow {
+    top: 0% !important;
+    left: 2%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -1164,7 +1179,7 @@ a .sm-in {
   .explanation, .sql_objective {
     font-size: 14px; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -1175,7 +1190,7 @@ a .sm-in {
   .query_out {
     width: 98%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 .navigation {
   display: none;
@@ -1540,7 +1555,9 @@ a .initials {
 
 @media (min-width: 768px) {
   .output_arrow_down {
-    display: none !important; } }
+    display: none !important; }
+  .sql_example {
+    flex-direction: row !important; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
@@ -1550,11 +1567,14 @@ a .initials {
   .code_title {
     width: 90%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
+  .top_arrow {
+    top: 0% !important;
+    left: 2%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -1566,7 +1586,7 @@ a .initials {
   .explanation, .sql_objective {
     font-size: 14px; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -1577,7 +1597,7 @@ a .initials {
   .query_out {
     width: 98%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 footer {
   background-color: #333645;
@@ -1892,7 +1912,9 @@ footer {
 
 @media (min-width: 768px) {
   .output_arrow_down {
-    display: none !important; } }
+    display: none !important; }
+  .sql_example {
+    flex-direction: row !important; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
@@ -1902,11 +1924,14 @@ footer {
   .code_title {
     width: 90%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
+  .top_arrow {
+    top: 0% !important;
+    left: 2%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -1918,7 +1943,7 @@ footer {
   .explanation, .sql_objective {
     font-size: 14px; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -1929,7 +1954,7 @@ footer {
   .query_out {
     width: 98%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 #full-page {
   width: 100%;
@@ -2319,7 +2344,9 @@ footer {
 
 @media (min-width: 768px) {
   .output_arrow_down {
-    display: none !important; } }
+    display: none !important; }
+  .sql_example {
+    flex-direction: row !important; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
@@ -2329,11 +2356,14 @@ footer {
   .code_title {
     width: 90%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
+  .top_arrow {
+    top: 0% !important;
+    left: 2%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -2345,7 +2375,7 @@ footer {
   .explanation, .sql_objective {
     font-size: 14px; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -2356,7 +2386,7 @@ footer {
   .query_out {
     width: 98%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 .port_section {
   background-color: #f2f2f2; }
@@ -2720,7 +2750,9 @@ footer {
 
 @media (min-width: 768px) {
   .output_arrow_down {
-    display: none !important; } }
+    display: none !important; }
+  .sql_example {
+    flex-direction: row !important; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
@@ -2730,11 +2762,14 @@ footer {
   .code_title {
     width: 90%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
+  .top_arrow {
+    top: 0% !important;
+    left: 2%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -2746,7 +2781,7 @@ footer {
   .explanation, .sql_objective {
     font-size: 14px; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -2757,7 +2792,7 @@ footer {
   .query_out {
     width: 98%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 .contact_section {
   background-color: #a9a9a9; }
@@ -3160,7 +3195,9 @@ textarea {
 
 @media (min-width: 768px) {
   .output_arrow_down {
-    display: none !important; } }
+    display: none !important; }
+  .sql_example {
+    flex-direction: row !important; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
@@ -3170,11 +3207,14 @@ textarea {
   .code_title {
     width: 90%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
+  .top_arrow {
+    top: 0% !important;
+    left: 2%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -3186,7 +3226,7 @@ textarea {
   .explanation, .sql_objective {
     font-size: 14px; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -3197,7 +3237,7 @@ textarea {
   .query_out {
     width: 98%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 #content {
   position: relative;
@@ -3541,7 +3581,9 @@ textarea {
 
 @media (min-width: 768px) {
   .output_arrow_down {
-    display: none !important; } }
+    display: none !important; }
+  .sql_example {
+    flex-direction: row !important; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
@@ -3551,11 +3593,14 @@ textarea {
   .code_title {
     width: 90%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
+  .top_arrow {
+    top: 0% !important;
+    left: 2%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -3567,7 +3612,7 @@ textarea {
   .explanation, .sql_objective {
     font-size: 14px; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -3578,7 +3623,7 @@ textarea {
   .query_out {
     width: 98%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 #code_main {
   margin-top: -148px;
@@ -3648,12 +3693,14 @@ textarea {
 .ui-accordion-content {
   height: 60vh !important;
   overflow-y: scroll;
+  overflow-x: hidden;
   background-color: ghostwhite;
   border: 3px solid gainsboro;
   border-radius: 8px; }
 
 .code_ex {
-  margin-top: 0px; }
+  margin-top: 0px;
+  overflow-x: scroll; }
 
 #example1 {
   margin: 0px 30px 0px 30px;
@@ -3661,7 +3708,13 @@ textarea {
   border-radius: 6px; }
 
 .example_wrapper {
-  display: flex; }
+  display: flex;
+  justify-content: center; }
+
+.sql_example {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 .example_wrapper2 {
   display: flex;
@@ -3724,6 +3777,9 @@ textarea {
 .sql_output {
   font-size: 16px;
   margin: 0px; }
+
+.ce_footer {
+  margin-left: 0px !important; }
 
 @media (min-width: 320px) and (max-width: 410px) {
   .align_scroll, .type-container, #arrow_alignment, #scs_arrow_align, .container {
@@ -4015,7 +4071,9 @@ textarea {
 
 @media (min-width: 768px) {
   .output_arrow_down {
-    display: none !important; } }
+    display: none !important; }
+  .sql_example {
+    flex-direction: row !important; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   .top_arrow {
@@ -4025,11 +4083,14 @@ textarea {
   .code_title {
     width: 90%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (min-width: 411px) and (max-width: 480px) {
+  .top_arrow {
+    top: 0% !important;
+    left: 2%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 480px) {
   .ui-accordion-content {
@@ -4041,7 +4102,7 @@ textarea {
   .explanation, .sql_objective {
     font-size: 14px; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 @media (max-width: 576px) {
   #example1 {
@@ -4052,7 +4113,7 @@ textarea {
   .query_out {
     width: 98%; }
   #code_page {
-    height: 800px !important; } }
+    height: 110vh !important; } }
 
 #page {
   margin-top: -148px;
