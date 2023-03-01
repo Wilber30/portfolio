@@ -14,7 +14,6 @@
 #code_page {
   position: relative;
   height: 100vh;
-  // min-height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,6 +92,7 @@
 .ui-accordion-content {
   height: 60vh !important;
   overflow-y: scroll;
+  overflow-x: hidden;
   background-color: ghostwhite;
   border: 3px solid gainsboro;
   border-radius: 8px;
@@ -101,6 +101,7 @@
 // example 1 JavaScript
 .code_ex {
   margin-top: 0px;
+  overflow-x: scroll;
 }
 
 #example1 {
@@ -111,10 +112,15 @@
 
 .example_wrapper {
   display: flex;
+  justify-content: center;
 }
 
 // example 2 SQL
-
+.sql_example {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .example_wrapper2 {
   display: flex;
   justify-content: space-around;
@@ -190,4 +196,9 @@
 .sql_output {
   font-size: 16px;
   margin: 0px;
+}
+
+// footer
+.ce_footer {
+  margin-left: 0px !important;
 }
