@@ -12,7 +12,7 @@
 
       <img id="expanded_database" src="../src/assets/images/table_structure.png" alt="Movie database structure">
     </div>
-
+    
     <div class="overlay">
       <div class="container coding_container">
 
@@ -83,18 +83,20 @@
               Finally, the ouput is formatted in ascending order by star rating.
             </p>
 
-            <div class="example_wrapper2">
-              <?php include './content/sql_query.php' ?>
-            </div>
+            <div class="sql_example">
+              <div class="example_wrapper2">
+                <?php include './content/sql_query.php' ?>
+              </div>
 
-            <div class="arrow_wrapper">
-              <i class="fas fa-long-arrow-alt-right output_arrow_right"></i>
+              <div class="arrow_wrapper">
+                <i class="fas fa-long-arrow-alt-right output_arrow_right"></i>
 
-              <i class="fas fa-arrow-down output_arrow_down"></i>
-            </div>
+                <i class="fas fa-arrow-down output_arrow_down"></i>
+              </div>
 
-            <div class="output_img_wrapper">
-              <img class="query_out" src="../src/assets/images/subquery_output.png" alt="Output from SQL query">
+              <div class="output_img_wrapper">
+                <img class="query_out" src="../src/assets/images/subquery_output.png" alt="Output from SQL query">
+              </div>
             </div>
           </div>
 
@@ -117,16 +119,13 @@
               <?php include '../templates/content/php_example.php' ?>
             </div>
             
+          </div>
         </div>
-        </div>
-      </div>
       </div>
     </div>
-
   </div>
-</main>
 
-<footer>
+<footer class="ce_footer">
   <div class="inner">
     <div class="container">
       <p class="message">
@@ -140,7 +139,6 @@
     </div>
   </div>
 </footer>
-
   <script src="../src/js/coding.js">
   </script>
 
