@@ -435,6 +435,9 @@
   .output_arrow_down {
     display: none !important;
   }
+  .sql_example {
+    flex-direction: row !important;
+  }
 }
 
 // Coding Examples mobile: These queries make changes at extra small breakpoints
@@ -448,17 +451,17 @@
     width: 90%
   }
   #code_page {
-    height: 800px !important;
+    height: 110vh !important;
   }
 }
 
 @media (min-width: 411px) and (max-width: 480px) {
-  // .top_arrow {
-  //   top: 0% !important;
-  //   left: 2%;
-  // }
+  .top_arrow {
+    top: 0% !important;
+    left: 2%;
+  }
   #code_page {
-    height: 800px !important;
+    height: 110vh !important;
   }
 }
 
@@ -476,7 +479,7 @@
     font-size: 14px;
   }
   #code_page {
-    height: 800px !important;
+    height: 110vh !important;
   }
 }
 
@@ -492,6 +495,6 @@
     width: 98%;
   }
   #code_page {
-    height: 800px !important;
+    height: 110vh !important;
   }
 }
