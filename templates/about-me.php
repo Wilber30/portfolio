@@ -22,33 +22,55 @@
                   <h1 class="about_heading">About me</h1>
 
                 <p id="biograph">
-                  My name is William Sears, I am a web developer based in Oxfordshire, UK.
-                  I am currently studying on a Web Development course run by Netmatters;
-                  the course teaches the fundamental skills required for a career in Web Development
-                  in a very comprehensive manner. <br> <br> I find this area of study
-                  creatively fulfilling, with projects that require an eye for detail and an
-                  aptitude for problem solving. I enjoy the process of planning a website
-                  from a simple blueprint and then using a combination of HTML, CSS and
-                  JavaScript to complete the site. <br> <br> Over the past six months, I have improved my
-                   understanding of front-end development and have recently
-                   started to use PHP for server-side protocols. I am continuing to improve my
-                   understanding in these areas and also intend to learn new languages such C# and Java,
-                    as I have a keen interest in mobile-app development. <br> <br> I am confident in my
-                    current understanding of both front-end and back-end development and look forward
-                    to applying these skills within a commercial environment, in the near future.
-
-                  </p>
+                  My name is William Sears, I am a web developer based in Oxfordshire, UK. 
+                  I have just completed a six month contract with Destination Core, a company that specialises in 
+                  building and maintaining websites for destination marketing organisations and large shopping centres. 
+                  Their clients include Visit York, Lakeside Shopping Centre and Newcastle Gateshead. 
+                  <br> <br>
+                  As a junior front-end developer with Destination Core, I built new sections and components for their 
+                  clients’ websites. I was quickly able to adapt to their working methods and use Craft CMS with Twig 
+                  (a PHP templating language), to complete tasks within an agreed time frame. 
+                  <br> <br>
+                  Prior to my work with Destination Core, I was enrolled as a full-student on Netmatters’ 
+                  Scion Coalition scheme; this course teaches the fundamental skills required for a career 
+                  in web development in a very comprehensive manner. During my studies, I was able to greatly 
+                  improve my understanding of front-end development languages and I also used PHP for server-side 
+                  integration. 
+                  <br> <br>
+                  Over the past year and a half, I have applied my skills within a commercial and I have proven my 
+                  ability to adapt to working with new tools. I am particularly confident in my ability to build 
+                   sections for websites based on provided designs. I am keen to expand my skills in web development and gain 
+                  further commercial experience.  
+                </p>
                 </div>
                 <div class="additional_wrapper">
 
-                <img class="profile_image" src="../src/assets/images/profile.jpg" alt="William Sears" width="267" height="369">
+                <div>
+                  <img class="profile_image" src="../src/assets/images/profile.jpg" alt="William Sears" width="267" height="369">
+
+                </div>
+
                 <div class="skills">
                   <h3>Skills</h3>
                   <ul>
-                    <li>HTML/CSS/SASS</li>
-                    <li>JavaScript</li>
-                    <li>PHP</li>
-                    <li>SQL</li>
+                    <li class="skill_item">HTML</li>
+                    <li class="skill_item">CSS/SASS/Tailwind</li>
+                    <li class="skill_item">JavaScript</li>
+                    <li class="skill_item">CMS Platforms (Wordpress, Craft)</li>
+                    <li class="skill_item">PHP</li>
+                  </ul>
+                </div>
+
+                <div class="testimonials">
+                  <h3>Testimonial</h3>
+
+                  <ul class="testimonial">
+                   <li>
+                      “In the time Will worked with us I found his attitude to be first- class. 
+                      He is a great team player and keen to learn. The team enjoyed working with Will 
+                      during his 6-month contract and I’ve no doubt that he’ll develop into a proficient 
+                      front- end developer.” <br><br> <small>Will Wright, Managing Partner at Destination Core</small>
+                    </li>
                   </ul>
                 </div>
 
@@ -74,7 +96,6 @@
   <footer>
     <div class="inner">
       <div class="container">
-        <p class="message">Thank you for stopping by <i class="far fa-smile"></i></p>
         <a id="about_up" href="#">
           <p class="up"><i class="fas fa-chevron-up"></i>
             Back to the top<br></p>
