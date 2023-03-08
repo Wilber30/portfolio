@@ -166,6 +166,12 @@
   .sm_contact_text {
     text-align: center; } }
 
+@media (min-width: 992px) {
+  #ce_up {
+    display: none; }
+  .message {
+    display: block !important; } }
+
 @media (max-width: 991px) {
   footer {
     margin-left: 0; } }
@@ -221,8 +227,19 @@
     height: 1450px; } }
 
 @media (min-width: 992px) {
+  .testimonial_column {
+    display: none; }
+  .testimonial_main {
+    display: flex !important;
+    flex-direction: column; } }
+
+@media (min-width: 992px) and (max-width: 1099px) {
   #content {
-    height: 1300px; } }
+    height: 1400px; } }
+
+@media (min-width: 1100px) {
+  #content {
+    height: 1350px; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   #page {
@@ -528,6 +545,12 @@ body {
   .sm_contact_text {
     text-align: center; } }
 
+@media (min-width: 992px) {
+  #ce_up {
+    display: none; }
+  .message {
+    display: block !important; } }
+
 @media (max-width: 991px) {
   footer {
     margin-left: 0; } }
@@ -583,8 +606,19 @@ body {
     height: 1450px; } }
 
 @media (min-width: 992px) {
+  .testimonial_column {
+    display: none; }
+  .testimonial_main {
+    display: flex !important;
+    flex-direction: column; } }
+
+@media (min-width: 992px) and (max-width: 1099px) {
   #content {
-    height: 1300px; } }
+    height: 1400px; } }
+
+@media (min-width: 1100px) {
+  #content {
+    height: 1350px; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   #page {
@@ -1008,6 +1042,12 @@ a .sm-in {
   .sm_contact_text {
     text-align: center; } }
 
+@media (min-width: 992px) {
+  #ce_up {
+    display: none; }
+  .message {
+    display: block !important; } }
+
 @media (max-width: 991px) {
   footer {
     margin-left: 0; } }
@@ -1063,8 +1103,19 @@ a .sm-in {
     height: 1450px; } }
 
 @media (min-width: 992px) {
+  .testimonial_column {
+    display: none; }
+  .testimonial_main {
+    display: flex !important;
+    flex-direction: column; } }
+
+@media (min-width: 992px) and (max-width: 1099px) {
   #content {
-    height: 1300px; } }
+    height: 1400px; } }
+
+@media (min-width: 1100px) {
+  #content {
+    height: 1350px; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   #page {
@@ -1407,6 +1458,12 @@ a .initials {
   .sm_contact_text {
     text-align: center; } }
 
+@media (min-width: 992px) {
+  #ce_up {
+    display: none; }
+  .message {
+    display: block !important; } }
+
 @media (max-width: 991px) {
   footer {
     margin-left: 0; } }
@@ -1462,8 +1519,19 @@ a .initials {
     height: 1450px; } }
 
 @media (min-width: 992px) {
+  .testimonial_column {
+    display: none; }
+  .testimonial_main {
+    display: flex !important;
+    flex-direction: column; } }
+
+@media (min-width: 992px) and (max-width: 1099px) {
   #content {
-    height: 1300px; } }
+    height: 1400px; } }
+
+@media (min-width: 1100px) {
+  #content {
+    height: 1350px; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   #page {
@@ -1571,10 +1639,13 @@ footer {
   background-color: #333645;
   margin-left: 160px; }
 
-#up, #about_up {
+#up, #about_up, #ce_up {
   text-align: center;
   text-decoration: none;
   color: white !important; }
+
+.message {
+  display: none; }
 
 .up {
   margin: 0px; }
@@ -1756,6 +1827,12 @@ footer {
   .sm_contact_text {
     text-align: center; } }
 
+@media (min-width: 992px) {
+  #ce_up {
+    display: none; }
+  .message {
+    display: block !important; } }
+
 @media (max-width: 991px) {
   footer {
     margin-left: 0; } }
@@ -1811,8 +1888,19 @@ footer {
     height: 1450px; } }
 
 @media (min-width: 992px) {
+  .testimonial_column {
+    display: none; }
+  .testimonial_main {
+    display: flex !important;
+    flex-direction: column; } }
+
+@media (min-width: 992px) and (max-width: 1099px) {
   #content {
-    height: 1300px; } }
+    height: 1400px; } }
+
+@media (min-width: 1100px) {
+  #content {
+    height: 1350px; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   #page {
@@ -2180,6 +2268,12 @@ footer {
   .sm_contact_text {
     text-align: center; } }
 
+@media (min-width: 992px) {
+  #ce_up {
+    display: none; }
+  .message {
+    display: block !important; } }
+
 @media (max-width: 991px) {
   footer {
     margin-left: 0; } }
@@ -2235,8 +2329,19 @@ footer {
     height: 1450px; } }
 
 @media (min-width: 992px) {
+  .testimonial_column {
+    display: none; }
+  .testimonial_main {
+    display: flex !important;
+    flex-direction: column; } }
+
+@media (min-width: 992px) and (max-width: 1099px) {
   #content {
-    height: 1300px; } }
+    height: 1400px; } }
+
+@media (min-width: 1100px) {
+  #content {
+    height: 1350px; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   #page {
@@ -2571,6 +2676,12 @@ footer {
   .sm_contact_text {
     text-align: center; } }
 
+@media (min-width: 992px) {
+  #ce_up {
+    display: none; }
+  .message {
+    display: block !important; } }
+
 @media (max-width: 991px) {
   footer {
     margin-left: 0; } }
@@ -2626,8 +2737,19 @@ footer {
     height: 1450px; } }
 
 @media (min-width: 992px) {
+  .testimonial_column {
+    display: none; }
+  .testimonial_main {
+    display: flex !important;
+    flex-direction: column; } }
+
+@media (min-width: 992px) and (max-width: 1099px) {
   #content {
-    height: 1300px; } }
+    height: 1400px; } }
+
+@media (min-width: 1100px) {
+  #content {
+    height: 1350px; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   #page {
@@ -3008,6 +3130,12 @@ textarea {
   .sm_contact_text {
     text-align: center; } }
 
+@media (min-width: 992px) {
+  #ce_up {
+    display: none; }
+  .message {
+    display: block !important; } }
+
 @media (max-width: 991px) {
   footer {
     margin-left: 0; } }
@@ -3063,8 +3191,19 @@ textarea {
     height: 1450px; } }
 
 @media (min-width: 992px) {
+  .testimonial_column {
+    display: none; }
+  .testimonial_main {
+    display: flex !important;
+    flex-direction: column; } }
+
+@media (min-width: 992px) and (max-width: 1099px) {
   #content {
-    height: 1300px; } }
+    height: 1400px; } }
+
+@media (min-width: 1100px) {
+  #content {
+    height: 1350px; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   #page {
@@ -3210,6 +3349,44 @@ textarea {
 
 .skill_item {
   margin-bottom: 10px; }
+
+.testimonial_main {
+  display: none;
+  color: white;
+  text-align: center; }
+
+.testimonial_heading {
+  position: relative; }
+
+.testimonial_heading::before {
+  position: absolute;
+  content: "";
+  background: #ccc;
+  position: absolute;
+  bottom: 25%;
+  top: -60%;
+  left: 20%;
+  height: 3px;
+  width: 60%; }
+
+.quote-wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative; }
+
+.quote-wrapper::before {
+  position: absolute;
+  content: "";
+  background: #ccc;
+  position: absolute;
+  bottom: 25%;
+  bottom: 0%;
+  left: 20%;
+  height: 3px;
+  width: 60%; }
+
+.testimonial_quote {
+  width: 60%; }
 
 .testimonial {
   list-style: none;
@@ -3394,6 +3571,12 @@ textarea {
   .sm_contact_text {
     text-align: center; } }
 
+@media (min-width: 992px) {
+  #ce_up {
+    display: none; }
+  .message {
+    display: block !important; } }
+
 @media (max-width: 991px) {
   footer {
     margin-left: 0; } }
@@ -3449,8 +3632,19 @@ textarea {
     height: 1450px; } }
 
 @media (min-width: 992px) {
+  .testimonial_column {
+    display: none; }
+  .testimonial_main {
+    display: flex !important;
+    flex-direction: column; } }
+
+@media (min-width: 992px) and (max-width: 1099px) {
   #content {
-    height: 1300px; } }
+    height: 1400px; } }
+
+@media (min-width: 1100px) {
+  #content {
+    height: 1350px; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   #page {
@@ -3882,6 +4076,12 @@ textarea {
   .sm_contact_text {
     text-align: center; } }
 
+@media (min-width: 992px) {
+  #ce_up {
+    display: none; }
+  .message {
+    display: block !important; } }
+
 @media (max-width: 991px) {
   footer {
     margin-left: 0; } }
@@ -3937,8 +4137,19 @@ textarea {
     height: 1450px; } }
 
 @media (min-width: 992px) {
+  .testimonial_column {
+    display: none; }
+  .testimonial_main {
+    display: flex !important;
+    flex-direction: column; } }
+
+@media (min-width: 992px) and (max-width: 1099px) {
   #content {
-    height: 1300px; } }
+    height: 1400px; } }
+
+@media (min-width: 1100px) {
+  #content {
+    height: 1350px; } }
 
 @media (min-width: 320px) and (max-width: 410px) {
   #page {
