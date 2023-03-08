@@ -31,7 +31,7 @@
                   clients’ websites. I was quickly able to adapt to their working methods and use Craft CMS with Twig 
                   (a PHP templating language), to complete tasks within an agreed time frame. 
                   <br> <br>
-                  Prior to my work with Destination Core, I was enrolled as a full-student on Netmatters’ 
+                  Prior to my work with Destination Core, I was enrolled as a full-time student on Netmatters’ 
                   Scion Coalition scheme; this course teaches the fundamental skills required for a career 
                   in web development in a very comprehensive manner. During my studies, I was able to greatly 
                   improve my understanding of front-end development languages and I also used PHP for server-side 
@@ -39,10 +39,12 @@
                   <br> <br>
                   Over the past year and a half, I have applied my skills within a commercial and I have proven my 
                   ability to adapt to working with new tools. I am particularly confident in my ability to build 
-                   sections for websites based on provided designs. I am keen to expand my skills in web development and gain 
-                  further commercial experience.  
+                   sections for websites based on provided designs. I am keen to further improve my skills in web development and gain 
+                  more commercial experience.  
                 </p>
+
                 </div>
+
                 <div class="additional_wrapper">
 
                 <div>
@@ -61,7 +63,7 @@
                   </ul>
                 </div>
 
-                <div class="testimonials">
+                <div class="testimonial_column">
                   <h3>Testimonial</h3>
 
                   <ul class="testimonial">
@@ -85,7 +87,21 @@
                 </div>
 
                 </div>
+                
+                </div>
+                
               </div>
+              <div class="testimonial_main">
+                    <h3 class="testimonial_heading">Testimonial</h3>
+
+                <div class="testimonial quote-wrapper">
+                  <p class="testimonial_quote">
+                      “In the time Will worked with us I found his attitude to be first- class. 
+                      He is a great team player and keen to learn. The team enjoyed working with Will 
+                      during his 6-month contract and I’ve no doubt that he’ll develop into a proficient 
+                      front- end developer.” <br><br> <small>Will Wright, Managing Partner at Destination Core</small>
+                  </p> 
+                </div>
             </div>
           </div>
         </div>
