@@ -8,10 +8,14 @@ footer {
   margin-left: 160px;
 }
 
-#up, #about_up {
+#up, #about_up, #ce_up {
   text-align: center;
   text-decoration: none;
   color: white !important;
+}
+
+.message {
+  display: none;
 }
 
  .up {
