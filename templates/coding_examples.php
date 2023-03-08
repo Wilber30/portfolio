@@ -53,7 +53,7 @@
           </h3>
 
           <div>
-            <p class="sql_objective">The objective of this challenge was to create a
+            <p class="sql_objective explanation">The objective of this challenge was to create a
               <a class="query_link" href="#mid_point">query</a>
               that retrieves data from the tables in the movie database.
             </p>
@@ -62,12 +62,14 @@
               Movie Database
             </h3>
 
-            <label id="data_label">
-              click to expand
-            </label>
+            <div class="db_container">
+              <label id="data_label">
+                click to expand
+              </label>
 
-            <div id="database_wrapper">
-              <img id="movie_data" src="../src/assets/images/table_structure.png" alt="Movie database structure">
+              <div id="database_wrapper">
+                <img id="movie_data" src="../src/assets/images/table_structure.png" alt="Movie database structure">
+              </div>
             </div>
 
             <h3 class="query_heading">
