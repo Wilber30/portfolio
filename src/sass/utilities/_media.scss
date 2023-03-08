@@ -305,41 +305,29 @@
   }
 }
 
-@media (max-width: 991px) {
-  .message {
-    display: none;
-  }
-}
-
-@media (min-width: 992px) {
-  #about_up {
-    display: none;
-  }
-}
-
 // About-me responsive
 
 @media (min-width: 320px) and (max-width: 410px) {
   #content {
-    height: 1550px;
+    height: 2200px;
   }
 }
 
 @media (min-width: 411px) and (max-width: 767px) {
   #content {
-    height: 1450px;
+    height: 1650px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   #content {
-    height: 1100px;
+    height: 1450px;
   }
 }
 
 @media (min-width: 992px) {
   #content {
-    height: 1000px;
+    height: 1300px;
   }
 }
 
