@@ -15,9 +15,11 @@
   font-family: 'Pacifico';
 }
 
+// comment-in space-evenly when adding content back
 .card_wrapper {
   display: flex;
-  justify-content: space-evenly;
+  // justify-content: space-evenly;
+  justify-content: center;
   // gap: 30px;
   flex-direction: row;
   flex: 1;
@@ -25,9 +27,10 @@
   flex-wrap: nowrap;
 }
 
+// comment-in gap and margin when adding content back
 .top_row {
-  margin-top: 35px;
-  gap: 50px;
+  // margin-top: 35px;
+  // gap: 50px;
 }
 
 .bottom_row {
@@ -89,6 +92,7 @@
   }
 }
 
-.blank_space {
-  margin-bottom: 20px;
-}
+//comment-in when adding content back
+// .blank_space {
+//   margin-bottom: 20px;
+// }
