@@ -139,6 +139,10 @@
   text-decoration: underline;
 }
 
+.db_container {
+  padding: 10px;
+}
+
 #data_label {
   font-size: 14px;
   &:hover {
@@ -149,7 +153,7 @@
 #database_wrapper {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
   border-radius: 6px;
   border: 2px solid grey;
   &:hover {
@@ -163,7 +167,7 @@
 }
 
 .query_heading {
-  margin-bottom: 40px;
+  // margin-bottom: 40px;
   text-align: center;
   text-decoration: underline;
 }
@@ -179,6 +183,7 @@
 
 .output_arrow_right {
   margin-right: 10px;
+  margin-top: 50px;
   text-align: center;
   font-size: 50px;
 }
@@ -196,6 +201,11 @@
 .sql_output {
   font-size: 16px;
   margin: 0px;
+}
+
+.query_out {
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 // footer
