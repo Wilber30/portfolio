@@ -1,9 +1,9 @@
 <?php
 
-$dbServername = "localhost";
-$dbUsername = "williams_sears";
-$dbPassword = "6O6nNLI8p2DwLeQI1m7t";
-$dbName = "williams_portfolio";
+$dbServername = "127.0.0.1";
+$dbUsername = "root";
+$dbPassword = "swlabr67c";
+$dbName = "portfolio";
 
 // $dbServername = "127.0.0.1";
 // $dbUsername = "will";
@@ -13,7 +13,7 @@ $dbName = "williams_portfolio";
 
 // test
 // $conn = mysqli_connect('127.0.0.1', 'will', 'maine', 'portfolio');
-$conn = mysqli_connect('localhost', 'williams_sears', '6O6nNLI8p2DwLeQI1m7t', 'williams_portfolio');
+$conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
   // Check connection
     if($conn === false) {
