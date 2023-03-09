@@ -13,9 +13,11 @@
   <link rel="shortcut icon" type="image/png" href="src/assets/images/favicon-32x32.png"/>
   <!-- Stylesheet links -->
   <link rel="stylesheet" href="css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="sass/styles.min.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/styles/default.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="https://unpkg.com/accordion-js@3.3.2/dist/accordion.min.css">
+  <script src="https://unpkg.com/accordion-js@3.3.2/dist/accordion.min.js"></script>
   <script src="//code.jquery.com/jquery-1.12.4.js"></script>
   <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
