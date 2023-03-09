@@ -337,7 +337,7 @@
   .testimonial_column {
     display: none;
   }
-  .testimonial_main {
+  .testimonial_section {
     display: flex !important;
     flex-direction: column;
   }
@@ -355,40 +355,6 @@
   }
 }
 
-
-// scs-scheme responsive
-
-@media (min-width: 320px) and (max-width: 410px) {
-#page  {
-    height: 1700px !important;
-  }
-}
-
-@media (min-width: 411px) and (max-width: 576px) {
-#page  {
-    height: 1600px !important;
-  }
-}
-
-
-@media (min-width: 577px) and (max-width: 767px) {
-  #page {
-    height: 1300px !important;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1199px) {
-  #page {
-    height: 1100px !important;
-  }
-}
-
-// scs-scheme content for Mobile
-@media (min-width: 320px) and (max-width: 411px) {
-  .all_text {
-    margin-bottom: 20px !important;
-  }
-}
 
 // Adjusts margin-top as top nav disappears
 @media (min-width:992px) {
