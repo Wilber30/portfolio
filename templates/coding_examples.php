@@ -125,7 +125,7 @@
     </div>
   </div>
 </main>
-<footer class="ce_footer">
+<footer>
   <div class="inner">
     <div class="container">
       <p class="message">
