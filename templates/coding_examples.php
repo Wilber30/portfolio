@@ -45,7 +45,6 @@
             <div class="example_wrapper">
               <?php include '../templates/content/js_example.php' ?>
             </div>
-
           </div>
 
           <h3 class="code_heading">
@@ -120,13 +119,12 @@
             <div class="example_wrapper">
               <?php include '../templates/content/php_example.php' ?>
             </div>
-            
           </div>
         </div>
       </div>
     </div>
   </div>
-
+</main>
 <footer class="ce_footer">
   <div class="inner">
     <div class="container">
@@ -134,10 +132,11 @@
         Thank you for stopping by 
         <i class="far fa-smile"></i>
       </p>
+
       <a id="ce_up" href="#">
           <p class="up"><i class="fas fa-chevron-up"></i>
             Back to the top<br></p>
-        </a>
+      </a>
     </div>
   </div>
 </footer>
@@ -160,5 +159,4 @@
     } );
   </script>
 </body>
-
 </html>
