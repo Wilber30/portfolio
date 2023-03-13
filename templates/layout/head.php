@@ -18,5 +18,5 @@
   <link rel="stylesheet" href="https://unpkg.com/accordion-js@3.3.2/dist/accordion.min.css">
   <script src="https://unpkg.com/accordion-js@3.3.2/dist/accordion.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+  <script src="https://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
 </head>
