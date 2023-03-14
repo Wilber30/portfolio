@@ -272,7 +272,7 @@
 
 @media (max-width: 480px) {
   .ui-accordion-content {
-    max-height: 450px; }
+    max-height: 300px; }
   .coding_container {
     width: 350px; }
   .code-close {
@@ -597,7 +597,7 @@ body {
 
 @media (max-width: 480px) {
   .ui-accordion-content {
-    max-height: 450px; }
+    max-height: 300px; }
   .coding_container {
     width: 350px; }
   .code-close {
@@ -1040,7 +1040,7 @@ a .sm-in {
 
 @media (max-width: 480px) {
   .ui-accordion-content {
-    max-height: 450px; }
+    max-height: 300px; }
   .coding_container {
     width: 350px; }
   .code-close {
@@ -1402,7 +1402,7 @@ a .initials {
 
 @media (max-width: 480px) {
   .ui-accordion-content {
-    max-height: 450px; }
+    max-height: 300px; }
   .coding_container {
     width: 350px; }
   .code-close {
@@ -1717,7 +1717,7 @@ footer {
 
 @media (max-width: 480px) {
   .ui-accordion-content {
-    max-height: 450px; }
+    max-height: 300px; }
   .coding_container {
     width: 350px; }
   .code-close {
@@ -2104,7 +2104,7 @@ footer {
 
 @media (max-width: 480px) {
   .ui-accordion-content {
-    max-height: 450px; }
+    max-height: 300px; }
   .coding_container {
     width: 350px; }
   .code-close {
@@ -2458,7 +2458,7 @@ footer {
 
 @media (max-width: 480px) {
   .ui-accordion-content {
-    max-height: 450px; }
+    max-height: 300px; }
   .coding_container {
     width: 350px; }
   .code-close {
@@ -2858,7 +2858,7 @@ textarea {
 
 @media (max-width: 480px) {
   .ui-accordion-content {
-    max-height: 450px; }
+    max-height: 300px; }
   .coding_container {
     width: 350px; }
   .code-close {
@@ -3228,7 +3228,7 @@ textarea {
 
 @media (max-width: 480px) {
   .ui-accordion-content {
-    max-height: 450px; }
+    max-height: 300px; }
   .coding_container {
     width: 350px; }
   .code-close {
@@ -3676,7 +3676,7 @@ textarea {
 
 @media (max-width: 480px) {
   .ui-accordion-content {
-    max-height: 450px; }
+    max-height: 300px; }
   .coding_container {
     width: 350px; }
   .code-close {
