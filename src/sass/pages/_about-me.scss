@@ -16,10 +16,18 @@
   background-color: steelblue;
 }
 
+#arrow_wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  transition: transform .1s ease-in-out;
+  text-align: center;
+}
+
 .section {
   justify-content: center;
-    margin-top: 30px;
-    display: flex;
+  margin-top: 30px;
+  display: flex;
 }
 
 #about_wrapper {
@@ -28,7 +36,6 @@
   display: flex;
   gap: 10px;
 }
-
 
 .about_heading {
 margin: 15px 0px 5px 15px;
@@ -66,7 +73,6 @@ margin: 15px 0px 5px 15px;
 .testimonial_main {
   width: 60%;
   border-top: white 2px solid;
-  border-bottom: white 2px solid;
 }
 
 .testimonial_quote {
