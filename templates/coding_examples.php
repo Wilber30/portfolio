@@ -35,11 +35,7 @@
             <p class="explanation">The JavaScript example
             below validates a user's email address and then checks whether a value is stored in local storage for the submitted address.
             Depending on the outcome of the local storage check, a generated image is then displayed in an interface either in a pre-existing row,
-            or an entirely new row is created. Click
-              <a class="js_link" href="http://arrayreflection.william-sears.netmatters-scs.co.uk/" target="_blank">
-              here
-              </a>
-              , to see the JavaScript code below in action.
+            or an entirely new row is created. 
             </p>
 
             <div class="example_wrapper">
