@@ -16,7 +16,7 @@
     <div class="overlay">
       <div class="container coding_container">
 
-        <div id="arrow_alignment" class="top_arrow">
+        <div id="arrow_wrapper" class="top_arrow">
           <div id="close" class="code-close"><i id="ce_close" class="fas fa-arrow-circle-up"></i></div>
 
           <div id="reveal"><i id="ce_reveal" class="fas fa-arrow-circle-down"></i></div>
