@@ -7,7 +7,8 @@
     <div id="content">
       <div class="overlay">
         <div class="vessel">
-          <div id="arrow_alignment">
+          <div id="about_top"></div>
+          <div id="arrow_wrapper">
             <!-- <div id="close"><i class="fas fa-arrow-circle-up home_close"></i></div>
             <div id="reveal"><i class="fas fa-arrow-circle-down home_reveal"></i></div> -->
             <div id="close"><i class="fas fa-arrow-circle-up"></i></div>
@@ -18,7 +19,7 @@
             <div id="about_wrapper">
               <div class="text">
                 <div class="biograph_wrapper">
-                  <h1 class="about_heading">About me</h1>
+                  <h1 id="bio_heading" class="about_heading">About me</h1>
 
                     <p id="biograph">
                       My name is William Sears, I am a web developer based in Oxfordshire, UK. 
@@ -108,7 +109,7 @@
   <footer>
     <div class="inner">
       <div class="container">
-        <a id="about_up" href="#">
+        <a id="about_up" href="about-me.php#about_top">
           <p class="up"><i class="fas fa-chevron-up"></i>
             Back to the top<br></p>
         </a>
