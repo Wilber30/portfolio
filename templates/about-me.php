@@ -5,7 +5,7 @@
 <?php include '../templates//layout/sidenav.php' ?>
   <main>
     <div id="content">
-      <div class="overlay">
+      <div id="about_overlay" class="overlay">
         <div class="vessel">
           <div id="about_top"></div>
           <div id="arrow_wrapper">
