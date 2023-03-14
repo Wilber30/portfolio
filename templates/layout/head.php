@@ -9,7 +9,7 @@
   initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>William Sears Portfolio</title>
-  <link rel="shortcut icon" type="image/png" href="Images/favicon-32x32.png"/>
+  <link rel="shortcut icon" type="image/png" href="../src/assets/images/favicon-32x32.png"/>
   <!-- Stylesheet links -->
   <!-- <link rel="stylesheet" href="../src/css/all.min.css"> -->
   <link rel="stylesheet" type="text/css" href="../css/styles.css">
