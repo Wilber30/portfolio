@@ -37,7 +37,7 @@
                       improve my understanding of front-end development languages and I also used PHP for server-side 
                       integration. 
                       <br> <br>
-                      Over the past year and a half, I have applied my skills within a commercial and I have proven my 
+                      Over the past year and a half, I have applied my skills within a commercial environment and I have proven my 
                       ability to adapt to working with new tools. I am particularly confident in my ability to build 
                       sections for websites based on provided designs. I am keen to further improve my skills in web development and gain 
                       more commercial experience.  
