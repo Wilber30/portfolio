@@ -6,7 +6,6 @@ const close = document.getElementById("close");
 const cross = document.getElementById("cross");
 const codeMain = document.getElementById("code_main");
 
-
 // Arrow alignment containers from site pages
 const arrowAlign = document.getElementById("arrow_wrapper");
 
