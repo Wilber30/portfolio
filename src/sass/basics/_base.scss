@@ -32,6 +32,40 @@ body {
   font-family: Ubuntu;
 }
 
+.alert_notice {
+  padding: 20px;
+  z-index: 300;
+  position: absolute;
+  top: 10%;
+  color: black;
+  background-color: ghostwhite;
+  border-radius: 8px;
+  border: solid 1px orange;
+  animation: fade-in 2s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.alert_text {
+  position: relative;
+}
+
+#notice_close {
+  position: absolute;
+  top: -100%;
+  right: -5%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 #arrow_alignment {
   position: absolute;
   top: 3%;
