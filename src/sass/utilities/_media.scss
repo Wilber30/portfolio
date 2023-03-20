@@ -194,13 +194,11 @@
 }
 
 
-@media (max-width: 991px) {
-  .contact_text {
-    display: none;
-  }
-
-  .sm_contact_text {
-    display: block !important;
+@media (min-width: 992px) {
+  #contact_form {
+    width: 80%;
+  } .contact_wrapper {
+    justify-content: space-around;
   }
 }
 
