@@ -120,3 +120,11 @@ submitBtn.addEventListener('click', (e) => {
 function isEmail(i) {
   return /^([a-z\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/.test(i);
 }
+
+const closeMessage = document.getElementById("notice_close"); 
+const messageWrapper = document.getElementById("alert_wrapper");
+
+closeMessage.addEventListener('click', () => {
+ messageWrapper.style.transition = "opacity 1s ease-in-out"
+ messageWrapper.style.opacity = "0";
+})
