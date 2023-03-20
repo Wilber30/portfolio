@@ -19,35 +19,22 @@
 .contact_wrapper {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.sm_contact_text {
-  display: none;
-}
-
-.contact_text, .sm_contact_text {
+.contact_text {
   color: white;
   font-family: system-ui;
 }
 
+.contact_header {
+  text-align: center;
+}
 
 .info {
   line-height: 1.4rem;
 }
 
-.email_address {
-  width: 100%;
-  white-space: nowrap;
-  color: cornsilk;
-  &:hover {
-    color: $dark-cornsilk;
-  }
-}
-
-.contact_detail {
-  font-size: 14px;
-}
 
 .form {
   display: flex;
@@ -56,18 +43,14 @@
 }
 
 #response {
-  border-radius: 6px;
-}
-
-#response h3 {
-  margin: 0px;
-  padding: 6px;
-  line-height: 1.6rem;
   text-align: center;
-  background-color: rgb(232, 240, 254);
-  font-weight: 500;
 }
 
+#response .tick {
+  color: #00FF00;
+  font-size: 40px;
+
+}
 
 input, textarea {
   margin-top: 15px;
