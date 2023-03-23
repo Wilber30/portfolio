@@ -3,19 +3,20 @@
 <?php include '../templates/layout/topnav.php' ?>
 
 <?php include '../templates//layout/sidenav.php' ?>
-  <main>
+<main class="about_main">
+  <div>
     <div id="content">
       <div id="about_overlay" class="overlay">
-        <div class="vessel">
+        <div class="container">
           <div id="about_top"></div>
           <div id="arrow_wrapper">
-            <!-- <div id="close"><i class="fas fa-arrow-circle-up home_close"></i></div>
-            <div id="reveal"><i class="fas fa-arrow-circle-down home_reveal"></i></div> -->
             <div id="close"><i class="fas fa-arrow-circle-up"></i></div>
 
             <div id="reveal"><i class="fas fa-arrow-circle-down"></i></div>
           </div>
-          <div class="section">
+        </div>
+        <div class="section">
+          <div class="vessel">
             <div id="about_wrapper">
               <div class="text">
                 <div class="biograph_wrapper">
@@ -86,36 +87,37 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="testimonial_section">
-            <div class="testimonial_main">
-              <h3>Testimonial</h3>
+            <div class="testimonial_section">
+              <div class="testimonial_main">
+                <h3>Testimonial</h3>
 
-              <div>
-                <p class="testimonial_quote">
-                    “In the time Will worked with us I found his attitude to be first- class. 
-                    He is a great team player and keen to learn. The team enjoyed working with Will 
-                    during his 6-month contract and I’ve no doubt that he’ll develop into a proficient 
-                    front- end developer.” <br><br> <small>Will Wright, Managing Partner at Destination Core</small>
-                </p> 
+                <div>
+                  <p class="testimonial_quote">
+                      “In the time Will worked with us I found his attitude to be first- class. 
+                      He is a great team player and keen to learn. The team enjoyed working with Will 
+                      during his 6-month contract and I’ve no doubt that he’ll develop into a proficient 
+                      front- end developer.” <br><br> <small>Will Wright, Managing Partner at Destination Core</small>
+                  </p> 
+                </div>
               </div>
             </div>
           </div>
+          <footer id="about_footer" class="full-bleed">
+            <div class="inner">
+              <div class="container">
+                <a id="about_up" href="about-me.php#about_top">
+                  <p class="up"><i class="fas fa-chevron-up"></i>
+                    Back to the top<br></p>
+                </a>
+              </div>
+            </div>
+          </footer>
         </div>
       </div>
     </div>
-  </main>
+  </div>
+</main>
 
-  <footer>
-    <div class="inner">
-      <div class="container">
-        <a id="about_up" href="about-me.php#about_top">
-          <p class="up"><i class="fas fa-chevron-up"></i>
-            Back to the top<br></p>
-        </a>
-      </div>
-    </div>
-  </footer>
   <script src="../dist/core.js"></script>
   <script src="../src/js/about.js"></script>
 </body>
