@@ -56,7 +56,7 @@
         <h1 id="port">Portfolio</h1>
 
         <div class="card_wrapper top_row">
-            <h2>Coming Soon!</h2>
+          <?php include 'templates/components/card_section.php' ?>
         </div>
       </div>
     </div>

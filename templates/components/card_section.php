@@ -1,6 +1,21 @@
 <div class="card">
+  <div class="img_container">
+    <a href="http://wilbermusic.willsears.co.uk/" target="_blank">
+      <img class="project" src="src/assets/images/wilbermusic.png" alt="Wilbermusic site banner image">
+    </a>
+  </div>
+  <div class="card_text">
+    <h3 class="project_title">Wilbermusic Project</h3>
+      <p class="project_description">A work-in-progress website <br> for my music projects. Utilises Tailwind CSS for styling. </p>
+    <form >
+      <button class="project_link array_btn" formaction="http://wilbermusic.willsears.co.uk/" formtarget="_blank">View Project</button>
+    </form>
+  </div>
+</div>
+
+<div class="card">
     <div class="img_container">
-      <a href="https://arrayreflection.william-sears.netmatters-scs.co.uk/" target="_blank">
+      <a href="https://photo-generator.willsears.co.uk/" target="_blank">
         <img class="project" src="src/assets/images/arrayreflection.png" alt="Array Reflection">
       </a>
     </div>
@@ -8,11 +23,12 @@
       <h3 class="project_title">Array Reflection</h3>
         <p class="project_description">A JavaScript project that assigns <br> an email address to an image loaded from UnSplash API.</p>
       <form >
-        <button class="project_link array_btn" formaction="https://arrayreflection.william-sears.netmatters-scs.co.uk/" formtarget="_blank">View Project</button>
+        <button class="project_link array_btn" formaction="https://photo-generator.willsears.co.uk/" formtarget="_blank">View Project</button>
       </form>
     </div>
   </div>
 
+<!-- 
   <div class="card">
     <div class="img_container">
       <a href="https://netmatters.william-sears.netmatters-scs.co.uk/" target="_blank">
@@ -75,7 +91,7 @@
         <button class="project_link" formaction="http://qualitybuilders.william-sears.netmatters-scs.co.uk/" formtarget="_blank">View Project</button>
       </form>
     </div>
-  </div>
+  </div> -->
 
 </div> 
 

@@ -18,9 +18,8 @@
 // comment-in space-evenly when adding content back
 .card_wrapper {
   display: flex;
-  // justify-content: space-evenly;
-  justify-content: center;
-  // gap: 30px;
+  justify-content: space-evenly;
+  // gap: 30px; 
   flex-direction: row;
   flex: 1;
   align-content: center;
